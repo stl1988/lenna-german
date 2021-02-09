@@ -22,8 +22,8 @@
   "phoneCalls" : {
     "exterior" : [
       [
-        "Lance, I wanted to keep you from danger for a few more years.",
-        "But I've failed. I speak to you now from #{wave:3,9,0.1}beyond the veil#{reset}."
+        "Lance, ich wollte dich noch ein paar Jahre länger beschützen.",
+        "Aber ich habe versagt. Ich spreche nun zu dir aus dem #{wave:3,9,0.1}Jenseits#{reset}."
       ],
       "...",
       [
