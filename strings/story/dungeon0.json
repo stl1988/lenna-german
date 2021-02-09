@@ -9,14 +9,14 @@
     "lenna" : [
       "Dieser Raum scheint sicher genug zu sein.",
       "Das Schwert zu benutzen ist sehr einfach. Es gibt zwei Möglichkeiten anzugreifen.",
-      "The first is slashing. To do that, press and release the #{font:bold}${key.action_sword} button#{font:reset}, like this!",
-      "No, press it like--"
+      "Als erstes das Aufschlitzen. Drücke hierzu einfach #{font:bold}${key.action_sword}#{font:reset}!",
+      "Doch nicht so, sonde--"
     ]
   },
   
   "deadLance" : {
-    "lenna0" : "I'm sorry, Lance...",
-    "lenna1" : "*Sigh* Yes, he made a poultry effort in that fight."
+    "lenna0" : "Es tut mir so leid, Lance...",
+    "lenna1" : "*Sigh* Er hat sich im Kampf aber auch nicht gut angestellt."
   },
 
   "phoneCalls" : {
