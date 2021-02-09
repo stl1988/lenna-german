@@ -1,14 +1,14 @@
 {
   "tutorialIntro" : {
-    "lenna0" : "We'll have our tutorial in here.",
-    "lenna1" : "But first, let's explore a bit to find somewhere safe.",
+    "lenna0" : "Hier gebe ich dir dein erstes Tutorial.",
+    "lenna1" : "Aber vorher sollten wir den Dungeon nach einem sicheren Ort durchsuchen.",
     "lance0" : "...!"
   },
 
   "tutorial" : {
     "lenna" : [
-      "This room looks safe enough.",
-      "Using your sword is simple. There are two main modes of attack.",
+      "Dieser Raum scheint sicher genug zu sein.",
+      "Das Schwert zu benutzen ist sehr einfach. Es gibt zwei Möglichkeiten anzugreifen.",
       "The first is slashing. To do that, press and release the #{font:bold}${key.action_sword} button#{font:reset}, like this!",
       "No, press it like--"
     ]
