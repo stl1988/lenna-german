@@ -1,0 +1,11 @@
+{
+  "inventory": {
+    "bindableItemCategories": ["equipment","artifact"],
+    "autobindableItemCategories": ["equipment"],
+    "saveMetaCategory": "element",
+    "gameOverDisplay": "element",
+
+    "initialInventory": [
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "default" : {
+    "name" : "Prinz Daniel",
+    "nameFormat" : "#{color:p214}",
+    "portrait" : {
+      "sheet" : "portraits/prince",
+      "index" : 0
+    },
+    "font" : "default"
+  }
+}

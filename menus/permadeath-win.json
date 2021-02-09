@@ -1,0 +1,7 @@
+{
+  "background": "/menus/congrats-background.png",
+  "backgroundOffset": [-16, 0],
+  "music": "key_item_get",
+
+  "top": 48
+}

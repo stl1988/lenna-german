@@ -1,0 +1,8 @@
+{
+  "default" : {
+    "name" : "Triominoes Pizza",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : "/dialogue/portraits/pizza-default.png",
+    "font" : "default"
+  }
+}

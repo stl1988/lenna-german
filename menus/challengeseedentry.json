@@ -1,0 +1,17 @@
+{
+  "inherit": "/menus/textentry.json",
+
+  "lengthLimit": 20,
+  
+  "transition" : {
+    "type" : "slide",
+    "direction" : "n",
+    "duration" : 0.25
+  },
+
+  "templates" : {
+    "title" : {
+      "text" : "Seed für Herausforderung"
+    }
+  }
+}

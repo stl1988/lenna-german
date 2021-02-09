@@ -1,0 +1,16 @@
+Prince Daniel III
+The Palace
+East ${world.name}
+
+#{font:bold}FINAL NOTICE#{reset}
+
+Your Majesty:
+
+As mentioned in my previous letter, I write to you representing the Guards' Union. The Union's members have been severely underpaid in your service. The Union has demanded payment of the last five months' salary, due by the 10th. To date, our members have received no such payment.
+
+Several letters requesting payment have already been sent your way. This is your final notice.
+
+If our members do not receive payment by the 10th, our members will regrettably be forced to walk out of their posts at the palace, and seek new opportunities. The chairman of the Bankers' Guild has already provided many of our members with offers.
+
+Best regards,
+Penny Chase

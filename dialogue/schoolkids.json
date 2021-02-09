@@ -1,0 +1,34 @@
+{
+  "azraflail" : {
+    "name" : "Asrabel",
+    "nameFormat" : "#{color:p500}"
+  },
+  "crabaddon" : {
+    "name" : "Crabbe",
+    "nameFormat" : "#{color:p500}"
+  },
+  "headraniel" : {
+    "name" : "Draniel",
+    "nameFormat" : "#{color:p500}"
+  },
+  "sandolphin" : {
+    "name" : "Sandy",
+    "nameFormat" : "#{color:p500}"
+  },
+  "tentaluchus" : {
+    "name" : "Luchas",
+    "nameFormat" : "#{color:p500}"
+  },
+  "hatasiah" : {
+    "name" : "Hattie",
+    "nameFormat" : "#{color:p500}"
+  },
+  "santaquiel" : {
+    "name" : "Klaus",
+    "nameFormat" : "#{color:p500}"
+  },
+  "???" : {
+    "name" : "???",
+    "nameFormat" : "#{color:p500}"
+  }
+}

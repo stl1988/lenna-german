@@ -1,0 +1,79 @@
+{
+  "default" : {
+    "name" : "Schatten-${player.name}",
+    "nameFormat" : "#{color:p325}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/shadowlenna",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  },
+  "unknown" : {
+    "name" : "???",
+    "nameFormat" : "#{color:p325}#{font:gothiccaps}",
+    "font" : "smallcaps"
+  },
+  "lance" : {
+    "name" : "Schatten-Lance",
+    "nameFormat" : "#{color:p325}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/shadowlance",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  },
+  "concerned" : {
+    "name" : "Schatten-${player.name}",
+    "nameFormat" : "#{color:p325}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/shadowlenna",
+      "index" : 1
+    },
+    "font" : "smallcaps"
+  },
+  "shocked" : {
+    "name" : "Schatten-${player.name}",
+    "nameFormat" : "#{color:p325}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/shadowlenna",
+      "index" : 2
+    },
+    "font" : "smallcaps"
+  },
+  "smiling" : {
+    "name" : "Schatten-${player.name}",
+    "nameFormat" : "#{color:p325}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/shadowlenna",
+      "index" : 3
+    },
+    "font" : "smallcaps"
+  },
+  "sad" : {
+    "name" : "Schatten-${player.name}",
+    "nameFormat" : "#{color:p325}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/shadowlenna",
+      "index" : 4
+    },
+    "font" : "smallcaps"
+  },
+  "laughing" : {
+    "name" : "Schatten-${player.name}",
+    "nameFormat" : "#{color:p325}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/shadowlenna",
+      "index" : 5
+    },
+    "font" : "smallcaps"
+  },
+  "evilgrin" : {
+    "name" : "Schatten-${player.name}",
+    "nameFormat" : "#{color:p325}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/shadowlenna",
+      "index" : 6
+    },
+    "font" : "smallcaps"
+  }
+}

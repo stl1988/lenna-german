@@ -1,0 +1,7 @@
+{
+  "default" : {
+    "name" : "Rupert",
+    "nameFormat" : "#{color:p235}",
+    "font" : "default"
+  }
+}

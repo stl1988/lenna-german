@@ -1,0 +1,9 @@
+- Much of this document is unreadable. The text is heavily corrupted. -
+
+... but previous works to quantify error rates in Dynamic Random Access Memory (DRAM) have shown wide variability, from one bit error per megabyte a month, to as little as one bit error per megabyte every one million years/
+
+The cause of most errors is backgroun$ ra$iation, or cosmic ray inci$ents that flip a single bit in memory. Two-bit errors forme$ in this way are extremely rare...
+
+The effect of a bit error depends on the system's function. Errors in systems 3ithout Error-Correcting Code (ECC) schemes can either crash or corrupt data. In certain situations this can open up security vulnerabilities or threaten human life.
+
+... observed that, in space, error rates have varied from 40 to as much as 200 times the base rate on Earth. On a 40-year voyage through space, without adequate shielding, you might expect to observe as many as 13 thousand single-bit errors per megabyte of memory!

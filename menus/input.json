@@ -1,0 +1,125 @@
+{
+  "music": null,
+
+  "errorSfx": "fart",
+
+  "constants": {
+    "text": {
+      "charWidth": 8,
+      "charHeight": 16
+    },
+    "meter": {
+      "heartWidth": 8,
+      "heartHeight": 8
+    }
+  },
+
+  "windowRegion": [16, 16, 288, 160],
+  "windowPadding": 8,
+  "drawWindow": true,
+
+  "templates": {
+    "option": {
+      "type": "text",
+      "text": {"$":"text"},
+      "action": {"$":"action"},
+      "selectable": true,
+      "selectionIndicator": [">", -16, 0],
+      "position": [0, 0],
+      "origin": "previous"
+    },
+
+    "stateOption": {
+      "type": "container",
+      "origin": "previous",
+      "position": [0, 0],
+      "size": [192, 16],
+      "children": [
+        {
+          "instance": "option",
+          "parameters": {
+            "action": {"$":"action"},
+            "text": {"$":"text"}
+          },
+          "overrides": {
+            "origin": "topleft",
+            "actionTypes": ["confirm"]
+          }
+        },
+        {
+          "type": "text",
+          "text": {"$":"value"},
+          "position": [176, 0]
+        }
+      ]
+    },
+
+    "controlOption": {
+      "instance": "stateOption",
+      "parameters": {
+        "action": ["configure", {"$":"id"}],
+        "text": {"$":"name"},
+        "value": {"$":"value"}
+      }
+    }
+  },
+
+  "root": {
+    "type": "container",
+    "position": [16, 16],
+    "size": [288, 160],
+    "children": [
+      {
+        "type": "text",
+        "text": {"$":"deviceTitle","$length":24,"$more":"..."},
+        "origin": "topleft",
+        "position": [16,8]
+      },
+      {
+        "type": "text",
+        "text": "",
+        "origin": "previous",
+        "position": [8,0]
+      },
+      {
+        "foreach": {"$":"controls"},
+        "var": "control",
+        "body": {
+          "instance": "controlOption",
+          "parameters": {"$$":"control"}
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "reset",
+          "text": "Auf Standardeinstellungen zurücksetzen"
+        },
+        "overrides": {
+          "position": [0, 8],
+          "selectionPriority": 1
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "save",
+          "text": "Speichern"
+        },
+        "overrides": {
+          "selectionPriority": 1
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "back",
+          "text": "Zurück"
+        },
+        "overrides": {
+          "selectionPriority": 1
+        }
+      }
+    ]
+  }
+}

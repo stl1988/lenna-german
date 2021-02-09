@@ -1,0 +1,200 @@
+{
+  "default" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 0
+    },
+    "font" : "default"
+  },
+  "concerned" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 1
+    },
+    "font" : "default"
+  },
+  "guilty" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 2
+    },
+    "font" : "default"
+  },
+  "shocked" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 3
+    },
+    "font" : "default"
+  },
+  "smiling" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 4
+    },
+    "font" : "default"
+  },
+  "crying" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 5
+    },
+    "font" : "default"
+  },
+  "sad" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 6
+    },
+    "font" : "default"
+  },
+  "downcast" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 7
+    },
+    "font" : "default"
+  },
+  "thinking" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 8
+    },
+    "font" : "default"
+  },
+  "idea" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 9
+    },
+    "font" : "default"
+  },
+  "angry" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 10
+    },
+    "font" : "default"
+  },
+  "laughing" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 11
+    },
+    "font" : "default"
+  },
+  "blushing" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 12
+    },
+    "font" : "default"
+  },
+  "evilgrin" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 13
+    },
+    "font" : "default"
+  },
+  "tearsofjoy" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 14
+    },
+    "font" : "default"
+  },
+  "sick" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 15
+    },
+    "font" : "default"
+  },
+  "disgust" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 16
+    },
+    "font" : "default"
+  },
+  "smug" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 17
+    },
+    "font" : "default"
+  },
+  "facepalm" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 18
+    },
+    "font" : "default"
+  },
+  "indignant" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 19
+    },
+    "font" : "default"
+  },
+  "sadsmile" : {
+    "name" : "${player.name}",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 20
+    },
+    "font" : "default"
+  },
+  "itemget" : {
+    "name" : "Neues Item",
+    "nameFormat" : "#{color:p400}",
+    "portrait" : {
+      "sheet" : "portraits/lenna",
+      "index" : 21
+    },
+    "font" : "default"
+  }
+}

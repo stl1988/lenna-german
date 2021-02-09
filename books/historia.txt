@@ -1,0 +1,11 @@
+Much that was once known is now lost, as our historians forgot to write much of it down. After a calamity ended the previous age, the architects created an avatar of the world in four parts - Compassion, Fortitude, Wealth and Truth. 
+
+With this, they forged from dead stone and lifeless seas the land of ${world.name}. After their work was done, they handed down the four powers to the people of the land. Compassion was given to the royals, so that they should always treat their subjects with kindness. Truth was given to the scholars, so that they could retain the secrets of the world. Wealth was given to the financiers, so that economic gain would advance the societies of ${world.name}. 
+
+Finally, Fortitude was handed to the common folk, so that if any of the other three powers grew too great, they would have the means to stop it.
+
+The Power of Wealth soon corrupted the financiers, turning them from men to monsters. From this heartlessness rose the Chairman Mammon, an incorrigible creature of pure greed. As wealth disparity brought the world to ruin, a hero boy used the Power of Fortitude to fight back. Using magics provided by the scholars, the boy was able to traverse time itself and undo much of Chairman Mammon's destruction, as well as defeating him in a climactic battle.
+
+The Power of Wealth immortalised the Chairman's soul, ensuring that his malevolent spirit will always arise to sow discord whenever the common people should become too complacent. The ${world.name} Royal Family consequently decreed that every generation a commoner will be appointed as the new hero boy, so that there will always be someone ready to rise up against Mammon.
+
+Meanwhile, the use of time travel created a branching timeline, causing no shortage of headaches among the royal historians. It was decreed that to keep the history of ${world.name} straightforward and easy to understand, all time travel would be banned forevermore.

@@ -1,0 +1,11 @@
+{
+  "default" : {
+    "name" : "Erzengel Azraflegel",
+    "nameFormat" : "#{color:p500}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/azraflail",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  }
+}

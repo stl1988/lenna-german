@@ -1,0 +1,10 @@
+{
+  "default" : {
+    "name" : "Henrietta",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chicken",
+      "index" : 0
+    }
+  }
+}

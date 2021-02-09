@@ -1,0 +1,206 @@
+{
+  "music": null,
+
+  "soundTestBeep": "pickup_heart",
+
+  "constants": {
+    "text": {
+      "charWidth": 8,
+      "charHeight": 16
+    },
+    "meter": {
+      "heartWidth": 8,
+      "heartHeight": 8
+    }
+  },
+
+  "windowRegion": [16, 16, 288, 160],
+  "windowPadding": 8,
+  "drawWindow": true,
+
+  "transition" : {
+    "type" : "slide",
+    "direction" : "n",
+    "duration" : 0.25
+  },
+
+  "templates": {
+    "option": {
+      "type": "text",
+      "text": {"$":"text"},
+      "action": {"$":"action"},
+      "selectable": true,
+      "selectionIndicator": [">", -16, 0],
+      "position": [0, 0],
+      "origin": "previous"
+    },
+    "meterOption": {
+      "type": "container",
+      "origin": "previous",
+      "position": [0, 0],
+      "size": [192, 16],
+      "children": [
+        {
+          "instance": "option",
+          "parameters": {
+            "action": {"$":"action"},
+            "text": {"$":"text"}
+          },
+          "overrides": {
+            "origin": "topleft",
+            "actionTypes": ["left","right"]
+          }
+        },
+        {
+          "type": "meter",
+          "maximum": 10,
+          "value": {"$":"value"},
+          "width": 80,
+          "position": [72, 0]
+        }
+      ]
+    },
+    "stateOption": {
+      "type": "container",
+      "origin": "previous",
+      "position": [0, 0],
+      "size": [192, 16],
+      "children": [
+        {
+          "instance": "option",
+          "parameters": {
+            "action": {"$":"action"},
+            "text": {"$":"text"}
+          },
+          "overrides": {
+            "origin": "topleft",
+            "actionTypes": ["confirm"]
+          }
+        },
+        {
+          "type": "text",
+          "text": {"$":"value"},
+          "position": [176, 0]
+        }
+      ]
+    }
+  },
+
+  "root": {
+    "type": "container",
+    "position": [16, 16],
+    "size": [288, 160],
+    "children": [
+      {
+        "instance": "meterOption",
+        "parameters": {
+          "value": {"$":"musicVolume"},
+          "text": "Musik",
+          "action": "music"
+        },
+        "overrides": {
+          "origin": "topleft",
+          "position": [24, 16]
+        }
+      },
+      {
+        "instance": "meterOption",
+        "parameters": {
+          "value": {"$":"soundVolume"},
+          "action": "sound",
+          "text": "Sound"
+        }
+      },
+      {
+        "instance": "stateOption",
+        "parameters": {
+          "action": "fullscreen",
+          "text": "Vollbild",
+          "value": {"$":"fullscreen"}
+        }
+      },
+      {
+        "instance": "stateOption",
+        "parameters": {
+          "action": "shader",
+          "text": "CRT-Filter",
+          "value": {"$":"shader"}
+        }
+      },
+      {
+        "instance": "stateOption",
+        "parameters": {
+          "action": "camera",
+          "text": "Kamerabewegung (!)",
+          "value" : {"$":"camera"}
+        }
+      },
+      {
+        "instance": "stateOption",
+        "parameters": {
+          "action": "screenshake",
+          "text": "Bildschirmwackeln (!)",
+          "value" : {"$":"screenshake"}
+        }
+      },
+      {
+        "instance": "stateOption",
+        "parameters": {
+          "action": "gendbg",
+          "text": "Generator-Animation (!)",
+          "value": {"$":"gendbg"}
+        }
+      },
+      {
+        "instance": "stateOption",
+        "parameters": {
+          "action": "glitchEffects",
+          "text": "Glitch-Effekte (!)",
+          "value": {"$":"glitchEffects"}
+        }
+      },
+      {
+        "instance": "stateOption",
+        "parameters": {
+          "action": "flickerEffects",
+          "text": "Flacker-Effekte (!)",
+          "value": {"$":"flickerEffects"}
+        }
+      },
+      {
+        "instance": "stateOption",
+        "parameters": {
+          "action": "storyTimer",
+          "text": "Abenteuer-Timer",
+          "value": {"$":"storyTimer"}
+        }
+      },
+      {
+        "instance": "stateOption",
+        "parameters": {
+          "action": "privacyMode",
+          "text": "Privatsphäre",
+          "value": {"$":"privacyMode"}
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "configurekeyboard",
+          "text": "Tastatursteuerung"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "back",
+          "text": "Zurück"
+        },
+        "overrides": {
+          "position": [0, 8],
+          "selectionPriority": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "default" : {
+    "name" : "Vorsitzender",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman",
+      "index" : 0
+    },
+    "font" : "default"
+  },
+  "shocked" : {
+    "name" : "Vorsitzender",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman",
+      "index" : 1
+    },
+    "font" : "default"
+  },
+  "smiling" : {
+    "name" : "Vorsitzender",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman",
+      "index" : 2
+    },
+    "font" : "default"
+  },
+  "crying" : {
+    "name" : "Vorsitzender",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman",
+      "index" : 3
+    },
+    "font" : "default"
+  },
+  "thinking" : {
+    "name" : "Vorsitzender",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman",
+      "index" : 4
+    },
+    "font" : "default"
+  },
+  "angry" : {
+    "name" : "Vorsitzender",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman",
+      "index" : 5
+    },
+    "font" : "default"
+  },
+  "winking" : {
+    "name" : "Vorsitzender",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman",
+      "index" : 6
+    },
+    "font" : "default"
+  },
+  "hearts" : {
+    "name" : "Vorsitzender",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman",
+      "index" : 7
+    },
+    "font" : "default"
+  },
+  "praying" : {
+    "name" : "Vorsitzender",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman",
+      "index" : 8
+    },
+    "font" : "default"
+  },
+  "greedy" : {
+    "name" : "Vorsitzender",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman",
+      "index" : 9
+    },
+    "font" : "default"
+  },
+  "puzzled" : {
+    "name" : "Vorsitzender",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman",
+      "index" : 10
+    },
+    "font" : "default"
+  },
+  "archangel" : {
+    "name" : "#{shake:0,2}\u0095#{shake:0,0}ammon - Vorsitzender der Guild LLC",
+    "nameFormat" : "#{color:p500}",
+    "portrait" : {
+      "sheet" : "portraits/chairman-mammon",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  }
+}

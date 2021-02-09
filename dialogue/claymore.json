@@ -1,0 +1,38 @@
+{
+  "default" : {
+    "name" : "Claymore",
+    "nameFormat" : "#{color:p311}",
+    "portrait" : {
+      "sheet" : "portraits/claymore",
+      "index" : 0
+    },
+    "font" : "default"
+  },
+  "smiling" : {
+    "name" : "Claymore",
+    "nameFormat" : "#{color:p311}",
+    "portrait" : {
+      "sheet" : "portraits/claymore",
+      "index" : 1
+    },
+    "font" : "default"
+  },
+  "crying" : {
+    "name" : "Claymore",
+    "nameFormat" : "#{color:p311}",
+    "portrait" : {
+      "sheet" : "portraits/claymore",
+      "index" : 2
+    },
+    "font" : "default"
+  },
+  "sad" : {
+    "name" : "Claymore",
+    "nameFormat" : "#{color:p311}",
+    "portrait" : {
+      "sheet" : "portraits/claymore",
+      "index" : 3
+    },
+    "font" : "default"
+  }
+}

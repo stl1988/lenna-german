@@ -1,0 +1,38 @@
+{
+  "default" : {
+    "name" : "Ältester",
+    "nameFormat" : "#{color:p130}",
+    "portrait" : {
+      "sheet" : "portraits/elder",
+      "index" : 0
+    },
+    "font" : "default"
+  },
+  "laughing" : {
+    "name" : "Ältester",
+    "nameFormat" : "#{color:p130}",
+    "portrait" : {
+      "sheet" : "portraits/elder",
+      "index" : 1
+    },
+    "font" : "default"
+  },
+  "eyebrow" : {
+    "name" : "Ältester",
+    "nameFormat" : "#{color:p130}",
+    "portrait" : {
+      "sheet" : "portraits/elder",
+      "index" : 2
+    },
+    "font" : "default"
+  },
+  "glitch" : {
+    "name" : "Ältester",
+    "nameFormat" : "#{color:p130}",
+    "portrait" : {
+      "sheet" : "portraits/elder",
+      "index" : 3
+    },
+    "font" : "smallcaps"
+  }
+}

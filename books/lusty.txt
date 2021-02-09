@@ -1,0 +1,48 @@
+Any resemblance to persons living or dead is purely coincidental.
+
+
+#{font:bold}Cast of Characters#{reset}
+
+#{font:bold}Libby#{reset}: a strong and stunningly beautiful librarian.
+
+#{font:bold}Archangel Martha#{reset}: an eldritch horror with many tentacles.
+
+
+#{font:bold}Act I, Scene III#{reset}
+
+Setting: dungeon boss room.
+
+At rise: Archangel Martha is sprawled across the floor, helpless. Libby, with a triumphant expression, sits astride Martha. In one hand, she holds down two of Martha's main tentacles. In her other hand, she grips a dagger, which is pointed at the archangel's chest.
+
+Archangel Martha:
+#{font:smallcaps}I have been defeated. Cut the heart from my breast and eat it, as per tradition.#{reset}
+
+Libby:
+I will not.
+
+(Libby tucks the knife away, and releases Martha's tentacles.)
+
+Archangel Martha:
+#{font:smallcaps}Then my heart shall always belong to you, mistress. For one cannot have one's heart and eat it too.#{reset}
+
+Libby:
+Come with me, Martha.
+
+
+#{font:bold}Act II, Scene II#{reset}
+
+Setting: in the corner of Libby's library, between two towering bookcases.
+
+At rise: Libby is showing Archangel Martha around the library.
+
+Archangel Martha:
+#{font:smallcaps}Now I have seen the entire library, so that I may serve you better.#{reset}
+
+Libby:
+Not quite, Martha. There's one more rack I still need to show you...
+
+Archangel Martha:
+#{font:smallcaps}But mistress... what if your patrons were to chance upon us?#{reset}
+
+Libby:
+Then it won't just be the books getting checked out today.

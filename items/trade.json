@@ -1,0 +1,126 @@
+{
+  "categories": {
+    "key": [
+      {
+        "id": "RED_PAPERCLIP",
+        "name": "Rote Büroklammer",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "Eine schöne rote Büroklammer. Kann bestimmt jemand gebrauchen.",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 0,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP"]
+      },
+      {
+        "id": "FISH_PEN",
+        "name": "Fischförmiger Stift",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "Hat etwas sehr fischiges...",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 1,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP", "FISH_PEN"]
+      },
+      {
+        "id": "FORGED_DEED",
+        "name": "Gefälschte Urkunde",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "Nicht legitimes Eigentum! Jemand könnte das immer noch wollen, denke ich...",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 2,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP", "FISH_PEN", "FORGED_DEED"]
+      },
+      {
+        "id": "BRIEFCASE",
+        "name": "Aktentasche",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "Eine leere Aktentasche. Kann bestimmt jemand gebrauchen.",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 3,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP", "FISH_PEN", "FORGED_DEED", "BRIEFCASE"]
+      },
+      {
+        "id": "SWEATY_SHIRT",
+        "name": "Schwitziges Shirt",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "Ist leicht feucht und stinkt. Braucht das jemand...?",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 4,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP", "FISH_PEN", "FORGED_DEED", "BRIEFCASE", "SWEATY_SHIRT"]
+      },
+      {
+        "id": "BEAR_CLAW",
+        "name": "Bärenklaue",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "Scharf und spitz. Kann bestimmt jemand gebrauchen.",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 5,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP", "FISH_PEN", "FORGED_DEED", "BRIEFCASE", "SWEATY_SHIRT", "BEAR_CLAW"]
+      },
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "categories": {
+    "element": [
+      {
+        "id": "ELEMENT0",
+        "name": "Erinnerung #0",
+        "important": true,
+        "dropsFromSky": false,
+        "tutorial": "inventory",
+        "script": "net.bytten.inceptus.logic.item.ElementScript",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/elements",
+          "row": 0
+        },
+        "replaces": ["ELEMENT0"],
+        "config": {
+          "memory": "scripts.story.Memory0"
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_generic"
+      },
+      {
+        "id": "ELEMENT1",
+        "name": "Erinnerung #1",
+        "important": true,
+        "dropsFromSky": false,
+        "tutorial": "inventory",
+        "script": "net.bytten.inceptus.logic.item.ElementScript",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/elements",
+          "row": 1
+        },
+        "replaces": ["ELEMENT1"],
+        "config": {
+          "memory": "scripts.story.Memory1"
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_generic"
+      },
+      {
+        "id": "ELEMENT2",
+        "name": "Erinnerung #2",
+        "important": true,
+        "dropsFromSky": false,
+        "tutorial": "inventory",
+        "script": "net.bytten.inceptus.logic.item.ElementScript",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/elements",
+          "row": 2
+        },
+        "replaces": ["ELEMENT2"],
+        "config": {
+          "memory": "scripts.story.Memory2"
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_generic"
+      },
+      {
+        "id": "ELEMENT3",
+        "name": "Erinnerung #3",
+        "important": true,
+        "dropsFromSky": false,
+        "tutorial": "inventory",
+        "script": "net.bytten.inceptus.logic.item.ElementScript",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/elements",
+          "row": 3
+        },
+        "replaces": ["ELEMENT3"],
+        "config": {
+          "memory": "scripts.story.Memory3"
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_generic"
+      },
+      {
+        "id": "ELEMENT4",
+        "name": "Erinnerung #4",
+        "important": true,
+        "dropsFromSky": false,
+        "tutorial": "inventory",
+        "script": "net.bytten.inceptus.logic.item.ElementScript",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/elements",
+          "row": 4
+        },
+        "replaces": ["ELEMENT4"],
+        "config": {
+          "memory": "scripts.story.Memory4"
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_generic"
+      },
+      {
+        "id": "ELEMENT5",
+        "name": "Erinnerung #5",
+        "important": true,
+        "dropsFromSky": false,
+        "tutorial": "inventory",
+        "script": "net.bytten.inceptus.logic.item.ElementScript",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/elements",
+          "row": 5
+        },
+        "replaces": ["ELEMENT5"],
+        "config": {
+          "memory": "scripts.story.Memory5"
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_generic"
+      },
+      {
+        "id": "ELEMENT6",
+        "name": "Erinnerung #6",
+        "important": true,
+        "dropsFromSky": false,
+        "tutorial": "inventory",
+        "script": "net.bytten.inceptus.logic.item.ElementScript",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/elements",
+          "row": 6
+        },
+        "replaces": ["ELEMENT6"],
+        "config": {
+          "memory": "scripts.story.Memory6"
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_generic"
+      },
+      {
+        "id": "ELEMENT7",
+        "name": "Erinnerung #7",
+        "important": true,
+        "dropsFromSky": false,
+        "tutorial": "inventory",
+        "script": "net.bytten.inceptus.logic.item.ElementScript",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/elements",
+          "row": 7
+        },
+        "replaces": ["ELEMENT7"],
+        "config": {
+          "memory": "scripts.story.Memory7"
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_generic"
+      }
+    ]
+  }
+}

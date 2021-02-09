@@ -1,0 +1,38 @@
+{
+  "default" : {
+    "name" : "Lance",
+    "nameFormat" : "#{color:p235}",
+    "portrait" : {
+      "sheet" : "portraits/lance",
+      "index" : 0
+    },
+    "font" : "default"
+  },
+  "crying" : {
+    "name" : "Lance",
+    "nameFormat" : "#{color:p235}",
+    "portrait" : {
+      "sheet" : "portraits/lance",
+      "index" : 1
+    },
+    "font" : "default"
+  },
+  "sad" : {
+    "name" : "Lance",
+    "nameFormat" : "#{color:p235}",
+    "portrait" : {
+      "sheet" : "portraits/lance",
+      "index" : 2
+    },
+    "font" : "default"
+  },
+  "glitch" : {
+    "name" : "#{glitch:true}Lance",
+    "nameFormat" : "#{color:p235}",
+    "portrait" : {
+      "sheet" : "portraits/lance",
+      "index" : 3
+    },
+    "font" : "default"
+  },
+}

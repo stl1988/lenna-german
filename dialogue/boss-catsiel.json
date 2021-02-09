@@ -1,0 +1,11 @@
+{
+  "default" : {
+    "name" : "Erzengel Katzaquiel",
+    "nameFormat" : "#{color:p500}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/catsiel",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  }
+}

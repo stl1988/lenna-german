@@ -1,0 +1,68 @@
+{
+  "keyboard": "/menus/keyboard.json",
+
+  "constants": {
+    "text": {
+      "charWidth": 8,
+      "charHeight": 16
+    },
+    "meter": {
+      "heartWidth": 8,
+      "heartHeight": 8
+    }
+  },
+
+  "windowRegion": [48, 48, 224, 128],
+  "windowPadding": 8,
+  "drawWindow": true,
+  "window9Patch": "dialogue",
+
+  "transition" : {
+    "type" : "slide",
+    "direction" : "s",
+    "duration" : 0.1
+  },
+  
+  "templates": {
+  },
+  
+  "root": {
+    "type": "container",
+    "position": [48, 48],
+    "size": [224, 128],
+    "children": [
+      {
+        "type": "text",
+        "text": "Charakter steuern",
+        "font" : "bold",
+        "selectable": false,
+        "position" : [16, 12],
+        "origin" : "topleft"
+      },
+      {
+        "type" : "text",
+        "text" : "Hoch  - ${key.UP}",
+        "position" : [8, 10],
+        "origin" : "previous"
+      },
+      {
+        "type" : "text",
+        "text" : "Runter- ${key.DOWN}",
+        "position" : [0, 4],
+        "origin" : "previous"
+      },
+      {
+        "type" : "text",
+        "text" : "Links - ${key.LEFT}",
+        "position" : [0, 4],
+        "origin" : "previous"
+      },
+      {
+        "type" : "text",
+        "text" : "Rechts- ${key.RIGHT}",
+        "position" : [0, 4],
+        "origin" : "previous"
+      }
+    ]
+  }
+}

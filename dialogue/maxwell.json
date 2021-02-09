@@ -1,0 +1,56 @@
+{
+  "default" : {
+    "name" : "Professor Maxwell",
+    "nameFormat" : "#{color:p234}",
+    "portrait" : {
+      "sheet" : "portraits/maxwell",
+      "index" : 0
+    },
+    "font" : "default"
+  },
+  "concerned" : {
+    "name" : "Professor Maxwell",
+    "nameFormat" : "#{color:p234}",
+    "portrait" : {
+      "sheet" : "portraits/maxwell",
+      "index" : 1
+    },
+    "font" : "default"
+  },
+  "shocked" : {
+    "name" : "Professor Maxwell",
+    "nameFormat" : "#{color:p234}",
+    "portrait" : {
+      "sheet" : "portraits/maxwell",
+      "index" : 2
+    },
+    "font" : "default"
+  },
+  "smiling" : {
+    "name" : "Professor Maxwell",
+    "nameFormat" : "#{color:p234}",
+    "portrait" : {
+      "sheet" : "portraits/maxwell",
+      "index" : 3
+    },
+    "font" : "default"
+  },
+  "thinking" : {
+    "name" : "Professor Maxwell",
+    "nameFormat" : "#{color:p234}",
+    "portrait" : {
+      "sheet" : "portraits/maxwell",
+      "index" : 4
+    },
+    "font" : "default"
+  },
+  "laughing" : {
+    "name" : "Professor Maxwell",
+    "nameFormat" : "#{color:p234}",
+    "portrait" : {
+      "sheet" : "portraits/maxwell",
+      "index" : 5
+    },
+    "font" : "default"
+  }
+}

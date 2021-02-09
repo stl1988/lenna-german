@@ -1,0 +1,80 @@
+{
+  "music": "theme",
+
+  "constants": {
+    "text": {
+      "charWidth": 8,
+      "charHeight": 16
+    },
+    "meter": {
+      "heartWidth": 8,
+      "heartHeight": 8
+    }
+  },
+
+  "windowRegion": [48, 48, 224, 128],
+  "windowPadding": 8,
+  "drawWindow": true,
+
+  "transition" : {
+    "type" : "slide",
+    "direction" : "n",
+    "duration" : 0.25
+  },
+
+  "selectionPosition": "center",
+
+  "templates": {},
+
+  "root": {
+    "type": "container",
+    "position": [48, 48],
+    "size": [224, 128],
+    "children": [
+      {
+        "type": "text",
+        "text": {"$concat":["Version ",{"$":"version"}]},
+        "position": [0, 10],
+        "origin": "topcenter",
+        "transparent": true
+      },
+      {
+        "type": "text",
+        "text": "Entwickelt von Bytten Studio.\nDeutsche Übersetzung von stl1988.",
+        "position": [0, 32],
+        "origin": "topcenter",
+        "transparent": true
+      },
+
+      {
+        "type": "text",
+        "text": "#{color:p025}lennasinception.com",
+        "action": "website",
+        "selectable": true,
+        "selectionIndicator": [">", -16, 0],
+        "position": [0, 16],
+        "origin": "previous"
+      },
+      {
+        "type": "text",
+        "text": "#{color:p025}bytten-studio.com",
+        "action": "bytten-website",
+        "selectable": true,
+        "selectionIndicator": [">", -16, 0],
+        "position": [0, 0],
+        "origin": "previous"
+      },
+
+      {
+        "type": "text",
+        "text": "Zurück",
+        "action": "back",
+        "selectable": true,
+        "selected": true,
+        "selectionIndicator": [">", -16, 0],
+        "position": [0, 4],
+        "origin": "previous"
+      }
+    ]
+  }
+}

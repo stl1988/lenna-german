@@ -1,0 +1,110 @@
+{
+  "categories": {
+    "key": [
+      {
+        "id": "POWER0",
+        "name": "Macht der Stärke",
+        "sortOrder": 10,
+        "charge": 1,
+        "description": "Eine der sagenumwobenen Vier Mächte. Mit dieser Kraft macht dich jeder überstandene Konflikt stärker!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/powers",
+          "row": 0,
+          "animationSlowness": 3,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_power",
+        "replaces": ["POWER0"]
+      },
+      {
+        "id": "POWER1",
+        "name": "Macht des Mitgefühls",
+        "sortOrder": 11,
+        "charge": 1,
+        "description": "Eine der sagenumwobenen Vier Mächte. Mit dieser Kraft kannst du Konflikte ohne Gewalt lösen!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "POWER1"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/powers",
+          "row": 1,
+          "animationSlowness": 3,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_power",
+        "replaces": ["POWER1"]
+      },
+      {
+        "id": "POWER2",
+        "name": "Macht des Reichtums",
+        "sortOrder": 12,
+        "charge": 1,
+        "description": "Eine der sagenumwobenen Vier Mächte. Mit dieser Kraft erlangst du leichter Wohlstand!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/powers",
+          "row": 2,
+          "animationSlowness": 3,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_power",
+        "replaces": ["POWER2"]
+      },
+      {
+        "id": "POWER3",
+        "name": "Macht der Wahrheit",
+        "sortOrder": 13,
+        "charge": 1,
+        "description": "Eine der sagenumwobenen Vier Mächte. Mit dieser Macht durchschaust du Lügen und Unwahrheiten!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/powers",
+          "row": 3,
+          "animationSlowness": 3,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_power",
+        "replaces": ["POWER3"]
+      },
+      {
+        "id" : "CARTRIDGE",
+        "name" : "Spielmodul",
+        "sortOrder": 14,
+        "charge" : 1,
+        "description" : "Du hälst das Schicksal der Welt in der Hand!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important" : true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "CARTRIDGE"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/powers",
+          "row": 4,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_power",
+        "replaces": ["CARTRIDGE"]
+      }
+    ]
+  }
+}

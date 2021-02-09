@@ -1,0 +1,13 @@
+I arrived into the city late on a Thursday afternoon. The weather was auspicious, as was the mayor's greeting. It seems that the news of an approaching travel critic had outraced me.
+
+I suppose I should not be surprised by this any more. ${world.name}, being a small nation, possesses precisely two locations worth noting, and therefore supports just one celebrity travel critic.
+
+With all the praise #{glitch:true}Glitch#{glitch:false} City has been receiving, I had steeled myself for a disappointment in preparation. But what I found was still somewhat impressive. Many who know me would consider that high praise.
+
+The city is large compared with the other active settlement in ${world.name}, but not as large as the city implied by the ancient texts in the ruins.
+
+#{glitch:true}Glitch#{glitch:false} City boasts TWO four-star hotels, a trio of average-quality restaurants and a reasonably-priced theatre in the north. The city appears to be built on top of one of the old ruins, which is the source of their electricity. Despite the cordon currently around it (due to some non-specific danger), citizens still regularly enter it under cover of darkness to gather valuable monster loot.
+
+I stayed in the east-most "Bagu Hotel" (gratis). I would not call it a four-star hotel. It was at most mid-rank three-star accomodation. But regardless, staff were pleasant, if a little nervous about my stay.
+
+Nightlife in #{glitch:true}Glitch#{glitch:false} City is...

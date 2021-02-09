@@ -1,0 +1,8 @@
+{
+  "default" : {
+    "name" : "Notruf",
+    "nameFormat" : "#{color:p310}",
+    "portrait" : "/dialogue/portraits/misc-default.png",
+    "font" : "default"
+  }
+}

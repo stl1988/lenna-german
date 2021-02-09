@@ -1,0 +1,7 @@
+{
+  "default" : {
+    "name" : "Tom",
+    "nameFormat" : "#{color:p520}",
+    "font" : "default"
+  }
+}

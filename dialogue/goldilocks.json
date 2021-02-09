@@ -1,0 +1,26 @@
+{
+  "default" : {
+    "name" : "Goldilocks",
+    "nameFormat" : "#{color:p540}",
+    "portrait" : "/dialogue/portraits/goldilocks-default.png",
+    "font" : "default"
+  },
+  "ears" : {
+    "name" : "Goldilocks",
+    "nameFormat" : "#{color:p540}",
+    "portrait" : "/dialogue/portraits/goldilocks-ears.png",
+    "font" : "default"
+  },
+  "eyes" : {
+    "name" : "Goldilocks",
+    "nameFormat" : "#{color:p540}",
+    "portrait" : "/dialogue/portraits/goldilocks-eyes.png",
+    "font" : "default"
+  },
+  "teeth" : {
+    "name" : "Goldilocks",
+    "nameFormat" : "#{color:p540}",
+    "portrait" : "/dialogue/portraits/goldilocks-teeth.png",
+    "font" : "default"
+  },
+}

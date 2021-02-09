@@ -1,0 +1,125 @@
+{
+  "default" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 0
+    },
+    "font" : "default"
+  },
+  "lenna-phone-entry" : {
+    "name" : "Paige\u0093",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 10
+    },
+    "font" : "default"
+  },
+  "operator-phone-entry" : {
+    "name" : "Library",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : "/dialogue/portraits/misc-default.png",
+    "font" : "default"
+  },
+  "concerned" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 1
+    },
+    "font" : "default"
+  },
+  "shocked" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 2
+    },
+    "font" : "default"
+  },
+  "smiling" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 3
+    },
+    "font" : "default"
+  },
+  "crying" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 4
+    },
+    "font" : "default"
+  },
+  "sad" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 5
+    },
+    "font" : "default"
+  },
+  "thinking" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 6
+    },
+    "font" : "default"
+  },
+  "idea" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 7
+    },
+    "font" : "default"
+  },
+  "laughing" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 8
+    },
+    "font" : "default"
+  },
+  "blushing" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 9
+    },
+    "font" : "default"
+  },
+  "winking" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 10
+    },
+    "font" : "default"
+  },
+  "hearts" : {
+    "name" : "Paige",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/paige",
+      "index" : 11
+    },
+    "font" : "default"
+  }
+}

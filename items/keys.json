@@ -1,0 +1,384 @@
+{
+  "categories": {
+    "key": [
+      {
+        "id": "RED_KEY",
+        "name": "Roter Schlüssel",
+        "description": "Passt bestimmt in rote Türen!",
+        "sortOrder": 3,
+        "dropsFromSky": true,
+        "mapSpecific": true,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 5,
+          "colors": ["0x000", "0x300", "0x510", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_KEY"]
+      },
+      {
+        "id": "GREEN_KEY",
+        "name": "Grüner Schlüssel",
+        "description": "Passt bestimmt in grüne Türen!",
+        "sortOrder": 2,
+        "dropsFromSky": true,
+        "mapSpecific": true,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 5,
+          "colors": ["0x000", "0x020", "0x041", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["GREEN_KEY"]
+      },
+      {
+        "id": "BLUE_KEY",
+        "name": "Blauer Schlüssel",
+        "description": "Passt bestimmt in blaue Türen!",
+        "sortOrder": 1,
+        "dropsFromSky": true,
+        "mapSpecific": true,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 5,
+          "colors": ["0x000", "0x013", "0x035", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["BLUE_KEY"]
+      },
+      {
+        "id": "DUNGEON_MAP",
+        "name": "Dungeon-Karte",
+        "sortOrder": 4,
+        "charge": 1,
+        "description": "Zeigt den Dungeon-Umriss, Schätze und die Position des Erzengels.",
+        "dropsFromSky": true,
+        "mapSpecific": true,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "DUNGEON_MAP"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 18,
+          "colors": ["0x000", "0x430", "0x553", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["DUNGEON_MAP"]
+      },
+      {
+        "id": "I_CHING",
+        "name": "Buch der Veränderungen",
+        "sortOrder": 200,
+        "charge": 1,
+        "description": "Alt und staubig... Welchen Zweck erfüllt es?",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "I_CHING"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 17,
+          "colors": ["0x000", "0x310", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "achievement": "get_token2",
+        "replaces": ["I_CHING"]
+      },
+      {
+        "id": "LIBRARY_BOOK_KEY_ITEM",
+        "name": "Verlorene Bücher",
+        "sortOrder": 11,
+        "charge": 0,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "LIBRARY_BOOK"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 17,
+          "colors": ["0x000", "0x230", "0x454", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["LIBRARY_BOOK_KEY_ITEM"]
+      },
+      {
+        "id": "BICYCLE",
+        "name": "Fahrrad",
+        "sortOrder": 2,
+        "charge": -1,
+        "description": "Öffne mit #{font:bold}${key.map}#{reset} die Karte, um bereits besuchte Orte schnell zu erreichen.",
+        "mapSpecific": false,
+        "important": true,
+        "dropsFromSky": false,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "BICYCLE"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/wideitems",
+          "row": 2,
+          "colors": ["0x000", "0x222", "0x500", "0x444"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["BICYCLE"]
+      },
+      {
+        "id": "TELEPHONE",
+        "name": "Telefon des Helden",
+        "sortOrder": 3,
+        "charge": -1,
+        "description": "Der Akku ist voll und der Empfang auf 2 von 5 Strichen.",
+        "mapSpecific": false,
+        "important": true,
+        "dropsFromSky": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "TELEPHONE"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 40,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "replaces": ["TELEPHONE"],
+        "pickUpSound": "pickup_generic"
+      },
+      {
+        "id": "WRAPPED_PARCEL",
+        "name": "Eingewickeltes Paket",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "Auf dem Aufkleber steht 'Für Lance'.",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 41,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["WRAPPED_PARCEL"]
+      },
+      {
+        "id": "IOU",
+        "name": "Schuldschein",
+        "sortOrder": 1,
+        "charge": 0,
+        "description": "Ein vages Zahlungsversprechen der Bank!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/wideitems",
+          "row": 5,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "achievement": "get_token3",
+        "replaces": ["IOU"]
+      },
+      {
+        "id": "TROPHY",
+        "name": "Beta-Trophäe",
+        "sortOrder": 1,
+        "charge": 0,
+        "description": "Eine goldene Trophäe in Anerkennung an deine Leistung!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/wideitems",
+          "row": 6,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "achievement": "get_token4",
+        "replaces": ["TROPHY"]
+      },
+      {
+        "id": "PATENT",
+        "name": "Patent Nr. 950996",
+        "sortOrder": 1,
+        "charge": 0,
+        "description": "Ein nicht entzifferbares Dokument über Statuseffekte!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/wideitems",
+          "row": 7,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "achievement": "get_token5",
+        "replaces": ["PATENT"]
+      },
+      {
+        "id": "ERROR_LOG",
+        "name": "Fehlerhafte Holzscheite",
+        "sortOrder": 1,
+        "charge": 0,
+        "description": "#{glitch:true}Abort, Retry, Fail?",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/wideitems",
+          "row": 8,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "achievement": "get_token6",
+        "replaces": ["ERROR_LOG"]
+      },
+      {
+        "id": "LIBRARIAN",
+        "name": "Medaillon",
+        "sortOrder": 1,
+        "charge": 0,
+        "description": "Du hast dir die Zuneigung eines bestimmten Bibliothekars verdient!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/wideitems",
+          "row": 9,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "pickUpMusic": "heartfelt",
+        "achievement": "get_token8",
+        "replaces": ["LIBRARIAN"]
+      },
+      {
+        "id": "CRIME_FILE",
+        "name": "Polizeibericht",
+        "sortOrder": 1,
+        "charge": 0,
+        "description": "Die Wache hat diesen Bericht zurückgelassen!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/wideitems",
+          "row": 10,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "achievement": "get_token7",
+        "replaces": ["CRIME_FILE"]
+      },
+      {
+        "id": "BLUEPRINT_LANCE",
+        "name": "Lanzen-Blaupause",
+        "sortOrder": 1,
+        "charge": 0,
+        "description": "Ein Schmied könnte daraus etwas machen!",
+        "dropsFromSky": true,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/wideitems",
+          "row": 13,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "achievement": "get_blueprint",
+        "replaces": ["BLUEPRINT_LANCE"],
+        "config": {
+          "crafts": "LANCE_SWORD"
+        }
+      },
+      {
+        "id": "BLUEPRINT_CLAYMORE",
+        "name": "Claymore-Blaupause",
+        "sortOrder": 1,
+        "charge": 0,
+        "description": "Ein Schmied könnte daraus etwas machen!",
+        "dropsFromSky": true,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/wideitems",
+          "row": 13,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "achievement": "get_blueprint",
+        "replaces": ["BLUEPRINT_CLAYMORE"],
+        "config": {
+          "crafts": "CLAYMORE_SWORD"
+        }
+      },
+      {
+        "id": "BLUEPRINT_STILETTO",
+        "name": "Stiletto-Blaupause",
+        "sortOrder": 1,
+        "charge": 0,
+        "description": "Ein Schmied könnte daraus etwas machen!",
+        "dropsFromSky": true,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/wideitems",
+          "row": 13,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "achievement": "get_blueprint",
+        "replaces": ["BLUEPRINT_STILETTO"],
+        "config": {
+          "crafts": "STILETTO_SWORD"
+        }
+      }
+    ]
+  },
+
+  "config": {
+    "statusBarKeys": ["BLUE_KEY", "GREEN_KEY", "RED_KEY"]
+  }
+}

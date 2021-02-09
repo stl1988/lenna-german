@@ -1,0 +1,20 @@
+{
+  "default" : {
+    "name" : "Erzengel ${player.name}",
+    "nameFormat" : "#{color:p400}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/archangellenna",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  },
+  "cloaked" : {
+    "name" : "Erzenge#{glitch:true}l ???",
+    "nameFormat" : "#{color:p400}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/archangellenna-cloaked",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  }
+}

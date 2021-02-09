@@ -1,0 +1,8 @@
+{
+  "default" : {
+    "name" : "Tressa",
+    "nameFormat" : "#{color:p030}",
+    "portrait" : "/dialogue/portraits/misc-default.png",
+    "font" : "default"
+  }
+}

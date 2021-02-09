@@ -1,0 +1,39 @@
+Tombs & Tentacles is an Eldritch horror game that you can play with your friends. It is directly inspired by the works of P. H. Craftlove.
+
+The game requires one Tomb Master (TM), who controls the game world and the non-player characters (NPCs). The player characters are normally controlled by two or more players, but certain scenarios, if the TM is prepared, can be played by a single character on their own.
+
+As is the fashion for Craftlove's horror stories, there are no happy endings. Be prepared to die (or worse) in many different ways!
+
+#{font:bold}For a free demonstration of Tombs & Tentacles, call 555-6666.#{font:default} Ernest will answer the call and act as the TM for you, while you decide what your player character will do.
+
+A common criticism of the game is that its rules are very complex, sometimes requiring non-integer-sided dice. This is unavoidable due to the nature of the game.
+
+Each of the four player characters available in the demo have four stats. These are printed here for your convenience.
+
+Jerry (Human / Waiter)
+  Might         1*
+  Speed         1*
+  Sanity        10
+  Intelligence  5
+
+Sally (Human / Telemarketer)
+  Might         10
+  Speed         3
+  Sanity        5
+  Intelligence  10
+
+James (Human / Janitor)
+  Might         10
+  Speed         1
+  Sanity        3
+  Intelligence  3
+
+Tamsyn (Squid / Sportsball Player)
+  Might         5
+  Speed         10
+  Sanity        5
+  Intelligence  1
+
+* Note that although Jerry's Might and Speed stats are the lowest in the game, he can augment these by stacking plates. This comes at the cost of some sanity. When played well, he is the most powerful character available.
+
+...

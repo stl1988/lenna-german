@@ -1,0 +1,110 @@
+{
+  "default" : {
+    "name" : "Delvin",
+    "nameFormat" : "#{color:p512}",
+    "portrait" : {
+      "sheet" : "portraits/delvin",
+      "index" : 0
+    },
+    "font" : "default"
+  },
+  "shocked" : {
+    "name" : "Delvin",
+    "nameFormat" : "#{color:p512}",
+    "portrait" : {
+      "sheet" : "portraits/delvin",
+      "index" : 1
+    },
+    "font" : "default"
+  },
+  "smiling" : {
+    "name" : "Delvin",
+    "nameFormat" : "#{color:p512}",
+    "portrait" : {
+      "sheet" : "portraits/delvin",
+      "index" : 2
+    },
+    "font" : "default"
+  },
+  "sad" : {
+    "name" : "Delvin",
+    "nameFormat" : "#{color:p512}",
+    "portrait" : {
+      "sheet" : "portraits/delvin",
+      "index" : 3
+    },
+    "font" : "default"
+  },
+  "laughing" : {
+    "name" : "Delvin",
+    "nameFormat" : "#{color:p512}",
+    "portrait" : {
+      "sheet" : "portraits/delvin",
+      "index" : 4
+    },
+    "font" : "default"
+  },
+  "winking" : {
+    "name" : "Delvin",
+    "nameFormat" : "#{color:p512}",
+    "portrait" : {
+      "sheet" : "portraits/delvin",
+      "index" : 5
+    },
+    "font" : "default"
+  },
+  "fearful" : {
+    "name" : "Delvin",
+    "nameFormat" : "#{color:p512}",
+    "portrait" : {
+      "sheet" : "portraits/delvin",
+      "index" : 6
+    },
+    "font" : "default"
+  },
+  "eyebrow" : {
+    "name" : "Delvin",
+    "nameFormat" : "#{color:p512}",
+    "portrait" : {
+      "sheet" : "portraits/delvin",
+      "index" : 7
+    },
+    "font" : "default"
+  },
+  "elder" : {
+    "name" : "Elder",
+    "nameFormat" : "#{color:p130}",
+    "portrait" : {
+      "sheet" : "portraits/delvin",
+      "index" : 8
+    },
+    "font" : "default"
+  },
+  "unknown" : {
+    "name" : "???",
+    "nameFormat" : "#{color:p130}",
+    "portrait" : {
+      "sheet" : "portraits/delvin",
+      "index" : 8
+    },
+    "font" : "default"
+  },
+  "archangel" : {
+    "name" : "Archangel Delvin",
+    "nameFormat" : "#{color:p500}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/archangeldelvin",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  },
+  "archangelcrying" : {
+    "name" : "Archangel Delvin",
+    "nameFormat" : "#{color:p500}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/archangeldelvin",
+      "index" : 1
+    },
+    "font" : "smallcaps"
+  }
+}

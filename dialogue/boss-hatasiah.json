@@ -1,0 +1,11 @@
+{
+  "default" : {
+    "name" : "Erzengel Hutasiah",
+    "nameFormat" : "#{color:p500}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/hatasiah",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  }
+}

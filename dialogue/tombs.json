@@ -1,0 +1,8 @@
+{
+  "default" : {
+    "name" : "Tombs & Tentacles",
+    "nameFormat" : "#{color:p205}",
+    "portrait" : "/dialogue/portraits/misc-default.png",
+    "font" : "default"
+  }
+}

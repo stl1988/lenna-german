@@ -1,0 +1,133 @@
+{
+  "other": [
+    {
+      "id": "POTION",
+      "name": "Trank",
+      "category": "potion",
+      "important": true,
+      "description": "Trinke ihn, damit du siehst, was er bewirkt!",
+      "dropsFromSky": true,
+      "argumentKind": "consumable",
+      "defaultArgument": 1,
+      "tutorial": "tunics_potions",
+      "script": "net.bytten.inceptus.logic.item.PotionScript",
+      "sprite": {
+        "size": [0.5, 1.0],
+        "sheet": "items/items",
+        "row": 34,
+        "colors": ["0x000", "0x222", "0x444", "0x555"]
+      },
+      "pickUpSound": "pickup_generic",
+      "replaces": ["POTION"]
+    },
+    {
+      "id": "TUNIC",
+      "name": "Tunika",
+      "category": "tunic",
+      "tutorial": "tunics_potions",
+      "important": true,
+      "description": "Zieh sie an, damit du siehst, was sie bewirkt!",
+      "script": ["net.bytten.inceptus.logic.item.ItemLogic", "ALT_TUNIC"],
+      "sprite": {
+        "size": [0.5, 1.0],
+        "sheet": "items/items",
+        "row": 19,
+        "colors": ["0x000", "0x222", "0x444", "0x555"]
+      },
+      "replaces": ["TUNIC"],
+      "pickUpSound": "pickup_generic"
+    },
+    {
+      "id": "DEFAULT_TUNIC",
+      "name": "${player.name}s Tunika",
+      "category": "tunic",
+      "tutorial": "tunics_potions",
+      "important": true,
+      "description": "Zieh sie an, damit du siehst, was sie bewirkt!",
+      "script": ["net.bytten.inceptus.logic.item.ItemLogic", "ALT_TUNIC"],
+      "sprite": {
+        "size": [0.5, 1.0],
+        "sheet": "items/items",
+        "row": 19,
+        "colors": ["0x000", "0x400", "0x530", "0x555"]
+      },
+      "replaces": ["DEFAULT_TUNIC"],
+      "pickUpSound": "pickup_generic"
+    },
+    {
+      "id": "PHOENIX_ASH",
+      "name": "Phönixasche",
+      "description": "Könnte sie sich auf ein bestimmtes Tier auswirken?",
+      "category": "companion",
+      "charge": 1,
+      "important": true,
+      "dropsFromSky": true,
+      "useOnMenu": true,
+      "script": "net.bytten.inceptus.logic.item.PhoenixAshScript",
+      "sprite": {
+        "size": [0.5, 1.0],
+        "sheet": "items/items",
+        "row": 38,
+        "colors": ["0x000", "0x111", "0x222", "0x550"]
+      },
+      "pickUpSound": "pickup_generic"
+    }
+  ],
+
+  "config": {
+    "scripting": {
+      "defaultPlayerAttackEquipment": "STEEL_SWORD"
+    },
+    "defaultBindSlots" : ["action_x", "action_y", "action_b"],
+    "defaultPotionContainer": "POTION",
+    "defaultTunicContainer": "TUNIC",
+    "defaultLibraryBookContainer": "LIBRARY_BOOK",
+    "defaultMaxAmmo": 99,
+    "maxCoins": 9999,
+    "allowSwimming": ["SWIMMING_SHORTS", "BUOY"],
+
+    "#comment1": "givesPetHealth - items pets can pick up to heal themselves with.",
+    "givesPetHealth": ["HEART"],
+    "#comment2": "extraPetPickups - items pets can pick up that immediately apply to the player.",
+    "extraPetPickups": [
+      "COIN", "MONEY10", "MONEY20", "MONEY50", "MONEY100",
+      "ARROW", "BOMB_AMMO", "CROSS_BOMB_AMMO", "MINE_AMMO", "KAMIKAZE_AMMO"
+    ],
+
+    "whenHeartContainersBanned": {
+      "HEART_CONTAINER": [
+        [1.0, "HEART"]
+      ],
+      "HEART_CONTAINER0": [
+        [1.0, "HEART"]
+      ],
+      "HEART_CONTAINER1": [
+        [1.0, "HEART"]
+      ],
+      "HEART_CONTAINER2": [
+        [1.0, "HEART"]
+      ],
+      "HEART_CONTAINER3": [
+        [1.0, "HEART"]
+      ],
+      "HEART_CONTAINER4": [
+        [1.0, "HEART"]
+      ],
+      "HEART_CONTAINER5": [
+        [1.0, "HEART"]
+      ],
+      "HEART_CONTAINER6": [
+        [1.0, "HEART"]
+      ],
+      "HEART_CONTAINER7": [
+        [1.0, "HEART"]
+      ],
+      "DELVIN_HEART": [
+        [1.0, "HEART"]
+      ],
+      "VENTRICLE_HEART": [
+        [1.0, "HEART"]
+      ]
+    }
+  }
+}

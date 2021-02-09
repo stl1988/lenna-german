@@ -1,0 +1,123 @@
+{
+  "music": "theme",
+
+  "constants": {
+    "text": {
+      "charWidth": 8,
+      "charHeight": 16
+    },
+    "meter": {
+      "heartWidth": 8,
+      "heartHeight": 8
+    }
+  },
+
+  "windowRegion": [48, 16, 224, 160],
+  "windowPadding": 8,
+  "drawWindow": true,
+
+  "transition" : {
+    "type" : "slide",
+    "direction" : "n",
+    "duration" : 0.25
+  },
+
+  "templates": {
+    "option": {
+      "type": "text",
+      "text": {"$":"text"},
+      "action": {"$":"action"},
+      "selectable": true,
+      "selectionIndicator": [">", -12, 0],
+      "selectionPriority": 1,
+      "position": [0, 0],
+      "origin": "topleft"
+    },
+
+    "file": {
+      "type": "container",
+      "position": [0, 4],
+      "size": [184, 32],
+      "origin": "previous",
+      "action": ["start", {"$":"fileId"}],
+      "selectable": true,
+      "selectionIndicator": null,
+      "selectionPriority": 0,
+      "children": [
+        {
+          "type": "text",
+          "text": {"$":"playerName"},
+          "position": [4, 4],
+          "origin": "topleft"
+        },
+        {
+          "type": "text",
+          "text": {"$":"worldName","$length":11,"$more":"-"},
+          "position": [8, -4],
+          "origin": "previous"
+        },
+        {
+          "type": "meter",
+          "value": {"$":"hearts"},
+          "maximum": {"$":"hearts"},
+          "width": 80,
+          "position": [100, 4],
+          "origin": "topleft"
+        },
+        {
+          "type": "text",
+          "text": "\u0082",
+          "comment": "erase icon",
+          "selectable": true,
+          "selectionIndicator": ["_", 0, -8],
+          "selectionPriority": 2,
+          "action": ["erase", {"$":"fileId"}],
+          "position": [90, -8],
+          "origin": "previous"
+        }
+      ]
+    }
+  },
+
+  "root": {
+    "type": "container",
+    "position": [48, 16],
+    "size": [224, 160],
+    "children": [
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "back",
+          "text": "Zurück"
+        },
+        "overrides": {
+          "position": [16, 8]
+        }
+      },
+      {
+        "type": "text",
+        "text": "",
+        "origin": "topleft",
+        "position": [16,8]
+      },
+      {
+        "foreach": {"$":"nofiles"},
+        "var": "_",
+        "body": {
+          "type": "text",
+          "text": "Keine Speicherdaten vorhanden",
+          "origin": "previous",
+          "position": [4, 4]
+        }
+      },
+      {
+        "foreach": {"$":"files"},
+        "var": "file",
+        "body": {
+          "instance": "file",
+          "parameters": {"$$":"file"}
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "default" : {
+    "name" : "#{glitch:true}8Fridge",
+    "nameFormat" : "#{color:p400}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "npcs/8fridge",
+      "index" : "random"
+    },
+    "font" : "smallcaps"
+  },
+  "fakeLenna" : {
+    "name" : "#{glitch:true}${player.name}Fridge",
+    "nameFormat" : "#{color:p400}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "player",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "music": "theme",
+
+  "constants": {
+    "text": {
+      "charWidth": 8,
+      "charHeight": 16
+    },
+    "meter": {
+      "heartWidth": 8,
+      "heartHeight": 8
+    }
+  },
+
+  "windowRegion": [224, -32, 128, 256],
+  "windowPadding": 8,
+  "drawWindow": true,
+  
+  "transition" : {
+    "type" : "slide",
+    "direction" : "e",
+    "duration" : 0.1
+  },
+
+  "templates": {
+    "option": {
+      "type": "text",
+      "text": {"$":"text"},
+      "action": {"$":"action"},
+      "selectable": true,
+      "selectionIndicator": [">", -16, 0],
+      "position": [0, 4],
+      "origin": "previous"
+    }
+  },
+
+  "root": {
+    "type": "container",
+    "position": [218, 0],
+    "size": [102, 192],
+    "children": [
+      {
+        "type": "text",
+        "text": "",
+        "position": [24, 0],
+        "origin": "topleft"
+      },
+      {
+        "foreach": {"$":"continue"},
+        "var": "_",
+        "body": {
+          "instance": "option",
+          "parameters": {
+            "action": "loadgame",
+            "text": "Fortsetzen"
+          }
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "newgame",
+          "text": "Neues Spiel"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "options",
+          "text": "Optionen"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "artStyle",
+          "text": "Grafikstil"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "about",
+          "text": "Info"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "quit",
+          "text": "Beenden"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+In an emergency, call 555-0911.
+
+For operator assistance, call 555-0000.
+
+#{font:bold}Businesses & Orgs#{font:default}
+
+Library         555-1223
+Triominoes      555-4545
+Palace          555-1218
+
+#{font:bold}Individuals#{font:default}
+
+Elder           555-2253
+Jay             555-8893
+Lance           555-1225
+Maxwell         555-9132
+Tom             ???-????

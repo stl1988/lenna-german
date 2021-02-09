@@ -1,0 +1,69 @@
+sprite:bat
+
+#{font:bold}#001 Bat#{reset}
+Although completely blind, this beast possesses a keen sense of hearing. Bat hearts are highly sought after for their healing properties.
+--
+sprite:slime2
+
+#{font:bold}#002 Slime#{reset}
+Do not be fooled by its Resting Blob Face-this creature wishes only to give you a good hug. Unfortunately, it secretes a painful acid.
+--
+sprite:slime
+
+#{font:bold}#003 Marshmallow#{reset}
+Ingredients:
+* Egg whites
+* Gelatin
+* Sugar
+--
+sprite:skeleton
+
+#{font:bold}#004 Skeleton#{reset}
+Skeletons are everywhere; there is one inside of you right now. Once free of its fleshy prison, a skeleton will look for ways to free its brethren. Some directly attack humans, while others turn to the finance industry.
+--
+sprite:wallhugger
+
+#{font:bold}#010 Whirligig#{reset}
+When an adventurer dies during a spin attack and does not become a skeleton, there is a small chance for a Whirligig to form.
+--
+sprite:crabknight
+
+#{font:bold}#011 Crab Knight#{reset}
+When Queen Josephine knighted Sir Crabbe, she hadn't counted on a family of actual crabs overhearing. Now their descendants take it upon themselves to scour the shores of ${world.name} for miscreants and wrongdoers.
+--
+sprite:smileder
+
+#{font:bold}#013 Smileder#{reset}
+Every Smileder is secretly grinning at the joke it heard once, "Smileder? I barely knew 'er!"
+
+Dentists hate them.
+--
+sprite:sharktula
+
+#{font:bold}#014 Sharktula#{reset}
+Unlike their Smileder cousins, Sharktula have no sense of humor. Their idea of fun is drowning swimmers and eating babies.
+--
+sprite:snail:0:0:E
+
+#{font:bold}#015 Snail#{reset}
+A sour, bourgeois slime that owns its own home, and poisons the trail for those that follow.
+--
+sprite:bomb-snail:0:0:E
+
+#{font:bold}#016 Bombshell#{reset}
+If you approach it at the wrong moment, this boomer is prone to explode in misguided outrage.
+--
+sprite:dolphin:1:2:W
+
+#{font:bold}#017 Dolphin#{reset}
+After the extinction of cattle, western society relied on dolphins for mass milk production. They have still not forgiven us for this.
+--
+sprite:wizard
+
+#{font:bold}#018 Pyromeleon#{reset}
+By turning transparent, it can focus light rays like a lens to ignite fire. It can often be found committing arson in dungeons.
+--
+sprite:pumpkin
+
+#{font:bold}#019 Pumpkin#{reset}
+If grown in slime-fertilized soil, carved, and sprinkled with blood, a pumpkin will develop a mind of its own. Pumpkins make life-long, loyal friends.

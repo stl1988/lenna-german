@@ -1,0 +1,7 @@
+{
+  "default" : {
+    "name" : "Alle",
+    "nameFormat" : "#{color:p520}",
+    "font" : "default"
+  }
+}

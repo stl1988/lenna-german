@@ -1,0 +1,56 @@
+{
+  "keyboard": "/menus/keyboard.json",
+
+  "constants": {
+    "text": {
+      "charWidth": 8,
+      "charHeight": 16
+    },
+    "meter": {
+      "heartWidth": 8,
+      "heartHeight": 8
+    }
+  },
+
+  "windowRegion": [48, 64, 224, 112],
+  "windowPadding": 8,
+  "drawWindow": true,
+  "window9Patch": "dialogue",
+
+  "transition" : {
+    "type" : "slide",
+    "direction" : "s",
+    "duration" : 0.1
+  },
+  
+  "templates": {
+  },
+  
+  "root": {
+    "type": "container",
+    "position": [48, 64],
+    "size": [224, 112],
+    "children": [
+      {
+        "type": "text",
+        "text": "Karte/Pause",
+        "font" : "bold",
+        "selectable": false,
+        "position" : [16, 12],
+        "origin" : "topleft"
+      },
+      {
+        "type" : "text",
+        "text" : "Karte          - ${key.map}",
+        "position" : [8, 10],
+        "origin" : "previous"
+      },
+      {
+        "type" : "text",
+        "text" : "Pause          - ${key.pause1}",
+        "position" : [0, 4],
+        "origin" : "previous"
+      }
+    ]
+  }
+}

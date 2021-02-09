@@ -1,0 +1,7 @@
+{
+  "default" : {
+    "name" : "Besorgter Elternteil",
+    "nameFormat" : "#{color:p025}",
+    "font" : "default"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "default" : {
+    "name" : "Tressas Mutter",
+    "nameFormat" : "#{color:p033}",
+    "portrait" : "/dialogue/portraits/misc-default.png",
+    "font" : "default"
+  }
+}

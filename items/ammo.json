@@ -1,0 +1,93 @@
+{
+  "categories": {
+    "ammo": [
+      {
+        "id": "ARROW",
+        "name": "Pfeil",
+        "charge": 0,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "ARROW"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "arrow",
+          "direction": "n",
+          "row": 0,
+          "colors": ["0x000", "0x420", "0x444", "0x555"]
+        },
+        "requires": ["BOW", "SILVER_BOW"],
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "equipment": ["BOW", "SILVER_BOW"]
+        }
+      },
+      {
+        "id": "BOMB_AMMO",
+        "name": "Bomben",
+        "charge": -1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "BOMB"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "bombs",
+          "row": 0,
+          "animation": "none",
+          "colors": ["0x000", "0x111", "0x222", "0x555"]
+        },
+        "requires": ["BOMBS"],
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "equipment": ["BOMBS"]
+        }
+      },
+      {
+        "id": "CROSS_BOMB_AMMO",
+        "name": "Kreuzbomben",
+        "charge": -1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "CROSS_BOMB"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "bombs",
+          "row": 1,
+          "colors": ["0x000", "0x111", "0x222", "0x555"]
+        },
+        "requires": ["CROSS_BOMBS"],
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "equipment": ["CROSS_BOMBS"]
+        }
+      },
+      {
+        "id": "MINE_AMMO",
+        "name": "Minen",
+        "charge": -1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MINE"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "bombs",
+          "row": 2,
+          "colors": ["0x000", "0x111", "0x222", "0x555"]
+        },
+        "requires": ["MINES"],
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "equipment": ["MINES"]
+        }
+      },
+      {
+        "id": "KAMIKAZE_AMMO",
+        "name": "Kamikazegleiter",
+        "charge": -1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KAMIKAZE"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "bombs",
+          "row": 3,
+          "colors": ["0x000", "0x111", "0x222", "0x555"]
+        },
+        "requires": ["KAMIKAZE"],
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "equipment": ["KAMIKAZE"]
+        }
+      }
+    ]
+  }
+}

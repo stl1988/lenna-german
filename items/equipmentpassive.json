@@ -1,0 +1,75 @@
+{
+  "categories": {
+    "equipmentPassive": [
+      {
+        "id": "SWIMMING_SHORTS",
+        "name": "Fischleder-Shorts",
+        "sortOrder": 0,
+        "charge": 1,
+        "description": "Schwimme und tauche im Wasser.",
+        "passiveHint": "Schwimmen",
+        "dropsFromSky": true,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "swimming",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "SWIMMING_SHORTS"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 33,
+          "colors": ["0x000", "0x222", "0x333", "0x025"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["SWIMMING_SHORTS"]
+      },
+      {
+        "id": "BUOY",
+        "name": "Schwimmring",
+        "sortOrder": 50,
+        "charge": 0,
+        "description": "Schützt vor dem Ertrinken.",
+        "passiveHint": "Schwimmen",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "swimming",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "BUOY"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/wideitems",
+          "row": 0,
+          "colors": ["0x000", "0x400", "0x530", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["BUOY"]
+      },
+      {
+        "id": "AMULET_OF_STRENGTH",
+        "name": "Amulett der Stärke",
+        "sortOrder": 5,
+        "charge": 0,
+        "description": "Hebe schwere Objekte!",
+        "passiveHint": "Heben",
+        "dropsFromSky": true,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "strength",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "AMULET_OF_STRENGTH"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 20,
+          "colors": ["0x000", "0x540", "0x552", "0x505"]
+        },
+        "ai" : {
+          "type" : "amulet"
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["AMULET_OF_STRENGTH"]
+      }
+    ]
+  },
+
+  "config": {
+  }
+}

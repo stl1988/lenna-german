@@ -1,0 +1,20 @@
+{
+  "default" : {
+    "name" : "Pizza-Lieferant",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/pizza",
+      "index" : 0
+    },
+    "font" : "default"
+  },
+  "fearful" : {
+    "name" : "Pizza-Lieferant",
+    "nameFormat" : "#{color:p035}",
+    "portrait" : {
+      "sheet" : "portraits/pizza",
+      "index" : 1
+    },
+    "font" : "default"
+  }
+}

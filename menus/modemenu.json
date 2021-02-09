@@ -1,0 +1,99 @@
+{
+  "music": "theme",
+
+  "constants": {
+    "text": {
+      "charWidth": 8,
+      "charHeight": 16
+    },
+    "meter": {
+      "heartWidth": 8,
+      "heartHeight": 8
+    }
+  },
+
+  "windowRegion": [48, 48, 224, 128],
+  "windowPadding": 8,
+  "drawWindow": true,
+
+  "transition" : {
+    "type" : "slide",
+    "direction" : "n",
+    "duration" : 0.25
+  },
+
+  "templates": {
+  },
+
+  "root": {
+    "type": "container",
+    "position": [48, 48],
+    "size": [224, 128],
+    "children": [
+      {
+        "type": "sprite",
+        "sprite": {"$":"modeIcon"},
+        "position": [48, 16],
+        "origin": "topleft"
+      },
+      {
+        "type": "sprite",
+        "sprite": {"$":"modeIcon"},
+        "position": [176, 16],
+        "origin": "topleft"
+      },
+      {
+        "type": "text",
+        "text": {"$concat":["#{font:bold}",{"$":"modeName"}]},
+        "action": "mode",
+        "actionTypes": ["confirm", "left-release", "right-release"],
+        "selectable": true,
+        "transparent": true ,
+        "selectionIndicator": "<                      >",
+        "position": [112, 11],
+        "centered": true,
+        "origin": "topleft"
+      },
+
+      {
+        "type": "text",
+        "text": {"$":"modeDescription"},
+        "position": [-96, 20],
+        "origin": "previous",
+        "cols": 24
+      },
+      {
+        "foreach": {"$":"hasSpoilerLog"},
+        "var": "_",
+        "body": {
+          "type": "text",
+          "text": "HTML-Weltatlas (Spoiler Log)",
+          "font": "tiny",
+          "action": "spoilerLog",
+          "actionTypes": ["confirm", "left-release", "right-release"],
+          "selectable": true,
+          "selectionIndicator": ">                 <",
+          "position": [112, 104],
+          "origin": "topleft",
+          "centered": true
+        }
+      },
+      {
+        "foreach": {"$":"hasLeaderboard"},
+        "var": "_",
+        "body": {
+          "type": "text",
+          "text": "Bestenliste ansehen",
+          "font": "tiny",
+          "action": "leaderboard",
+          "actionTypes": ["confirm", "left-release", "right-release"],
+          "selectable": true,
+          "selectionIndicator": ">                 <",
+          "position": [112, 104],
+          "origin": "topleft",
+          "centered": true
+        }
+      }
+    ]
+  }
+}

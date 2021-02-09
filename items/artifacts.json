@@ -1,0 +1,194 @@
+{
+  "categories": {
+    "artifact": [
+      {
+        "id": "ARTIFACT_OF_ATMOS",
+        "name": "Atmos-Artefakt",
+        "description": "Dev-Tool. Radiert einzelne Kacheln aus der Welt.",
+        "important": true,
+        "dropsFromSky": true,
+        "tutorial": "inventory",
+        "script": "net.bytten.inceptus.logic.item.BaseEquipmentScript",
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 2,
+          "colors": ["0x000", "0x420", "0x355", "0x555"]
+        },
+        "replaces": ["ARTIFACT_OF_ATMOS"],
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "primaryAction": {
+            "id": "tool_pickaxe",
+            "state": "swing"
+          }
+        }
+      },
+      {
+        "id": "ARTIFACT_OF_TERRA",
+        "name": "Terra-Artefakt",
+        "description": "Dev-Tool. Quasi ein Level-Editor.",
+        "important": true,
+        "dropsFromSky": true,
+        "script": "net.bytten.inceptus.logic.item.CaneSomaliaScript",
+        "argumentKind": "tile",
+        "tutorial": "inventory",
+        "defaultArgument": 0,
+        "charge": -1,
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 3,
+          "colors": ["0x000", "0x035", "0x245", "0x555"]
+        },
+        "replaces": ["ARTIFACT_OF_TERRA"],
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "primaryAction": {
+            "id": "tool_cane_somalia",
+            "state": "swing"
+          }
+        }
+      },
+      {
+        "id": "ARTIFACT_OF_GENERA",
+        "name": "Genera-Artefakt",
+        "description": "Dev-Tool. Lässt Monster erscheinen.",
+        "important": true,
+        "dropsFromSky": true,
+        "script": "net.bytten.inceptus.logic.item.CaneKantouScript",
+        "argumentKind": "monster",
+        "defaultArgument": 0,
+        "tutorial": "inventory",
+        "charge": 1,
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 3,
+          "colors": ["0x000", "0x330", "0x550", "0x555"]
+        },
+        "replaces": ["ARTIFACT_OF_GENERA"],
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "createAction": {
+            "id": "tool_cane_kantou_summon",
+            "state": "swing"
+          },
+          "deleteAction": {
+            "id": "tool_cane_kantou_delete",
+            "state": "swing"
+          }
+        }
+      },
+      {
+        "id": "ARTIFACT_OF_AQUA",
+        "name": "Aqua-Artefakt",
+        "description": "Dev-Tool. Ein Schlüssel, der alle Türen öffnet.",
+        "important": true,
+        "dropsFromSky": true,
+        "script": "net.bytten.inceptus.logic.item.BaseEquipmentScript",
+        "tutorial": "inventory",
+        "charge": -1,
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 5,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "replaces": ["ARTIFACT_OF_AQUA"],
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "primaryAction": {
+            "id": "tool_white_key",
+            "state": "swing"
+          }
+        }
+      },
+      {
+        "id": "ARTIFACT_OF_PHOS",
+        "name": "Phos-Artefakt",
+        "description": "Dev-Tool. Lässt dich durch Wände rasen.",
+        "important": true,
+        "dropsFromSky": true,
+        "script": "net.bytten.inceptus.logic.item.HallowedCloakScript",
+        "useOnMenu": true,
+        "tutorial": "inventory",
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 6,
+          "colors": ["0x000", "0x111", "0x222", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["ARTIFACT_OF_PHOS"]
+      },
+      {
+        "id": "ARTIFACT_OF_CATALYSIS",
+        "name": "Catalysis-Artefakt",
+        "description": "Dev-Tool. Eine Stoppuhr, die die Zeit einfriert.",
+        "important": true,
+        "dropsFromSky": true,
+        "script": "net.bytten.inceptus.logic.item.StopwatchScript",
+        "useOnMenu": true,
+        "tutorial": "inventory",
+        "charge": -1,
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 7,
+          "colors": ["0x000", "0x521", "0x554", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["ARTIFACT_OF_CATALYSIS"]
+      },
+      {
+        "id": "ARTIFACT_OF_FERRUM",
+        "name": "Kaputtes Ferrum-Artefakt",
+        "description": "Defektes Dev-Tool, das für einen UMUNKEHRBAREN Zoom-Effekt sorgt.",
+        "important": true,
+        "dropsFromSky": true,
+        "useOnMenu": true,
+        "tutorial": "inventory",
+        "script": "net.bytten.inceptus.logic.item.TelescopeScript",
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 10,
+          "colors": ["0x000", "0x330", "0x550", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["ARTIFACT_OF_FERRUM"]
+      },
+      {
+        "id": "ARTIFACT_OF_SPATIUM",
+        "name": "Spatium-Artefakt",
+        "description": "Dev-Tool. Lässt beliebige Items erscheinen.",
+        "important": true,
+        "dropsFromSky": true,
+        "tutorial": "inventory",
+        "script": "net.bytten.inceptus.logic.item.HornOfPlentyScript",
+        "argumentKind": "pickup",
+        "defaultArgument": 0,
+        "charge": 1,
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 11,
+          "colors": ["0x000", "0x330", "0x552", "0x555"]
+        },
+        "replaces": ["ARTIFACT_OF_SPATIUM"],
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "createAction": {
+            "id": "tool_cane_kantou_summon",
+            "state": "swing"
+          },
+          "deleteAction": {
+            "id": "tool_cane_kantou_delete",
+            "state": "swing"
+          }
+        }
+      }
+    ]
+  }
+}

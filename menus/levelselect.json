@@ -1,0 +1,123 @@
+{
+  "music": null,
+
+  "constants": {
+    "text": {
+      "charWidth": 8,
+      "charHeight": 16
+    }
+  },
+
+  "windowRegion": [16, 16, 288, 160],
+  "windowPadding": 8,
+  "drawWindow": true,
+
+  "templates": {
+    "option": {
+      "type": "text",
+      "text": {"$":"text"},
+      "action": {"$":"action"},
+      "selectable": true,
+      "selectionIndicator": [">", -16, 0],
+      "position": [0, 0],
+      "origin": "previous"
+    }
+  },
+
+  "root": {
+    "type": "container",
+    "position": [16, 16],
+    "size": [288, 160],
+    "children": [
+      {
+        "type": "text",
+        "text": "#{font:bold}Levelauswahl",
+        "position": [24, 16],
+        "origin": "topleft"
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "scene:*-dungeon0:default",
+          "text": "Level 1"
+        },
+        "overrides" : {
+          "position" : [0, 8]
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "scene:*-dungeon1:default",
+          "text": "Level 2"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "scene:*-dungeon2:default",
+          "text": "Level 3"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "scene:*-dungeon3:default",
+          "text": "Level 4"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "scene:*-dungeon4:default",
+          "text": "Level 5"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "scene:*-dungeon5:default",
+          "text": "Level 6"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "scene:*-dungeon6:default",
+          "text": "Level 7"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "scene:*-dungeon7:default",
+          "text": "Level 8"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "scene:*-palace:default",
+          "text": "Palast"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "scene:*-dungeon9:default",
+          "text": "#{glitch:true}Level 9"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "action": "cancel",
+          "text": "Abbrechen"
+        },
+        "overrides": {
+          "predicate": "enableCancel"
+        }
+      }
+    ]
+  }
+}

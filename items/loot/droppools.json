@@ -1,0 +1,729 @@
+{
+  "breakable": {
+    "probability": 0.5,
+    "drops": [
+      {
+        "item": "HEART",
+        "script": "net.bytten.inceptus.logic.item.HeartDropScript"
+      },
+      {
+        "item": "COIN",
+        "script": "net.bytten.inceptus.logic.item.CoinDropScript"
+      },
+      [0.1, {
+        "item": "HEART"
+      }],
+      [0.1, {
+        "item": "COIN"
+      }],
+      {
+        "item": "ARROW",
+        "script": "net.bytten.inceptus.logic.item.AmmoDropScript"
+      },
+      {
+        "item": "BOMB_AMMO",
+        "script": "net.bytten.inceptus.logic.item.AmmoDropScript"
+      },
+      {
+        "item": "CROSS_BOMB_AMMO",
+        "script": "net.bytten.inceptus.logic.item.AmmoDropScript"
+      },
+      {
+        "item": "MINE_AMMO",
+        "script": "net.bytten.inceptus.logic.item.AmmoDropScript"
+      },
+      {
+        "item": "KAMIKAZE_AMMO",
+        "script": "net.bytten.inceptus.logic.item.AmmoDropScript"
+      },
+      [0.1, {
+        "item": "ARROW"
+      }],
+      [0.1, {
+        "item": "BOMB_AMMO"
+      }],
+      [0.1, {
+        "item": "CROSS_BOMB_AMMO"
+      }],
+      [0.1, {
+        "item": "MINE_AMMO"
+      }],
+      [0.1, {
+        "item": "KAMIKAZE_AMMO"
+      }]
+    ]
+  },
+
+  "bombable": {
+    "probability": 0.5,
+    "drops": [
+      [0.05, {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      }],
+      {
+        "item": "HEART",
+        "script": "net.bytten.inceptus.logic.item.HeartDropScript"
+      },
+      {
+        "item": "COIN",
+        "script": "net.bytten.inceptus.logic.item.CoinDropScript"
+      },
+      [0.1, {
+        "item": "HEART"
+      }],
+      [0.1, {
+        "item": "COIN"
+      }],
+      {
+        "item": "ARROW",
+        "script": "net.bytten.inceptus.logic.item.AmmoDropScript"
+      },
+      {
+        "item": "BOMB_AMMO",
+        "script": "net.bytten.inceptus.logic.item.AmmoDropScript"
+      },
+      {
+        "item": "CROSS_BOMB_AMMO",
+        "script": "net.bytten.inceptus.logic.item.AmmoDropScript"
+      },
+      {
+        "item": "MINE_AMMO",
+        "script": "net.bytten.inceptus.logic.item.AmmoDropScript"
+      },
+      {
+        "item": "KAMIKAZE_AMMO",
+        "script": "net.bytten.inceptus.logic.item.AmmoDropScript"
+      },
+      [0.1, {
+        "item": "ARROW"
+      }],
+      [0.1, {
+        "item": "BOMB_AMMO"
+      }],
+      [0.1, {
+        "item": "CROSS_BOMB_AMMO"
+      }],
+      [0.1, {
+        "item": "MINE_AMMO"
+      }],
+      [0.1, {
+        "item": "KAMIKAZE_AMMO"
+      }]
+    ]
+  },
+
+  "overworld": {
+    "drops": [
+      {
+        "item": "LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.LibraryBookDropScript"
+      },
+      [0.04, {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      }],
+      [0.1, {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      }],
+      [0.2, "MONEY10"],
+      [0.2, "MONEY20"],
+      [0.2, "MONEY50"],
+      [0.2, "MONEY100"],
+      [0.5, {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      }]
+    ]
+  },
+  "grave": {
+    "drops": [
+      {
+        "item": "LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.LibraryBookDropScript"
+      },
+      [0.04, {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      }],
+      [0.1, {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      }],
+      [0.2, "MONEY10"],
+      [0.2, "MONEY20"],
+      [0.2, "MONEY50"],
+      [0.2, "MONEY100"],
+      [0.5, {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.125, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.125, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      }]
+    ]
+  },
+  "randomTownNPC": {
+    "drops": [
+      {
+        "item": "LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.LibraryBookDropScript"
+      },
+      [0.1, {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      }],
+      {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      },
+      [0.2, "MONEY10"],
+      [0.2, "MONEY20"],
+      [0.2, "MONEY50"],
+      [0.2, "MONEY100"],
+      {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      },
+      [0.25, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.25, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      }]
+    ]
+  },
+  "dungeon": {
+    "drops": [
+      {
+        "item": "LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.LibraryBookDropScript"
+      },
+      [0.04, {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      }],
+      [0.1, {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      }],
+      [0.2, "MONEY10"],
+      [0.2, "MONEY20"],
+      [0.2, "MONEY50"],
+      [0.2, "MONEY100"],
+      [0.5, {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      }]
+    ]
+  },
+  "cave1": {
+    "drops": [
+      [0.5, "MONEY50"],
+      [0.5, "MONEY100"],
+      {
+        "item": "LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.LibraryBookDropScript"
+      },
+      [0.04, {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      }],
+      [0.5, {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      }],
+      [0.5, {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }]
+    ]
+  },
+  "cave2": {
+    "drops": [
+      {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      },
+      [0.25, {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      }]
+    ]
+  },
+
+  "cavePrize0": {
+    "drops": [
+      [0.08, {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      }],
+      {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      },
+      [0.5, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.2, {
+        "item": "BLUEPRINT_LANCE",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }],
+      [0.2, {
+        "item": "BLUEPRINT_CLAYMORE",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }],
+      [0.2, {
+        "item": "BLUEPRINT_STILETTO",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }]
+    ],
+    "failsafes": [
+      {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      },
+      "MONEY100"
+    ]
+  },
+  "cavePrize1": {
+    "drops": [
+      [0.08, {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      }],
+      {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      },
+      [0.5, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.2, {
+        "item": "BLUEPRINT_LANCE",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }],
+      [0.2, {
+        "item": "BLUEPRINT_CLAYMORE",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }],
+      [0.2, {
+        "item": "BLUEPRINT_STILETTO",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }]
+    ],
+    "failsafes": [
+      {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      },
+      "MONEY100"
+    ]
+  },
+  "cavePrize2": {
+    "drops": [
+      [0.08, {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      }],
+      {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      },
+      [0.5, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.2, {
+        "item": "BLUEPRINT_LANCE",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }],
+      [0.2, {
+        "item": "BLUEPRINT_CLAYMORE",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }],
+      [0.2, {
+        "item": "BLUEPRINT_STILETTO",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }]
+    ],
+    "failsafes": [
+      {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      },
+      "MONEY100"
+    ]
+  },
+  "battleArena": {
+    "drops": [
+      [0.5, {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.25, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.25, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      {
+        "item": "LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.LibraryBookDropScript"
+      },
+      {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      },
+      {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      },
+      [0.1, {
+        "item": "BLUEPRINT_LANCE",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }],
+      [0.1, {
+        "item": "BLUEPRINT_CLAYMORE",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }],
+      [0.1, {
+        "item": "BLUEPRINT_STILETTO",
+        "script": "net.bytten.inceptus.logic.item.WeaponBlueprintDropScript",
+        "onlyOne": true
+      }]
+    ],
+    "failsafes": [
+      {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      },
+      "MONEY100"
+    ]
+  },
+
+  "groveMinorPrize": {
+    "drops": [
+      {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      },
+      "MONEY50"
+    ]
+  },
+  "groveChain": {
+    "drops": [
+      [100.0, {
+        "item": "CHAIN",
+        "onlyOne": true
+      }],
+      {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      },
+      {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      },
+      {
+        "item": "LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.LibraryBookDropScript"
+      },
+      {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      },
+      [0.5, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }]
+    ],
+    "failsafes": [
+      {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      },
+      "MONEY100"
+    ]
+  },
+  "grove": {
+    "drops": [
+      {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      },
+      {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      },
+      {
+        "item": "LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.LibraryBookDropScript"
+      },
+      {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      },
+      [0.5, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }]
+    ],
+    "failsafes": [
+      {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      },
+      "MONEY100"
+    ]
+  },
+  "groveChainTest": {
+    "drops": [
+      [100.0, {
+        "item": "SPRING_BOOTS",
+        "onlyOne": true
+      }],
+      {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.HoverTunicDropScript"
+      },
+      {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      },
+      {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      },
+      {
+        "item": "LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.LibraryBookDropScript"
+      },
+      {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      },
+      [0.5, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }]
+    ],
+    "failsafes": [
+      {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      },
+      "MONEY100"
+    ]
+  },
+
+  "schoolMissingBook": {
+    "drops": [
+      {
+        "item": "SCHOOL_LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.QuestlessLibraryBookDropScript"
+      }
+    ],
+    "failsafes": [
+      "MONEY100"
+    ]
+  },
+
+  "palace-safeRoom" : {
+    "drops": [
+      {
+        "item": "LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.LibraryBookDropScript"
+      },
+      [0.04, {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      }],
+      [0.2, "MONEY10"],
+      [0.2, "MONEY20"],
+      [0.2, "MONEY50"],
+      [0.2, "MONEY100"],
+      [0.5, {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.25, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.25, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      }]
+    ]
+  },
+
+  "palace-safeRoom-glitched" : {
+    "drops": [
+      [1.0, {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      }]
+    ],
+    "failsafes": [
+      "MONEY100"
+    ]
+  },
+
+  "palace-jail" : {
+    "drops": [
+      [1.0, {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      }]
+    ],
+    "failsafes": [
+      "MONEY100"
+    ]
+  },
+
+  "travelling-merchant-freebie" : {
+    "drops": [
+      [1.0, {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      }]
+    ],
+    "failsafes": [
+      {
+        "item": "POTION",
+        "script": "net.bytten.inceptus.logic.item.PotionDropScript"
+      }
+    ]
+  },
+
+  "library-secret" : {
+    "drops": [
+      [1.0, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [1.0, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }]
+    ],
+    "failsafes": [
+      "MONEY100"
+    ]
+  },
+
+  "bank-vault" : {
+    "drops": [
+      {
+        "item": "LIBRARY_BOOK",
+        "script": "net.bytten.inceptus.logic.item.LibraryBookDropScript"
+      },
+      [0.08, {
+        "item": "PHOENIX_ASH",
+        "script": "net.bytten.inceptus.logic.item.PetItemDropScript",
+        "onlyOne": true
+      }],
+      {
+        "item": "METEOR",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      },
+      [0.5, {
+        "item": "VENTRICLE",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      [0.5, {
+        "item": "ATRIUM",
+        "script": "net.bytten.inceptus.logic.item.CollectibleDropScript"
+      }],
+      {
+        "item": "TUNIC",
+        "script": "net.bytten.inceptus.logic.item.TunicDropScript"
+      }
+    ],
+    "failsafes": [
+      "MONEY100"
+    ]
+  }
+
+}

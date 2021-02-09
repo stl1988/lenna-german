@@ -1,0 +1,11 @@
+{
+  "default" : {
+    "name" : "Erzengel Kopfaniel",
+    "nameFormat" : "#{color:p500}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/headraniel",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  }
+}

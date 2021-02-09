@@ -1,0 +1,337 @@
+{
+  "categories": {
+    "pickups": [
+      {
+        "id": "HEART",
+        "name": "Herz",
+        "charge": 1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "health",
+          "row": 4,
+          "colors": ["0x000", "0x200", "0x400", "0x522"],
+        },
+        "pickUpSound": "pickup_heart"
+      },
+      {
+        "id": "COIN",
+        "name": "Münze",
+        "charge": -1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "coin",
+          "row": 0,
+          "colors": ["0x000", "0x420", "0x541", "0x555"]
+        },
+        "pickUpSound": "pickup_coin",
+        "config": {
+          "value": 1
+        }
+      },
+      {
+        "id": "MONEY10",
+        "name": "$10",
+        "charge": -1,
+        "important": true,
+        "description": "Nicht schlecht!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 29,
+          "colors": ["0x000", "0x210", "0x321", "0x555"]
+        },
+        "pickUpSound": "pickup_coin",
+        "config": {
+          "value": 10
+        }
+      },
+      {
+        "id": "MONEY20",
+        "name": "$20",
+        "charge": -1,
+        "important": true,
+        "description": "Wie nett!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 29,
+          "colors": ["0x000", "0x210", "0x321", "0x555"]
+        },
+        "pickUpSound": "pickup_coin",
+        "config": {
+          "value": 20
+        }
+      },
+      {
+        "id": "MONEY50",
+        "name": "$50",
+        "charge": -1,
+        "important": true,
+        "description": "Gut gemacht!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 29,
+          "colors": ["0x000", "0x210", "0x321", "0x555"]
+        },
+        "pickUpSound": "pickup_coin",
+        "config": {
+          "value": 50
+        }
+      },
+      {
+        "id": "MONEY100",
+        "name": "$100",
+        "charge": -1,
+        "important": true,
+        "description": "Geil!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 30,
+          "colors": ["0x000", "0x010", "0x120", "0x342"]
+        },
+        "pickUpSound": "pickup_coin",
+        "config": {
+          "value": 100
+        }
+      },
+      {
+        "id": "HEART_CONTAINER",
+        "name": "Erzengel-Herz",
+        "charge": 1,
+        "description": "Erhöht permanent die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 0,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER0",
+        "name": "Erzengel-Herz",
+        "charge": 1,
+        "description": "Erhöht permanent die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 0,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER1",
+        "name": "Erzengel-Herz",
+        "charge": 1,
+        "description": "Erhöht permanent die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 1,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER2",
+        "name": "Erzengel-Herz",
+        "charge": 1,
+        "description": "Erhöht permanent die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 2,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER3",
+        "name": "Erzengel-Herz",
+        "charge": 1,
+        "description": "Erhöht permanent die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 3,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER4",
+        "name": "Erzengel-Herz",
+        "charge": 1,
+        "description": "Erhöht permanent die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 4,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER5",
+        "name": "Archangel Heart",
+        "charge": 1,
+        "description": "Erhöht permanent die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 5,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER6",
+        "name": "Erzengel-Herz",
+        "charge": 1,
+        "description": "Erhöht permanent die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 6,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER7",
+        "name": "Erzengel-Herz",
+        "charge": 1,
+        "description": "Erhöht #{glitch:true}permanent#{glitch:false} die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 7,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "DELVIN_HEART",
+        "name": "Delvins Herz",
+        "charge": 1,
+        "description": "Selbst Delvins Herz erhöht permanent die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 8,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "VENTRICLE_HEART",
+        "name": "Erzengel-Herz",
+        "charge": 1,
+        "description": "Erhöht permanent die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 9,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "CHARCOAL_HEART",
+        "name": "Herz des Vorsitzenden",
+        "description": "Verrottet, aber erhöht trotzdem permanent die Anzahl deiner #{font:bold}Herzen#{font:reset}!",
+        "important": true,
+        "charge": 1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "health",
+          "row": 4,
+          "colors": ["0x000", "0x000", "0x111", "0x222"]
+        }
+      },
+      {
+        "id": "PIZZA",
+        "name": "Pizza",
+        "description": "Deine Gesundheit wurde vollständig wiederaufgefüllt!",
+        "important": true,
+        "charge": 1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/items",
+          "row": 42,
+          "colors": ["0x000", "0x111", "0x222", "0x555"]
+        },
+        "config" : {
+          "healthValue" : 100
+        }
+      },
+      {
+        "id": "SWORD_PIZZA",
+        "name": "Stein",
+        "description": "Es war ein #{glitch:true}Stein!",
+        "important": true,
+        "charge": 0,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],
+        "pickUpSound": "pickup_heart",
+        "pickUpMusic": "8fridge",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/items",
+          "row": 42,
+          "colors": ["0x000", "0x111", "0x222", "0x555"]
+        },
+        "config" : {
+          "healthValue" : 0.5
+        }
+      }
+    ]
+  }
+}
