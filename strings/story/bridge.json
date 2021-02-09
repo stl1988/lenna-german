@@ -1,0 +1,96 @@
+{
+  "beforeFight": {
+    "lenna_holdIt": "#{shake:2,2}SOFORT STEHENBLEIBEN!",
+    "chairman_noEscaping": "Vor dir kann man auch nicht fliehen, oder?",
+    "lenna_makeYouPay": "I'm going to make you pay for what you've done!",
+    "chairman_notesOrCoins": "Bevorzugst du Scheine oder Münzen?",
+    "lenna_accountable": "Was? Ich meine, die Entführung des Prinzen geht auf Ihr Konto!",
+    "chairman_audit": "Meine Konten? Du kannst sie gerne prüfen.",
+    "lenna_noInterest": "Daran habe ich kein Interesse!",
+    "chairman_savings": "Dann solltest du dir ein Sparkonto zulegen.",
+    "lenna_speechless": "...",
+    "chairman_reallyWant": "Gut, wenn du #{wave:3,9,0.1}wirklich#{reset} einen Kampf willst...",
+    "chairman_lance": "Ich #{wave:3,9,0.1}hatte#{reset} gehofft, meine Energie für Lance aufheben zu können...",
+    "chairman_lance_real": "Ich #{wave:3,9,0.1}hatte#{reset} gehofft, meine Energie für den echten Lance aufheben zu können...",
+    "chairman_taxing": "Aber das sollte nicht schwer zu #{wave:3,9,0.1}besteuern#{reset} sein."
+  },
+
+  "afterFight": {
+    "chairman_itsYou": "Warte - du bist das!",
+    "chairman_itIs": "Du bist es, oder? Haha!",
+    "chairman_whyYou": "Aber warum stellst #{wave:3,9,0.1}du#{reset} dich mir in den Weg?",
+    "lenna_huh": "Häh?",
+    "paige_knowTheChairman": "Kennst du den Vorsitzenden, ${player.name}?",
+    "lenna_dontThinkSo": "Ich #{wave:3,9,0.1}glaube#{reset} nicht...",
+    "paige_dontLikeHim": "Nun, ich mag ihn nicht. Hmph!",
+    "shadow_creep": "Was ein gruseliger Typ. Du hättest ihn einfach erstechen sollen.",
+    "lenna_bridgeTooFar": "Das wäre eine Brücke zu weit gewesen!"
+  },
+
+  "delvin": {
+    "delvin_oh": "OH!",
+    "delvin_help": "#{wave:3,9,0.1}Hilfe!",
+    "delvin_killMe": "Wirst du mich u-umbringen?",
+    "lenna_absurd": "Was? Sei nicht absurd!",
+    "delvin_saveMe": "#{shake:3,3}#{font:bold}LANCE, RETTE MICH!",
+    "delvin_saveMe_heroBoy": "#{shake:3,3}#{font:bold}HELDENJUNGE, RETTE MICH!",
+    "lenna_lanceIsntComing": "Lance kommt nicht. Er ist, ähh...",
+    "delvin_youKilledHim": "#{shake:3,3}OH MEIN GOTT, DU HAST IHN UMGEBRACHT?",
+    "lenna_accident": "Es war ein Unfall! Ich habe ihm ein Tutorial gegeben!",
+
+    "paige_wasntHerFault": "Es war nicht ihre Schuld!",
+    "paige_onlyAnIdiot": "Jedenfalls würde nur ein Idiot einem Jungen das Schicksal der Welt auferlegen!",
+    "delvin_cantReallyArgue": "Da kann ich nicht widersprechen.",
+
+    "shadow_didntKillLance": "Sie hat Lance nicht umgebracht.",
+    "shadow_iWouldHave": "Aber ich hätte es getan.",
+    "delvin_evenYoureHere": "Selbst du bist hier!?",
+
+    "lenna_feelAwful": "Ich fühle mich schrecklich wegen Lances Tod. Ich #{wave:3,9,0.1}versuche#{reset} alles in Ordnung zu bringen--",
+    "delvin_waitASecond": "Moment mal...",
+    "delvin_you": "Du...",
+    "delvin_youHaveTaken": "#{font:bold}DU#{reset} hast Lances Platz als Held eingenommen?!",
+    "lenna_iGuessSo": "Ich glaube schon.",
+    "delvin_ha": "Ha.",
+    "delvin_haha": "Haha!",
+    "delvin_hahaha": "#{font:bold}#{wave:3,9,0.1}HAHAHAHAHAHAHA!",
+    "lenna_speechless": "...",
+    "delvin_oneDaySoon": "Eines Tages wirst du den grausamen Witz verstehen, den das Schicksal auf uns ausübt.",
+
+    "shadow_cruelJokes": "Ich mag grausame Witze.",
+
+    "paige_noSpoilers": "Bitte keine Spoiler!",
+
+    "delvin_eldersAcolyte": "Mein Name ist Delvin. Ich bin der Lehrling des Ältesten.",
+
+    "paige_heardThatName": "Ich glaube, ich hab den Namen schon mal gehört...",
+
+    "delvin_theChairman": "Der Vorsitzende wird siegen.",
+    "delvin_removingThePrince": "Die Beseitigung des Prinzen war nur der erste Schritt in Richtung der dunklen Zukunft, die er bauen möchte.",
+    "delvin_seizedPower": "Nun, da er die Macht ergriffen hat, kann er den Wachen befehlen, sich zurückzuziehen, wenn seine Erzengel angreifen.",
+    "delvin_eliminateTheArchangels": "Aber wenn du zuerst die Erzengel beseitigst, kann das niemals passieren.",
+    "delvin_fourMore": "Es lauern vier weitere in Dungeons, die auf der Ost-Insel von ${world.name} versteckt sind.",
+    "delvin_phone": "Gib mir dein Telefon.",
+    "delvin_looted": "Du hast es von Lance erbeutet?",
+    "delvin_looted_name": "Nun, ich glaube, es steht dein Name drauf!",
+    "delvin_here": "Hier.",
+    "delvin_wellSpeakAgain": "Besiege diese Erzengel, dann reden wir weiter.",
+
+    "shadow_soundsFun": "Klingt nach Spaß.",
+
+    "paige_novelIdea": "Monster besiegen. Was für eine #{wave:3,9,0.1}innovative#{reset} Idee!",
+
+    "lenna_mySchool": "Und was ist mit meiner Schule? Wird dies das Chaos und die Zerstörung beheben?",
+    "delvin_yourSchool": "Deine... Schule?",
+    "delvin_ohUmYes": "Oh. Ähm, ja...",
+    "delvin_schoolWillBeFine": "Besiege einfach diese Erzengel und die Schule wird in Ordnung sein",
+    "lenna_thankYou": "Danke!",
+
+    "paige_trustHim": "Kann man ihm wirklich trauen, ${player.name}?",
+
+    "shadow_happyAboutMeeting": "Er schien nicht besonders erfreut, dich zu treffen.",
+
+    "lenna_lanceDo": "Ich weiß nicht, ob ich ihm trauen soll. Was würde Lance tun?",
+    "lenna_lanceDo_other": "Ich weiß nicht, ob ich ihm trauen soll. Was würde der andere Lance tun?"
+  }
+}

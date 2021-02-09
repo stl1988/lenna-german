@@ -1,0 +1,23 @@
+{
+  "exterior-sign": "#{font:creepy}Schattentempel\nBetreten auf eigene Gefahr.",
+
+  "writing" : [
+    [
+      "#{font:creepy}Eine letzte Herausforderung erwartet den Helden der Stärke."
+    ],
+    [
+      "#{font:creepy}Überwinde die Dunkelheit in dir oder gehe durch ihr zugrunde."
+    ],
+    [
+      "Die Inschrift lässt sich aufgrund von Erosion nicht mehr lesen."
+    ]
+  ],
+
+  "stained-glass" : "Ein Buntglasfenster, das zwei Männer zeigt, die am Ende der Zeit kämpfen.",
+
+  "power-slot" : {
+    "initial" : "Hier könnte etwas hinein passen...",
+    "activate-question" : "Die Macht der Stärke hier einsetzen?",
+    "after" : "Du wirst mich nicht wieder versiegeln, oder? ODER?"
+  }
+}

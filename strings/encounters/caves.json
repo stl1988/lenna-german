@@ -1,0 +1,22 @@
+{
+  "spealman" : [
+    "Ich bin zufällig über diese Höhle gestolpert. Anfangs war es beängstigend, aber ich habe jetzt so viel coole Beute!",
+    "Höhlen SIND allerdings gefährlich ... Höhlenmonster trinken alle möglichen Tränke, die man hier findet...",
+    "Ich weiß was. Vielleicht hilft dir das hier!",
+    "Dann viel Glück!"
+  ],
+
+  "itemGiver" : [
+    "Ich fand das hier beim Erforschen der Höhle. Nimm es!"
+  ],
+
+  "itemSeller" : [
+    "Ich bekomme hier nicht oft Kunden.",
+    "Hier kann man sich gut eindecken, wenn einem die Bewohner hier nichts ausmachen."
+  ],
+
+  "effectTeller" : [
+    "Wusstest du, dass ${0}-Tränke ${2}-Tränke sind?",
+    "Und ${1}-Tuniken sind ebenfalls ${2}-Tuniken!"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "itemGiver" : {
+    "new" : [
+      "Das hab ich auf dem Boden liegen sehen. Du siehst aus, als könntest du das brauchen!"
+    ],
+    "old" : [
+      "War es von Nutzen?"
+    ]
+  },
+
+  "potionSeller" : {
+    "dialogue" : [
+      "Psst. Hey, brauchst du Tränke?"
+    ],
+    "potionDescription" : "Ein Trank mit unbekanntem Effekt."
+  },
+
+  "tunicSeller" : {
+    "dialogue" : [
+      "Interesse an Tuniken zum halben Preis?",
+      "An denen ist nichts faul. Ich will sie nur schnell los werden, weißt du?"
+    ],
+    "tunicDescription" : "Eine Tunika mit unbekanntem Effekt."
+  },
+
+  "dialogue" : {
+    "human" : [
+      ["Armer Lance. Hat kein Wort mehr gesprochen, seit seine Eltern gestorben sind."],
+      ["Der Älteste hat Lance aufgezogen, damit er der nächste große Held wird!"],
+      ["In einer Höhle zu leben ist kein Luxus, aber zumindest hat der Älteste ein Zuhause."],
+      ["Wir können uns alle darauf verlassen, dass Lance die Welt retten wird!"],
+      ["Ich hab von einem riesigen metallenen Monster gehört, das im Dungeon nahe der Stadt hausen soll.", "Glaubst du, da ist was dran?"],
+      ["Wenn ich sterbe, werde ich ein Skelett und für den Vorsitzenden der Bank arbeiten.", "Soll wohl ein mordsmäßiger Job sein."],
+      ["Lance ist cool, aber Stiletto ist immer noch mein Lieblingsheld."],
+      ["Monsters mögen gefährlich sein, aber sie sind auch unsere einzige Geldquelle...", "Ich denke, sie sind ein notwendiger Teil des Lebens, oder?"],
+      ["Der Held beschützt uns vor den Monstern und wir helfen dafür dem Helden.", "So war es schon immer."],
+      ["Lance ist ein Held, genau wie sein Vater und der Vater seines Vaters.", "Ist es seltsam, dass nur seine Familie Helden hervorbringt?"],
+      ["Lances Vater Claymore hatte ein #{wave:3,9,0.1}riesiges#{reset} Schwert.", "Er war so toll!"],
+      ["Früher hatte ich ein Zuhause, aber ich konnte mir die steigenden Mieten nicht leisten...", "Also hat mich die Bank einfach rausgeschmissen. So kann's gehen, oder?"],
+      ["Die Zeiten sind hart, aber der Held wird es schon wieder richten."],
+      ["Monster versuchen uns zu töten, der Held tötet die Monster, nimmt ihr Gold und gibt es aus...", "...und so funktioniert unsere Wirtschaft!"],
+      ["Mein Freund behauptet, ein Delphin habe ihn mit Wurfsternen angegriffen!", "Ich weiß nicht, aber das klingt für mich irgendwie faul."],
+      ["Das Leben des bescheidenen Dorfbewohners ist ziemlich einfach.", "Zumindest, wenn man die ständige Bedrohung durch tödliche Monster ignorieret."],
+      ["Das Königreich ${world.name} hat es im Moment ziemlich schwer...", "Aber ich bin Sicher, Lance kann alles wieder so richten, wie es vorher war!"],
+      ["Ich bin letztens an einem alten Zug vorbei gekommen.", "Hatte ${world.name} mal Schienen? Was ist mit denen passiert?"],
+      ["Meine Familie kennt ein altes Sprichwort", "Wenn du jemandem dein #{wave:3,9,0.1}Mitgefühl#{reset} ausdrücken willst - bring ihm ein Geschenk, das zu ihm passt!"],
+      ["Eine alte ${world.name}-Legende erwähnt eine magische Phönixasxhe, die #{wave:3,9,0.1}jeden#{reset} Vogel stärker macht.", "Aber um ehrlich zu sein, habe ich hier kaum noch Vögel gesehen."]
+    ],
+
+    "bear" : [
+      ["Ich mag keine Schuhe. Ich geh lieber barfuß."],
+      ["Jeder eröffnet Bankkonten, aber ich kann den Vorsitzenden einfach nicht leiden.", "Er ist unerträglich."],
+      ["Ich bin ein #{font:bold}bären#{reset}großer Anhänger des Prinzen!"],
+      ["Wie ist dein Name, kleines?", "${player.name}? Schön dich zu treffen, ${player.name}!"],
+      ["Viele Leute haben blindes Vertrauen in die Bank und ihren Vorsitzenden, aber...", "Ich traue diesem verdorbenen Geizhals nicht!"],
+      ["Ich habe neulich einen winzigen Stein vom Himmel fallen sehen!", "Wo war er? Ich kann mich nicht erinnern."],
+      ["Hast du Rupert getroffen?", "Er schmiedet die besten Waffen im ganzen Land mit seinen #{wave:3,9,0.1}Bären#{reset}-Händen!"],
+      ["Die Höhlen von ${world.name} machen mir Angst....", "Du gehst eine Leiter runter, eine andere hinauf und landest irgendwo kilometerweit weg!", "Das macht keinen #{wave:3,9,0.1}Sinn#{reset}!"],
+      ["Die Bärengemeinschaft hat in letzter Zeit einige Gerüchte verbreitet ...", "Angeblich ist ein Menschen-Mädchen in Bärenhäuser eingebrochen, um zu schlafen!"],
+      ["Sind die Gerüchte wahr?", "Gibt es wirklich ein menschliches Mädchen, das in die Häuser von Bären einbricht, nur um auf ihren Betten zu schlafen?!"],
+      ["#{wave:3,9,0.1}Jeder#{reset} kann seine Fehler erkennen, Menschenkind", "Man muss ihnen nur genug #{font:bold}Mitgefühl#{reset} zeigen."],
+      ["Manche sagen, dass die Bank von ${world.name} ein überraschend niedriges Abhebelimit hat.", "Ich #{wave:3,9,0.1}frage mich#{reset}, was passiert, wenn man zu viel abheben will...?"]
+    ]
+  }
+}

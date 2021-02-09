@@ -1,0 +1,14 @@
+{
+  "aalenna_youDidWell" : "You did well today, Tentaluchus!",
+  "aalenna_letsOrderPizza" : "How about we order some pizza as a treat?",
+  "tentaluchus_pizzaYeah" : "#{shake:2,2}Pizza! #{font:bold}YEAH!",
+  "tentaluchus_pizzaSong" : "#{wave:3,9,0.1}\u0094 When you're feelin' down an' you need anaesthesia, just give us a call - we're Triominoes Pizza! \u0094 Triple-five forty-five forty-five! \u0094 Calls only $10 per minute. \u0094 Terms and conditions may apply. \u0094",
+  "aalenna_youShouldHide" : "You should hide before they get here.",
+  "tentaluchus_givePizza" : "#{shake:2,2}#{font:bold}LEMME EAT YOU!",
+  "pizza_argh" : "#{shake:3,3}Aargh!",
+  "tentaluchus_pizza" : "Human...?",
+  "aalenna_noPizza" : "Sorry Tentaluchus, no treat today.",
+  "aalenna_dontFret" : "But don't fret. One day soon the world will be ours.",
+  "aalenna_allThePizza" : "#{shake:2,2}And then you can eat all the delivery people you want!",
+  "aalenna_laughter" : "#{wave:3,9,0.1}AHAHAHAHAHA!"
+}

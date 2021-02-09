@@ -1,0 +1,42 @@
+{
+  "tutorialIntro" : {
+    "lenna0" : "We'll have our tutorial in here.",
+    "lenna1" : "But first, let's explore a bit to find somewhere safe.",
+    "lance0" : "...!"
+  },
+
+  "tutorial" : {
+    "lenna" : [
+      "This room looks safe enough.",
+      "Using your sword is simple. There are two main modes of attack.",
+      "The first is slashing. To do that, press and release the #{font:bold}${key.action_sword} button#{font:reset}, like this!",
+      "No, press it like--"
+    ]
+  },
+  
+  "deadLance" : {
+    "lenna0" : "I'm sorry, Lance...",
+    "lenna1" : "*Sigh* Yes, he made a poultry effort in that fight."
+  },
+
+  "phoneCalls" : {
+    "exterior" : [
+      [
+        "Lance, I wanted to keep you from danger for a few more years.",
+        "But I've failed. I speak to you now from #{wave:3,9,0.1}beyond the veil#{reset}."
+      ],
+      "...",
+      [
+        "The undead forces of the chairman of the Bankers' Guild have snatched the prince from his throne.",
+        "With his thoughtless actions, the chairman has destroyed the fragile balance of powers that keeps our world from descending into #{font:bold}chaos and corruption#{reset}.",
+        "It's time to take your first steps towards your destiny, and become the hero you were born to be.",
+        "Seek out the librarian. She has knowledge of the four hidden dungeons of this island.",
+        "Defeat the evil within them, and become stronger.",
+        "When you've done that, I will send my acolyte to fill you in on the next steps.",
+      ],
+      "Chaos and corruption... Is that what happened to my school? And to Lance?",
+      "No jokes this time, Henrietta?",
+      "Not even going to wing it? You beaked too soon!"
+    ]
+  }
+}

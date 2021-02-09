@@ -1,0 +1,79 @@
+{
+  "exteriorSigns" : [
+    ["Palast von ${world.name}","Kein Zutritt ohne Genehmigung."],
+    "Tauchen verboten."
+  ],
+  "bookshelves" : [
+    ["Stapel mit Büchern über das Finanzieren von Königreichen."],
+    ["Ein Buch mit der detailreichen Geschichte des Königreichs ${world.name}.", "Die Finanzierung einer Armee zum Schutz der Bürger vor Erzengeln hinterließ bei der königlichen Familie eine Menge Schulden..."],
+    ["Diese Regale sind mit Rechnungen und Quittungen überfüllt."],
+    ["Haufenweise Reihen mit Hauptbüchern... Die Zahlen werden größer - äh... niedriger, je weiter man schaut."],
+    ["Hier liegt ein Brief des Vorsitzenden.", "Er versprach, den Palastwächtern höhere Löhne zu zahlen, wenn sie stattdessen für ihn arbeiten."],
+    ["Hier stapeln sich Bücher über die Herrschaft von Edgar und Allen."],
+    ["\"Nekromantie für Anfänger\""]
+  ],
+  "notes" : [
+    ["\"Notiz an mich selbst: Ich schulde dem Vorsitzenden noch Geld...\""],
+    ["Sieht aus wie ein Einkaufszettel."]
+  ],
+  "computer" : [
+    ["Auf dem Bildschirm sind Notizen über die Bezahlung der Palastwachen.", "Die letzte Zahl in der Spalte ist in rot.", "Der Prinz konnte es sich nicht leisten, die Wachen zu bezahlen, um das Königreich vor seinem Gläubiger zu verteidigen..."]
+  ],
+  "painting" : [
+    ["Ein Gemälde, das zwei Männer zeigt, die am Ende der Zeit kämpfen."],
+    ["Ein impressionistisches Gemälde. Beeindruckend!"],
+    ["Was für ein schönes Stück Pixelkunst..."],
+    ["Trotz des Aussehens gibt es hier kein Gemälde, nur eine Edding-Zeichnung an der Wand."]
+  ],
+  "stainedglass" : [
+    ["Ein Buntglasfenster, das zwei Männer zeigt, die am Ende der Zeit kämpfen."]
+  ],
+  "signpost" : [
+    ["Außer Betrieb"],
+    ["Die Gruft ist unter allen Umständen verschlossen zu halten."],
+    ["^ Panikraum"]
+  ],
+  "statue" : {
+    "fortitude" : [ "Die Macht der Stärke: das Symbol der Helden, die in ihren Generationen auserwählt wurden." ],
+    "wealth" : ["Die Macht des Reichtums: Wird vom weltweit größten Finanzdienstleister The Guild LLC als Kapital gehalten."],
+    "broken" : ["Die Statue ist stark beschädigt und daher unlesbar."],
+    "brokenCrown" : ["Hmm. Jemand hat die Statue zerstört."],
+    "truth" : [ "Die Macht der Wahrheit: Die mächtigste der vier Mächte hebt die Illusion der Korrupten und Bösen auf." ]
+  },
+  "deadGuard" : [
+    "Keine Reaktion."
+  ],
+  "deadPrince" : [
+    "Das war so nicht vorgesehen..."
+  ],
+  "deadLance" : [
+    "Das war so nicht vorgesehen..."
+  ],
+  "twinsSign" : [
+    "\"Die Zwillingsmonarchen Edgar und Allen - dem Schutz allen Lebens ebenso verpflichtet wie auch einander.\""
+  ],
+  "lanceGrave" : [
+    "\"RIP Lance, der Held\""
+  ],
+  "princeGrave" : [
+    "\"Hier ruht Prinz Daniel\""
+  ],
+  "edgarGrave" : [
+    "\"König Edgar, von seinem geliebten Bruder schmerzlich vermisst\""
+  ],
+  "allenGrave" : [
+    "\"König Allen, möget ihr in Frieden ruhen\""
+  ],
+  "otherGraves" : [
+    ["\"Hier ruht Prinzessin Beach.\nShe shore was lovely. (Das macht nur auf Englisch Sinn...)\""],
+    ["\"Dieser Grabstein wurde absichtlich leer gelassen.\""],
+    ["\"RIP Königin Reim\nGegessen vom Schleim\""],
+    ["\"König Wenig. Je weniger er sagte, desto besser.\""],
+    ["\"King George\nDied when he over-engorged. (Das macht nur auf Englisch Sinn...)\""],
+    ["\"Königin Josephine\nSteckte in der Bergbaumaschine fest\""]
+  ],
+
+  "chairmanFood" : [
+    "Das Essen ist noch warm. Der Vorsitzende der Bank muss ganz in der Nähe sein."
+  ]
+}

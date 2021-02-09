@@ -1,0 +1,14 @@
+{
+  "challengeAlreadyPlayed" : [
+    "You've already played today's challenge.",
+    "Check back tomorrow for the next one!"
+  ],
+  "upload" : "Upload GIF to leaderboard?",
+  "uploading" : "Uploading",
+  "viewGif" : "View GIF?",
+  "viewLeaderboard" : "Upload successful. View leaderboard?",
+  "gifTooLarge" : "Error: GIF too large to upload.",
+  "uploadFailed" : "Error: Failed to upload GIF.",
+  "uploadCancelled" : "Upload cancelled.",
+  "scoreUploadFailed" : "Error: Failed to upload score."
+}

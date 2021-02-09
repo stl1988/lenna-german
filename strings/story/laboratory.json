@@ -1,0 +1,42 @@
+{
+  "exterior" : {
+    "paige_nextDungeon": "This is where the next dungeon is?",
+    "paige_myPenpal": "My pen-pal Maxwell works here..."
+  },
+  "basement" : {
+    "paige_thatsMaxwell": "That's Maxwell! We have to free him!"
+  },
+  "rescueMaxwell" : {
+    "maxwell_trappedDownHere": "I've been trapped down here for days!",
+    "maxwell_thankYou": "Thank you for saving me.",
+    "paige_gladYoureOk": "Maxwell, I'm so glad you're OK!",
+    "maxwell_cafeteria": "I'm famished. Come with me to the cafeteria upstairs, and let's talk there."
+  },
+  "cafeteria" : {
+    "maxwell_mmm": "Mmm! That was good...",
+    "maxwell_welcome": "So... Welcome to my laboratory!",
+    "paige_basement": "How did you end up in the basement, Max?",
+    "lenna_basement": "How did you end up in the basement?",
+    "maxwell_labAssistant": "It was my lab assistant.",
+    "maxwell_dangerousExperiments": "He had been doing some dangerous experiments...",
+    "paige_wroteToMe" : "I remember you wrote to me about this!",
+    "maxwell_triedToStop": "I tried to stop him, and he turned my own earthquake machine against me.",
+    "maxwell_impressiveMachine": "It's an impressive machine, isn't it? You got to experience it as well, didn't you?",
+    "lenna_yesBut": "Yes, but that wasn't what we came here for...",
+    "maxwell_whatDo": "Well, what can I do for you?",
+    "lenna_dungeon": "I'm looking for a dungeon-",
+    "maxwell_thatOldThing": "Oh, that old thing?",
+    "maxwell_quakemaker2000": "I stumbled across it when I was installing the Quakemaker2000.",
+    "maxwell_getYouIn": "I can get you in there, but you'll have to find your own way out.",
+    "maxwell_followMe": "Follow me."
+  },
+  "study" : {
+    "maxwell_stand": "Stand on the + when you're ready.",
+    "maxwell_start": "Shall I start her up?",
+    "confirm_start": "Start the machine?",
+    "maxwell_delvin": "If you find Delvin down there, let him know he's fired!"
+  },
+  "studyAfterDungeon": {
+    "maxwell_whatDoYouKnow": ["Well what do you know!", "The dungeon's entrance was behind an old bookcase all along!"]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "intro" : "#{glitch:true}aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAaaaaaaaaaaaaaaaaaaaaaaaAaAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa??????a",
+  "elder1" : "It's dangerous to #{glitch:true}take healings too!",
+  "elder2" : [
+    "${0}...",
+    "In your world, 8Fridge #{glitch:true}is known by another name."
+  ],
+  "elder2Privacy" : "To the one controlling ${player.name}",
+  "elderSaved" : [
+    "Saving...",
+    "#{glitch:true}The Elder was saved!"
+  ],
+  "fakeLenna" : [
+    "You can't hurt us! We'll beat you #{wave:3,9,0.1}again and again#{wave:off} with the very #{glitch:true}t#{glitch:false}ools in your hands!"
+  ],
+  "lance" : [
+    "#{glitch:true}Don't#{glitch:false} give up, #{glitch:true}don't#{glitch:false} let it win, ${player.name}."
+  ],
+  "lanceSaved" : [
+    "Saving...",
+    "#{glitch:true}Lance was saved!"
+  ],
+  "aalenna" : [
+    "Lance, you piece of #{glitch:true}garbage#{glitch:false}!",
+    "First you #{shake:0,3}kill my #{glitch:true}pupae#{glitch:false}#{shake:0,0}, now you #{shake:0,3}invade my home#{shake:0,0}!?",
+    "#{shake:0,3}Humans disgust me!#{glitch:false} I wish you would all just #{shake:3,3}DIE#{shake:0,0}!"
+  ],
+  "pizza" : [
+    "This is it--the cause of all our troubles!",
+    "If I put the contents of the fridge back the way they were before it became 8Fridge...",
+    "And remove the pizza that overflowed it in the first place...",
+    "Then maybe ${world.name} can finally find peace."
+  ]
+}

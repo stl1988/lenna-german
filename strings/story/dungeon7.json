@@ -1,0 +1,33 @@
+{
+  "monologue": {
+    "lenna_notMonster" : "It can't be true! #{shake:2,0}I can't be a monster!",
+    "lenna_notLikeThat" : "I'm not a bad-",
+    "lenna_butIWas" : "But... I was.",
+    "lenna_hurtPeople" : "I've hurt people. I remember it... felt good.",
+    "lenna_sick" : "...",
+    "lenna_pupa" : "My pupils. My #{font:bold}pupae#{reset}...",
+    "lenna_noSaving" : "I killed them. There's no saving them now.",
+    "lenna_coup" : "#{shake:2,0}And the chairman's coup is my doing!",
+    "lenna_fixThis" : "I have to be better. I have to fix this."
+  },
+  "call": {
+    "delvin_doneWell": "You've done well to get this far, Lance-",
+    "lenna_truth": "Cut it out. I have the Power of Truth now.",
+    "lenna_memory": "Cut it out. I remember what happened now.",
+    "lenna_delvin": "#{font:bold}#{shake:3,0}I know that's your voice, Delvin.",
+    "delvin_iWontDeceive": "Alright, I won't deceive y-",
+    "lenna_diedToGlitch": "#{shake:3,0}You caused this mess!#{reset} How many people have died because of your power envy?",
+    "lenna_killStudents": "And on top of that, you had me kill my own students!",
+    "lenna_chairman": "First, I'm going to dethrone the chairman.",
+    "lenna_heartlessError": "I'll admit I made a heartless error, using him.",
+    "lenna_putAStop": "But I intend to put a stop to that now.",
+    "delvin_palace": "He'll be at the pala-",
+    "lenna_fixTheGlitch": "After I defeat him, you and I are going to find a way to fix the glitches you've caused.",
+    "paige_hungUp": "#{wave:3,9,0.1}Hung up#{reset} on something, ${player.name}?",
+    "lenna_dialBack": "#{wave:3,9,0.1}Dial#{reset} it back a bit, Paige!"
+  },
+  "glitchCityIntro": [
+    ["#{shake:3,3}Oh gosh!", "What happened to this place?"],
+    "Delvin, you have a lot to answer for..."
+  ]
+}

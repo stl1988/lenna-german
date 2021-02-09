@@ -1,0 +1,241 @@
+{
+  "exteriorGuardInitial" : [
+    "He's locked us all out!"
+  ],
+
+  "exteriorGuard0" : [
+    "He's locked us all out!"
+  ],
+
+  "exteriorGuard1" : [
+    "The prince would never have done this..."
+  ],
+
+  "exteriorGuard2" : [
+    "I knew it was a bad idea to let the chairman take over."
+  ],
+  
+  "cells" : {
+    "prince_rescue": ["Are you here to rescue me?", "Don't, not yet. I'm safer from the skeletons behind these bars!"],
+    "prince_hint": ["You'll need the blue key to stop the Chairman.", "It's here in the jail, but the skeletons have built a wall to keep out heroes!"]
+  },
+
+  "cryptLenna" : [
+    ["That's Lance!"],
+    ["#{cmd:glitch}#{cmd:tileGaps:1000,2000,500,3,0.6}#{font:bold}#{wave:3,9,0.1}None of this was supposed to happen...#{reset}#{cmd:unglitch}"]
+  ],
+  
+  "hintSkeleton": [
+    "The chairman fired me for being bone-idle, so let me help you out here.",
+    "See those doors down there? You'll need to kill all the monsters on this screen for them to open.",
+    "Look for the shadows left by spiders."
+  ],
+
+  "monarchs" : {
+    "intro" : [
+      "#{font:gothiccaps}We Cannot Allow You To Pass, Child."
+    ],
+    "defeated" : [
+      "#{font:gothiccaps}We Submit."
+    ],
+    "playerWeak" : [
+      "#{font:gothiccaps}You Are Injured. Rest."
+    ],
+    "crypt" : [
+      "#{font:gothiccaps}Forgive Us."
+    ]
+  },
+  
+  "chairman" : {
+    "chairman_arrivedAtLast" : "Ah, you've arrived at last.",
+    "chairman_everythingYouAsked" : "I did everything you asked of me-",
+    "chairman_returnOnInvestment" : "Now it's time for my return on investment!",
+    
+    "lenna_talkingAbout" : "What are you talking about?",
+    "chairman_youreNotHer" : "You're not... Her?",
+    "lenna_who": "Who?",
+    "chairman_justAHuman": "All this time you were just a human! A fake!",
+    "chairman_thoughtYou": "I thought you-",
+
+    "lenna_stopYou" : "I came here to stop you, not reward your sick power trip!",
+    "chairman_allForYou" : "What? But I did it all for you!",
+    "lenna_didItForMe" : "If you really did it all for me, then...",
+    "lenna_goBackToYourBank" : "I want you to go back to your bank...",
+    "lenna_toCharity" : "And donate everything to charity!",
+    "chairman_sunkCapital" : "No! I already sunk too much capital into sinking this capital city!",
+    "chairman_bleedEnoughCash" : "At least bleed enough cash to cover my costs!",
+    "lenna_moreWealthThan" : "You still have more wealth than everyone else on this island!",
+    "lenna_evenDo" : "What would you even #{wave:3,9,0.1}do#{reset} with more?",
+    "chairman_refusingToPay" : "You're refusing to pay up?",
+    "chairman_breachOfContract" : "That's a breach of contract-",
+    
+    "chairman_argh" : ["Argh! That makes me-", "Argh!"],
+    "companion_powerOfWealth" : "The Power of Wealth is corrupting him!",
+    "chairman_you" : "You-",
+    "chairman_insolentStartup" : "You insolent startup!",
+    "chairman_liquidateYou": "I will #{font:bold}liquidate#{reset} you!",
+    
+    "lenna_neverFlyPig" : "That'll never fly, pig!",
+    "shadow_boarMe" : "This man is starting to boar me!",
+    "paige_piggyBank" : "He's a piggy-bank!",
+    "lenna_quitYourSwine" : "It's time to quit your swine-ing!",
+    
+    "chairman_tooBigToFail": "#{shake:3,3}#{font:bold}I'M TOO BIG TO FAIL!"
+  },
+  
+  "chairmanCompassion" : {
+    "lenna_bankruptcy" : "I'm declaring bankruptcy!",
+    "chairman_cantDoThat": "You... you can't do that!",
+    "lenna_youreAlsoBankrupt" : "Why not? You're also bankrupt.",
+    "lenna_morallyBankrupt" : "#{wave:3,9,0.1}Morally#{reset} bankrupt!",
+    "chairman_creditRating" : "But... this will affect your credit rating for years!",
+    "lenna_notGoingToMatter" : "That's not going to matter.",
+    "lenna_insolvent" : "You're insolvent.",
+    "chairman_speechless" : "...",
+    "lenna_bleedsCash" : "If there's anything in this world that bleeds cash, #{wave:3,9,0.1}it's your bank#{reset}!",
+    "lenna_fineLine" : "The Guild Bank treads such a fine line, that a single shock will cause its total collapse.",
+    "lenna_bailYouOut" : "And this time, the prince can't bail you out.",
+    "lenna_simplyCantPay" : "The truth is that I simply can't pay.",
+    "lenna_bleedMoney" : "Unfortunately, humans just #{wave:3,9,0.1}don't#{reset} bleed money.",
+    "chairman_nooooo" : "#{font:bold}#{wave:3,9,0.1}NOOOOO!"
+  },
+  "chairmanEnd" : {
+    "paige_cashthartic" : "Wow, that was truly cashthartic!",
+    "shadow_fungible" : "That #{font:bold}really#{reset} put the #{wave:3,9,0.1}fun#{reset} in #{wave:3,9,0.1}fungible#{reset}!",
+    "chicken_buck" : "*Buck* *buck*",
+    "lenna_speechless" : "..."
+  },
+  
+  "delvinA" : {
+    "delvin_hereAlready" : [
+      "You're here already?",
+      "You haven't even killed the archangels yet!",
+      "Well, no matter. I'll take them out myself."
+    ],
+    "delvin_notAfraid" : "#{shake:3,3}I'm not afraid of you anymore."
+  },
+  "delvinBC" : {
+    "delvin_mistake" : [
+      "I'm ready to end this, ${player.name}.",
+      "The question is, are you?"
+    ],
+    "lenna_ofCourse" : "Of course!",
+    "delvin_onlyOneWay" : [
+      "There is only one way to fix the glitch.",
+      "This story must come to an end--a true #{wave:3,9,0.1}game over#{reset}!",
+      "${world.name} will restart, beginning anew...",
+      "When the #{font:bold}final challenge#{reset} is overcome.",
+      "And that's #{shake:3,3}you#{reset}!"
+    ],
+    "delvin_motherOf" : "You are the final evil! #{shake:3,3}The Mother of Archangels!",
+    "delvin_meantToBe" : "#{wave:3,9,0.1}I will kill you to put everything right!",
+    
+    "companion_wait" : "Wait!",
+    "shadow_knowsEvil" : [
+      "If anybody in this room knows what evil is, it's me.",
+      "You've changed me ${player.name}, in more ways than one.",
+      "Since meeting you, I've felt the darkness lift."
+    ],
+    "shadow_notEvil" : "You're not evil.",
+    "shadow_shade" : "Not even a #{wave:3,9,0.1}shade#{reset}!",
+    "paige_asAnArchangel" : "${player.name}, I never knew you as an archangel.",
+    "paige_asAHuman" : "But I've gotten to know you as a human!",
+    "paige_notEvil" : "And you are #{font:bold}not#{reset} evil.",
+    "paige_involved" : [
+      "You got involved in all this because you cared about your students.",
+      "And then because you wanted to save Prince Daniel, and all the people Lance would have stood up for.",
+      "Through all this, you've sacrificed not a single life!"
+    ],
+    "paige_compassionate" : "#{shake:3,3}You're the single most #{font:bold}compassionate#{font:default} human being I've ever known!",
+    "lenna_speechless" : "...",
+    
+    "lenna_diedManyTimes" : "Delvin, I've died many times already to get here.",
+    "lenna_asItWas" : "Every time, the glitch comes back #{wave:3,9,0.1}just as it was before#{reset}.",
+    "lenna_comeBackAgain" : "If you kill me, the glitch will only come back again.",
+    "lenna_persistentTaint" : "It's a persistent taint on our world, and there's only one way to remove it!",
+    "lenna_blowTheDust" : "I just need to blow the dust out...",
+    "delvin_shutUpAndDie" : "#{shake:2,0}No! I will save everyone! Shut up and die!"
+  },
+  "delvinCompassion" : {
+    "lenna_attention" : [
+      "You're no hero, Delvin!",
+      "All of this happened because of your pathetic need to feel important.",
+      "You didn't care about Lance; you wanted to manipulate him!",
+      "You didn't care about the danger 8Fridge presented to others, even after being warned!",
+      "And look what it made you: not a hero, but #{font:bold}a monster#{reset}!"
+    ],
+    "lenna_clearOff" : "Now return the cartridge, and #{wave:3,9,0.1}clear off#{reset}!",
+    "delvin_crying" : "..."
+  },
+  "delvinPhase2" : ["This can only end one way, ${player.name}."],
+  "delvinPhase3" : ["#{glitch:true}This can only end one way, ${player.name}."],
+  "delvinDeath" : {
+    "delvin_surelyLost" : "If you #{glitch:true}d#{glitch:false}on't #{glitch:true}die#{glitch:false}, ${world.name} #{glitch:true}i#{glitch:false}s surely lost..#{glitch:true}.",
+    "lenna_attention" : [
+      "You're no hero, Delvin!",
+      "All of this happened because of your pathetic need to feel important.",
+      "You didn't care about Lance; you wanted to manipulate him!",
+      "You didn't care about the danger 8Fridge presented to others, even after being warned!",
+      "And look what it made you: not a hero, but #{font:bold}a monster#{reset}!"
+    ],
+  },
+  "delvinEnd" : {
+    "lenna_eggo" : "Yes, he had an #{wave:3,9,0.1}over-inflated eggo#{reset}."
+  },
+  
+  "endingPremature" : {
+    "shadow" : "Now what?",
+    "paige" : "Did we miss something?",
+    "lenna" : "Now what?"
+  },
+  
+  "endingHero" : {
+    "paige_endOfOurStory" : "This must be the end of our story, then.",
+    "paige_justTheBeginning" : "And I thought it was just the beginning... of us, ${player.name}!",
+    "shadow_goodRun" : "Well, we had a good run.",
+    "shadow_boss" : "See you on the other side, #{wave:3,9,0.1}boss#{reset}.",
+    "lenna_missYou" : "I'll miss you.",
+    "lenna_butArchangelsLive" : "But at least my archangels will get to live again.",
+    "lenna_archangelsLive" : "At least my archangels will get to live again."
+  },
+  
+  "endingCompassion" : {
+    "azraflail_dont" : "${player.name}, stop!",
+    "lenna_youCameForMe" : "M-my children... you came back for me?",
+    "azraflail_dontBlow" : "Don't blow on the cartridge!",
+    "azraflail_fateThatAwaits" : "The fate that awaits us that way is filled with pain!",
+    "tentaluchus_screwFate" : "Yeah, screw fate!",
+    "shadow_goBack" : "Truth be told, I don't want to go back to the way I was before, either.",
+    "paige_anotherWay" : "#{shake:3,0}There has to be another way!",
+    "lenna_allDie" : "If I don't do this, we'll all die...",
+    "lenna_soClose" : "Argh, we're so close!",
+    "lenna_causeOfProblems" : "The cause of all our problems is right here!",
+    "azraflail_whatHappened" : "Whoa, what just happened?",
+    "lenna_punchedCartridge" : "I... I punched the cartridge. Now it looks like we're in a debug menu.",
+    "azraflail_somethingYouCanUse" : "Maybe there's something you can use here!"
+  },
+  
+  "finalEnding" : {
+    "prince" : ["I hereby decree...", "Pizza shall be available to all, regardless of how many limbs they have!"],
+    "everyone" : "#{wave:3,9,0.1}Hooray!",
+    "lenna1" : "We did it, Tentaluchus!",
+    "tentaluchus" : "#{wave:3,9,0.1}PIZZAAAAAAAA!",
+    "lance" : "...!",
+    "elder" : "${player.name}, I misjudged your kind. For that, I will be eternally sorry.",
+    "lenna2" : "No, I really was planning to kill you all!",
+    "azraflail" : "No more plotting and killing will happen on my watch.",
+    "shadow" : "The #{wave:3,9,0.1}shadow#{wave:reset} of evil across the land has finally lifted!",
+    "paige" : [
+      "I was pleased to hear you're reopening your school, ${player.name}!",
+      "And inviting human children too...",
+      "Will your students need any books?"
+    ],
+    "lenna3" : "Yes! And I could use an extra pair of hands, now that I only have two. What do you think?",
+    "paige2" : "Sounds wonderful!",
+    "narrator" : [
+      "With the glitches fixed, and the Archangel hunger for pizza finally sated, ${player.name} and Prince Daniel worked together to rebuild the Kingdom of ${world.name}.",
+      "Integrating humans and Archangels proved challenging, but with Compassion and Fortitude, and ${player.name}'s example, everyone came to realize it was never too late to become a better person.",
+      "With the Wealth the two species shared, and their healthy respect for Truth, the peace that came lasted for a thousand years."
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schoolSign" : [
+    "\u0091 Schule >"
+  ],
+  "librarySign" : [
+    "< Bibliothek \u0091"
+  ],
+  "caveSign" : [
+    "\u0091 Höhle vom alten Knacker >"
+  ],
+  "palaceSign" : [
+    "< Palast \u0091"
+  ],
+  "hotelSign" : [
+    "Glitch City Gasthaus\nBillige Zimmer!"
+  ],
+  "generatorSign" : [
+    "Glitch City Stromgenerator\n#{font:bold}ACHTUNG - FEHLERHAFTER CODE#{reset}"
+  ],
+
+  "houses" : {
+    "bookcase1" : "#{glitch:true}Object event.",
+    "bookcase2" : "#{glitch:true}No windows available for popping.",
+    "bookcase3" : "#{glitch:true}The window save area was exceeded.",
+    "bookcase4" : "#{glitch:true}Corrupted event!",
+    "desk1" : "#{glitch:true}BG event.",
+    "desk2" : "#{glitch:true}Coordinates event.",
+    "desk3" : "#{glitch:true}9 ERROR.",
+    "desk4" : "#{glitch:true}0@56 ERROR.",
+    "painting1" : ["#{glitch:true}DURCHSAGE: Gong!","#{glitch:true}Die Zeit ist um!"],
+    "painting2" : ["\n\n\n", ""]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "delivery" : "${player.name}? Hier ist deine Pizza. Das macht dann $${0}.",
+  "noMoney" : [
+    "Du hast kein Geld? Oh.",
+    "Dann betrachte es als Spende."
+  ],
+  "notEnoughMoney" : [
+    "Du hast nicht genug Geld?",
+    "Gib mir einfach, was du hast."
+  ]
+}

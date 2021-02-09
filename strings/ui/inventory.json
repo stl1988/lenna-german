@@ -1,0 +1,48 @@
+{
+  "companion" : {
+    "revive" : "Revive ${0}",
+    "heal" : "Heal ${0}",
+    
+    "askRevive" : "Revive ${0} for ${1} hearts?",
+    "askHeal" : "Heal ${0} for ${1} hearts?",
+    
+    "revived" : "${0} got back up!",
+    "healed" : "${0} is feeling better now!",
+    
+    "notEnoughHearts" : "You don't have enough hearts!",
+    "librarianGrewHeart" : " Paige's heart grew!"
+  },
+  "items" : {
+    "compassion" : {
+      "noEffect" : "No effect!"
+    },
+    "memories" : {
+      "activate" : "Corrupt#{glitch:true}ed mem#{glitch:false}ory #${0} was rest#{glitch:true}o#{glitch:false}red."
+    },
+    "cartridge" : {
+      "blow" : "Blow out the dust? The world will end and restart without the glitch.",
+      "punch" : "Punch the cartridge?"
+    }
+  },
+  "tabs" : {
+    "equipment" : "Equipment",
+    "key" : "Key Items",
+    "telephone" : "Telephone",
+    "quest" : "Clues",
+    "options" : "Options"
+  },
+  "equipmentPage" : {
+    "potion" : "Potions",
+    "sword" : "Swords",
+    "shield" : "Shields",
+    "tunic" : "Tunics"
+  },
+  "optionsPage" : {
+    "save" : "Save",
+    "options" : "Options",
+    "multiplayer": "Multiplayer",
+    "quit" : "Quit",
+    "restart" : "Restart",
+    "confirmQuit" : "Are you sure you want to quit? Unsaved progress will be lost."
+  }
+}

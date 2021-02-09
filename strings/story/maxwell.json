@@ -1,0 +1,15 @@
+{
+  "interact" : [
+    "It seems a lot happened while I was stuck in the basement.",
+    "How are you coping?"
+  ],
+
+  "telephoneSameRoom" : [
+    "What is it? Can't we speak in person?"
+  ],
+
+  "saveMe" : [
+    "Help! Please send help!",
+    "I'm trapped in the basement of the laboratory!"
+  ]
+}

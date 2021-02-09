@@ -1,0 +1,113 @@
+{
+  "assistant": {
+    "intro": [
+      "Hallo! Du scheinst neu hier zu sein!",
+      "Hier kaufen und verkaufen Investoren Aktien.",
+      "Jeder kann hier Aktien kaufen. Aber vorher musst du etwas Geld auf dein Konto einzahlen.",
+      "Mein Kollege oben links hilft dir dabei."
+    ],
+    "interact": [
+      "Du kannst soviel einzahlen, wie du willst.",
+      "Um Geldwäsche vorzubeugen, kannst du jedoch momentan nur bis zu $${0} abheben."
+    ]
+  },
+
+  "accountant": {
+    "hello": ["Hallo ${player.name}. Wie kann ich dir helfen?"],
+    "bye": [],
+    "withdrawn": ["Hier ist deine Auszahlung!", "Dein Kontostand beläuft sich nun auf $${0}."],
+    "deposited": ["Vielen Dank!", "Dein Kontostand beläuft sich nun auf $${0}."],
+    "balance": "Kontostand: $${0}",
+    "withdraw": "Abheben",
+    "deposit": "Einzahlen",
+    "exit": "Beenden",
+    "withdrawNoMoney": "Du hast nichts, was du abheben könntest.",
+    "depositNoMoney": "Du hast nichts, was du einzahlen könntest.",
+    "withdrawHowMuch": "Wie viel abheben?\nKontostand: $${0}",
+    "depositHowMuch": "Wie viel einzahlen?\nKontostand: $${0}",
+    "withdrawalLimitExceeded": [
+      "Es tut mir leid, aber diese Transaktion würde dein Auszahlungslimit überschreiten.",
+      "Wenn ich diese Transaktion zulassen würde, stünde die Guild LLC vor der Insolvenz.",
+    ],
+    "withdrawCantCarry": "Du kannst nicht noch mehr Geld tragen.",
+    "gildStockHint": [
+      "Wenn du allerdings GILD-Aktien hättest, könnten wir dir helfen..."
+    ],
+    "ownsGildStock": [
+      "Oh! Du bist GILD-Aktionärin!"
+    ]
+  },
+
+  "bankerVault1": [
+    "Banker sterben nie, sie verlieren nur das Interesse am Leben."
+  ],
+  "bankerVault2": [
+    "Es ist so lange her, dass ich einen Gewinn gemacht habe. Ich bekomme Entzugserscheinungen."
+  ],
+  "bankerVault3": [
+    "Ich hatte ein Konto bei einer Bank am Nordpol, bis sie es eingefroren haben."
+  ],
+  "bankerVault4": [
+    "Der Vorsitzende befahl mir, den Tresor zu verbarrikadieren.",
+    "Anscheinend ist hier ein Vandalist unterwegs. Er ist dafür bekannt, Töpfe zu zerschlagen und Items abzustauben."
+  ],
+  "bankerEvilJar1": [
+    "Bei dieser Inflation werde ich wohl in Ballons investieren."
+  ],
+  "bankerEvilJar2": [
+    "Das Beste daran, ein untoter Investor zu sein, ist die Nützlichkeit von Knochen."
+  ],
+  "bankerGroundFloor1": [
+    "Das haben sie mir im Business Skull nicht beigebracht..."
+  ],
+  "bankerGroundFloor2": [
+    "Ich habe gestern eine Ente kommen sehen, die sich finanziell beraten ließ.",
+    "Sie hatte eine riesige Rechnung bekommen!"
+  ],
+  "bankerGroundFloor3": [
+    "Ich hatte mal als Nebenjob Finanzthriller geschrieben. Vielleicht hast du von meinem Buch #{wave:3,9,0.1}Back to the Futures#{reset} gehört?",
+    "Die Kritiken sagen, es ist etwas #{wave:3,9,0.1}abgeleitet#{reset}..."
+  ],
+  "bankerGroundFloor4": [
+    "Jupp, ich bin der einzig wahre Doctor Bones, Kind.",
+    "Ein Autogramm kostet $10000. Das kannst du dir nicht leisten."
+  ],
+
+  "investor1": [
+    "Die Preise steigen bei drei gleichen Symbolen, oder steigen geringfügig bei einem oder zwei Münz-Symbolen.",
+    "Alles andere verursacht Verluste!"
+  ],
+  "investor2": [
+    "Woher wissen die Rollen, wo sie anhalten sollen? Was bewirkt, dass die Preise so steigen und fallen?",
+    "Bei den Aktien, mit denen wir handeln, ändert sich nichts Wesentliches... Nicht innerhalb von Sekunden!"
+  ],
+  "investor3": [
+    "Meistens bieten diese Maschinen ein schönes, stabiles, aber geringes Einkommen.",
+     "Dann gibt es gelegentlich plötzliche katastrophale Stürze, wenn alle gleichzeitig in Panik verkaufen!",
+     "Ich habe beim letzten Mal fast die Hälfte meiner Ersparnisse auf einmal verloren!"
+  ],
+  "investor4": [
+    "Ich habe immer die Schlagzeilen gelesen, bevor ich gehandelt habe.",
+     "Es hilft nicht immer, aber auf lange Sicht #{font:bold}gibt es mir#{font:default} einen leichten Vorteil."
+  ],
+
+  "tressaBanker": {
+    "part1": [
+      "Ich darf nicht darüber reden, ob jemand namens 'Tressa' hier war.",
+      "Du musst erst ein paar Sicherheitsfragen beantworten.",
+      "Wie heißt Tressas ältester Bruder?"
+    ],
+    "wrong": [
+      "Diese Antwort ist leider falsch.",
+      "Versuche es später nochmal, sobald du dich erinnerst."
+    ],
+    "part2": [
+      "Gut. Zweite Frage: Wie heißt Tressas jüngerer Bruder?"
+    ],
+    "part3": [
+      "Danke für die Authentifizierung, Tressa.",
+      "Ich kann Ihnen sagen, dass Sie gerade hier waren und einen Kredit aufgenommen haben, um eine Geschäftsimmobilie neu zu dekorieren."
+       "Sie haben mir die Telefonnummer Ihres Bürgen gegeben: 555-1105."
+    ]
+  }
+}

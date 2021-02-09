@@ -1,0 +1,31 @@
+{
+  "intro": [
+    "Ein neuer Kunde. Wie schön!",
+    "Bitte nimm diese Gratis-Werbeartikel!"
+  ],
+  "alreadyMet" : [
+    "Unsere Wege kreuzen sich erneut!"
+  ],
+  "quest" : [
+    [
+      "Wenn du mich noch dreimal finden kannst, gebe ich dir eine besonders seltene Belohnung!",
+       "Mein mystisches Buch sagt mir, dass wir uns das nächste Mal hier treffen werden:"
+    ],
+    [
+      "Du hast mich zweimal gefunden, aber kannst du mich dreimal finden?",
+       "Das Buch der Veränderungen sagt mir, dass wir uns bald hier kreuzen werden:"
+    ],
+    [
+      "Dreimal ist kein Zufall und grenzt an Zufall!",
+       "Kannst du erraten, wo wir uns als nächstes treffen werden?"
+    ]
+  ],
+  "questComplete" : [
+    [
+      "Ich stehe zu meinem Wort. Hier ist deine Belohnung dafür, dass du mich drei Mal aufgespürt hast."
+    ],
+    [
+      "Vielleicht will es das Schicksal, dass wir uns weiterhin treffen."
+    ]
+  ]
+}

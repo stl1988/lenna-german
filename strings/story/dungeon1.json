@@ -1,0 +1,18 @@
+{
+  "phoneCalls" : {
+    "exterior": [
+      [
+        "Help me, Lance... Please help me...",
+        "I am imprisoned in the palace dungeon.",
+        "The chairman of the Banker's Guild has foreclosed on my kingdom.",
+        "I fear for the safety of my subjects!",
+        "Please help me..."
+      ],
+      "If Lance can't help him... Maybe I can.",
+      "We have the same name after all!",
+      "It sounds like the chairman has had the prince #{font:bold}throne#{font:default} in jail.",
+      "That pun may be your #{wave:3,9,0.1}crowning#{reset} achievement.",
+      "It must be really un-#{wave:3,9,0.1}peasant#{reset} for him..."
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "island_n" : "North ${0}",
+  "island_e" : "East ${0}",
+  "island_s" : "South ${0}",
+  "island_w" : "West ${0}",
+  
+  "biome_overworld_autumn" : "${0} Woods",
+  "biome_overworld_winter" : "${0} Woods",
+  "biome_overworld_beach" : "${0} Shore",
+  "biome_overworld_graveyard" : "${0} Cemetery",
+  "biome_overworld_mountain" : "${0} Heights",
+  "biome_overworld_plains" : "${0} Plains",
+  "biome_overworld_blossom" : "${0} Meadow",
+  "biome_overworld_water" : "${0} Shore",
+  "biome_overworld_glitch" : "Glitch City"
+}

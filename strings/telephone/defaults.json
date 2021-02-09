@@ -1,0 +1,8 @@
+{
+  "notConnected" : [
+    "Kein Anschluss unter dieser Nummer."
+  ],
+  "notInService" : [
+    "Dieser Dienst wurde eingestellt."
+  ]
+}

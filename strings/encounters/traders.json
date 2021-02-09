@@ -1,0 +1,123 @@
+{
+  "intro": [
+    [
+      "Ich bin so durstig, dass ich mich nicht bewegen kann.",
+      "Kannst du mir frisches Wasser bringen?"
+    ],
+    [
+      "Mein Tisch ist so unordentlich!",
+      "Nichts, was ich suche, finde ich!",
+      "Hilfst du mir?"
+    ],
+    [
+      "Creepy Jack, legitimer Kleinunternehmer, zu Ihren \"Diensten\".",
+      "Zumindest, wenn ich genug Materialien hätte.",
+      "Bring mir einen Stift und ich werde dich reichlich belohnen."
+    ],
+    [
+      "Psst... Hey.",
+      "Mein Investmentgeschäft ist in einer Notlage. Ich brauche schnell etwas Eigentum oder ich werde alles verlieren.",
+      "Wenn du mir hilfst, bekommst du diese Aktentasche mit #{font:bold}all#{font:default} ihrem Inhalt."
+    ],
+    [
+      "*Seufz* Ich wünschte, es wäre nicht so schwer, diese Waren zu transportieren ..."
+    ],
+    [
+      "Ich würde mich als nackter Bär ja wohl fühlen, wenn nur dieser Zoologe da nicht wäre...",
+       "Er starrt mich immer wieder durch dieses Fernglas an.",
+       "Kannst du mir etwas zum Anziehen besorgen?"
+    ],
+    [
+      "Sind Bären nicht die besten?",
+      "Ich hätte gern ein Andenken an Bären."
+    ]
+  ],
+  "accept": [
+    [
+      "Ich bin so durstig!",
+      "Gib mir das Wasser!"
+    ],
+    [
+      "Ist... Ist das eine Büroklammer?",
+      "Genau das, was ich brauche!"
+    ],
+    [
+      "Hast du einen Stift? Super, dann kommen wir nun zum Geschäftlichen."
+    ],
+    [
+      "Ist das eine Urkunde? Ich werde sie gegen meine Aktentasche und ihren gesamten Inhalt eintauschen.",
+       "Es ist mir egal, ob die Urkunde gefälscht ist, ich werde sie einfach mit einer Investmentbank handeln!"
+    ],
+    [
+      "In dieser Aktentasche könnte ich mühelos meine Waren transportieren..."
+    ],
+    [
+      "Du hast mir ein Hemd gebracht? Danke!",
+       "Es riecht sogar muffig!"
+    ],
+    [
+      "Bei den Erzengeln! Ist das... eine Bärenklaue?",
+      "Ich muss sie haben!"
+    ]
+  ],
+  "reward" : [
+    [
+      "Danke. Das hab ich gebraucht.",
+      "Hier, nimm das."
+    ],
+    [
+      "Jetzt kann ich besser aufräumen. Vielen Dank.",
+      "Hmm... Möchtest du das hier?"
+    ],
+    [
+      "Hier ist eine Gratisprobe."
+    ],
+    [
+      "Wie versprochen, die Aktentasche.",
+      "Keine Rücknahme!"
+    ],
+    [
+      "Du willst was als Gegenleistung?",
+      "Hmm... Wie wäre es mit meinem Hemd?"
+    ],
+    [
+      "Ich geb dir das hier als Entschädigung."
+    ],
+    [
+      "Hier, nimm das!"
+    ]
+  ],
+  "thanks": [
+    [
+      "Die Dinge sehen gut aus, nicht wahr?"
+    ],
+    [
+      "Ich blicke jetzt so gut durch, dass ich nichts mehr verliere."
+    ],
+    [
+      "Wie läuft's?"
+    ],
+    [
+      "Wie gesagt, keine Rücknahme!",
+      "Schließlich ist Gier was gutes.",
+    ],
+    [
+      "Ich gehe jetzt mit meiner Aktentasche überall hin."
+    ],
+    [
+      "Das Shirt fängt an zu reißen, aber das ist in Ordnung."
+    ],
+    [
+      "Ich liebe Bären so sehr! Sie sind unerträglich süß!"
+    ]
+  ],
+  "mapTitles": [
+    "Durstige Person",
+    "Ein Büro",
+    "\"Creepy Jack\"",
+    "Bank",
+    "Reisender Händler",
+    "Nackter Bär",
+    "Zoologe"
+  ]
+}

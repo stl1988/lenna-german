@@ -1,0 +1,23 @@
+{
+  "intro" : [
+    "Hall. Hier ist der Service von Triominoes Pizza."
+  ],
+
+  "statusUpdate" : {
+    "imminent" : "Ihre Bestellung wird in Kürze ankommen!",
+    "later" : "Ihre Bestellung wird in ${0} Minuten ankommen."
+  },
+
+  "takeOrder" : [
+    "Darf ich Ihre Bestellung aufnehmen?",
+    "Heute Spezialangebot. Jede Pizza kostet heute $${0}!"
+  ],
+
+  "confirmOrder" : [
+    "Vielen Dank. Ihre Bestellung wird in ${0} Minuten ankommen."
+  ],
+
+  "signOff" : [
+    "Beehren Sie uns bald wieder!"
+  ]
+}

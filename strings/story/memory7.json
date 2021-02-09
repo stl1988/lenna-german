@@ -1,0 +1,25 @@
+{
+  "part1" : {
+    "delvin_calledLab" : "Elder, I'm here about your phone call earlier...",
+    "delvin_bossWasListening" : "I couldn't talk at the time. My boss was listening.",
+    "elder_keepLanceSafe": "Yes, yes. So, do you have anything that will keep Lance safe for a few more years?",
+    "delvin_changeEverything": "I have here something that will change everything!",
+    "elder_fourPowers" : "It looks like one of those Four Powers.",
+    "elder_powerOfTruth": "Did you recover the Power of Truth, son? I'm impressed.",
+    "delvin_muchMoreInteresting": "No, it's much more interesting than that!",
+    "delvin_unlimitedPotential": "8Fridge is a weapon of unlimited potential, a genie that can grant any wish.",
+    "delvin_speakTheLanguage": "As long as you can speak the language-",
+    "elder_scam": "You'd be better off taking your scam someplace else.",
+    "elder_lookAroundYou": "Look around you, lad. I don't have much money.",
+    "elder_goodPitch": "Good pitch, though! Reminds me of-",
+    "delvin_notAScam": "#{shake:3,0}#{font:bold}It's not a scam!",
+    "delvin_justWatch": "Just watch! I've configured it to make me the most powerful being in the world!",
+    "elder_morePowerfulThan": "Oh really? More powerful than Archangel-?",
+  },
+  "part3": {
+    "aalenna_azraflail": "Azraflail, we're under attack! Get out of here!",
+    "aalenna_showYourself": "Come out and show yourself, coward!",
+    "aalenna_no": "#{shake:3,3}#{font:bold}No!#{reset}",
+    "aalenna_students": "I won't let you hurt... my... #{wave:3,9,0.1}students..."
+  }
+}

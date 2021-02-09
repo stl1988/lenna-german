@@ -1,0 +1,23 @@
+{
+  "default" : [
+    "..."
+  ],
+
+  "telephoneSameRoom" : [
+    "Wie es für deine Generation typisch ist, hantierst du mit deinem Telefon herum, anstatt mit echten Menschen zu reden."
+  ],
+
+  "questAssistance" : {
+    "firstIsland" : [
+      "Besiege das Böse in den vier Dungeons dieser Insel.",
+      "Die Bibliothekarin kann dich zu ihnen führen."
+    ],
+    "secondIsland" : [
+      "Besiege das Böse auch in den vier Dungeons auf der östlichen Insel.",
+      "Dann können wir reden."
+    ],
+    "bridge" : [
+      "Begib dich nach Osten zur Brücke. Dort triffst du meinen Lehrling."
+    ]
+  }
+}

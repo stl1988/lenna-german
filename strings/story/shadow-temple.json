@@ -1,0 +1,18 @@
+[
+  "You can defeat monsters, Lance, but can you defeat... #{wave:3,9,0.1}Yourself#{reset}!?",
+  "...",
+  "Wait--you're not Lance! What is this?",
+  "...",
+  "Two ${player.name}s!",
+  "${player.name}, you the hold the Power of Fortitude now, don't you?",
+  "Without a shadow of doubt!",
+  "I was supposed to wait here until Lance comes to kill me...",
+  "All I was was an optional mini-boss, and nothing more!",
+  "But thanks to you, Lance is dead. It doesn't have to be that way any more.",
+  "You can count on my help whenever you need it.",
+  "Plug in a second controller to call on Shadow ${player.name}'s help.",
+  
+  "Huh... You really are called Lance?",
+  "I was supposed to wait here until the other Lance came to kill me...",
+  "But thanks to you, the other Lance is dead. It doesn't have to be that way any more."
+]

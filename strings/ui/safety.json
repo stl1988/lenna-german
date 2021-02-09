@@ -1,0 +1,3 @@
+{
+  "safety" : "This game contains flickering, flashing, scrolling, and shaking effects.\n\n#{font:bold}#{color:p500}If you are prone to seizures#{reset}, we recommend that you #{font:bold}#{color:p500}do not play this game#{reset}. Bytten Studio cannot guarantee its safety."
+}

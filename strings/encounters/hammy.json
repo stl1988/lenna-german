@@ -1,0 +1,14 @@
+{
+  "intro" : "STOP!",
+
+  "giveHammer" : [
+    "Hast du gerade meine Tür gesprengt?",
+    "Sind das BOMBEN?",
+    "Ich sehe, du magst Explosionen.",
+    "Aber wenn eine Explosion mal nichts bringt, solltest du es mit einem Hammer versuchen."
+  ],
+
+  "repeatedDialogue" : [
+    "Wenn es mit Explosion nicht klappt, benutz einen Hammer!"
+  ]
+}

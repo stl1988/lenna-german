@@ -1,0 +1,95 @@
+{
+  "intro": [
+    "I'm Rupert, the blacksmith in this town. If you're needin' to upgrade ya arsenal, I'm ya bear!",
+    "It's all free! I just ask ya to bring me the #{font:bold}roar#{font:default} materials.",
+    "So keep an eye out for Meteors, yeah? They're brown and gray and shoot outta the sky!"
+  ],
+
+  "openInterface": [
+    "Lookin' to exercise ya right to bear arms?"
+  ],
+
+  "shop" : {
+    "title" : "Blacksmith          \u0092 ${0}",
+    "cancel" : "Cancel",
+    "cancelDesc" : "That all?",
+    "notEnough" : "Not enough materials for that!",
+    "notAvailable" : [
+      "There's nothin' I can do for ya right now!",
+      "Come back later!"
+    ],
+
+    "items" : {
+      "damascus_katana" : {
+        "name" : "Damascus Katana",
+        "desc" : "Made usin' a secret technique discovered by my forebears!"
+      },
+      "tungsten_sword" : {
+        "name" : "Tungsten Sword",
+        "desc" : "Bring it to bear on an enemy for an electrifyin' surprise!"
+      },
+      "lance_sword" : {
+        "name": "Lance",
+        "desc": "Ready to try our new polar-arm?"
+      },
+      "claymore_sword" : {
+        "name": "Claymore",
+        "desc": "This b#{font:bold}roar#{font:default}d sword may be a little heavy for you."
+      },
+      "stiletto_sword" : {
+        "name" : "Stiletto",
+        "desc" : "A bearyonet-style blade made for lunging attacks."
+      },
+      "silver_shield" : {
+        "name" : "Silver Shield",
+        "desc" : "A paw man's mirror!"
+      },
+      "silver_bow" : {
+        "name" : "Silver Bow",
+        "desc" : "Made it with my bear hands!"
+      },
+
+      "arrow_storage" : {
+        "name" : "Store more arrows",
+        "desc" : "Can't get enough o' them? I can add space for 10 more!"
+      },
+      "bomb_storage" : {
+        "name" : "Store more bombs",
+        "desc" : "Can't get enough o' them? I can add space for 10 more!"
+      },
+      "cross_bomb_storage" : {
+        "name" : "Store more cross bombs",
+        "desc" : "Can't get enough o' them? I can add space for 10 more!"
+      },
+      "mine_storage" : {
+        "name" : "Store more mines",
+        "desc" : "Can't get enough o' them? I can add space for 10 more!"
+      },
+      "kamikaze_storage" : {
+        "name" : "Store more gliders",
+        "desc" : "Can't get enough o' them? I can add space for 10 more!"
+      },
+
+      "arrow_supply" : {
+        "name" : "16 Arrows",
+        "desc" : "Look out, they're sharp!"
+      },
+      "bomb_supply" : {
+        "name" : "16 Bombs",
+        "desc" : "Boom!"
+      },
+      "cross_bomb_supply" : {
+        "name" : "16 Cross Bombs",
+        "desc" : "Boom!"
+      },
+      "mine_supply" : {
+        "name" : "16 Mines",
+        "desc" : "Boom!"
+      },
+      "kamikaze_supply" : {
+        "name" : "16 Gliders",
+        "desc" : "Boom!"
+      }
+    }
+  }
+}

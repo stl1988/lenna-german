@@ -1,0 +1,47 @@
+{
+  "jay" : [
+    "Ich bin Jay und ich mache gern Partys."
+  ],
+
+  "tom" : {
+    "npc" : [
+      "asHat dieses Universum gute Videospiele? Ich brauche Empfehlungen!"
+    ],
+    "phone" : [
+      "Bist du das, Lance? Oder ist dort vielleit doch ${player.name}?"
+    ],
+    "cheatsDisabled" : [
+      "Hey ${player.name}.",
+      "Normalerweise würde ich dir ein Cheat-Menü anbieten... da du aber den Abenteuer-Timer an hast, geh ich davon aus, dass du einen Speedrun machst, oder?",
+      "Ich will dir das nicht mit Cheats verderben, also lass mich dir eine Geschichte erzählen...",
+      "\"Es sieht nicht gut für Sie aus\", sagte der Verteidiger zum Dieb. \"Dem Staatsanwalt liegt eine Aufnahme einer Überwachungskamera vor, die zeigt, wie Sie 200 kg Käse gestohlen haben. Ich muss Sie das fragen... Warum haben Sie das gemacht?\"",
+      "Der Dieb senkte beschämt den Kopf. \"Das wüsste ich selber gern. Was passiert jetzt mit mir?\"",
+      "\"Nun, Ihnen droht eine Freiheitsstrafe von 20 Jahren. Wenn Sie die Tat gestehen, können wir vielleicht auf 10 Jahre runter gehen.\"",
+      "\"10 Jahre??? Meine Kinder zuhause in der Schweiz sind dann ja schon erwachsen! Ich kann nicht...\"",
+      "Die beiden schauten sich an. Dann sprach der Verteidiger. \"Ich wüsste aber auch nichts anderes.\"",
+      "Als seine Gerichtsverhandlung fast vorüber war, plädierte der Dieb für unschuldig und klammerte sich an die Hoffnung, dass die Anklage fallen gelassen würde.",
+      "Wie sich herausstellte, war das Glück auf seiner Seite. Der Fall des Schweizer Käsediebs war voller Löcher."
+    ]
+  },
+
+  "telephoneSameRoom" : {
+    "jay" : [
+      "Hallo? Hallo? Hallo?",
+      "Ich glaub, ich höre mich selbst."
+    ],
+    "tom" : [
+      "Hey, ich steh direkt neben dir!"
+    ]
+  },
+
+  "computer" : [
+    "Auf dem Bildschirm ist ein Spiel, und-",
+    "Bin ich das???"
+  ],
+
+  "blackboard" : [
+    "Der Text auf der Tafel ist in schrecklicher Handschrift geschrieben.",
+    "Komplett unleserlich."
+  ]
+
+}

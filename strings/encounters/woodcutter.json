@@ -1,0 +1,24 @@
+{
+  "intro" : [
+    "Im Laufe meines Lebens habe ich Hunderte von Bäumen gefällt.",
+     "Ich habe kleine Gegenstände gefunden, Bösewichte und manchmal ... manchmal sogar Holz!",
+     "Aber ich habe nie irgendwelche Geheimnisse gefunden. Ich glaube nicht, dass es irgendwelche gibt ...",
+     "Aber ich würde mich sehr freuen, wenn du mir das Gegenteil beweisen würdest!"
+  ],
+  "dialogue" : [
+    "Fäll etwas Holz für mich! Chop chop!"
+  ],
+  "questComplete" : [
+    [
+      "Du hast es geschafft! Unglaublich!"
+    ],
+    [
+      "Ich kann es nicht glauben! Ich bin so aufgeregt!",
+       "Du hast ein Geheimnis gefunden!"
+    ],
+    [
+      "Ich denke, ich werde jetzt etwas Holz schneiden!",
+       "Hier, ich geb dir was. Jemand könnte es brauchen."
+    ]
+  ]
+}

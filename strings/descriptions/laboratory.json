@@ -1,0 +1,75 @@
+{
+  "comeBackLater" : "Bitte versuchen Sie es später.",
+
+  "foodSource" : [
+    "Irgendwas aus Kartoffeln.",
+    "Das steht hier wohl schon Ewigkeiten."
+  ],
+
+  "cafeteriaSign" : [
+    "\"Bitte nehmen Sie einen Teller und bedienen Sie sich an unserer großen Auswahl kulinarischer Gerichte aus dem ganzen Kontinent.\"",
+    "\"Menü:\nKartoffeln - $10\nSpanische Kartoffeln - $10\nSchwedische Kartoffeln - $10\n\u008e\u008f\u0090 - $11\""
+  ],
+
+  "warmMug" : [
+    "Eine Tasse warmer Kaffee. Lecker!"
+  ],
+
+  "coldMug" : [
+    "Eine kalte tasse... irgendwas braunes? Würg!"
+  ],
+
+  "powers" : {
+    "fortitude" : [
+      "Die Macht der Stärke: das Symbol der Helden, die in ihren Generationen auserwählt wurden."
+    ],
+    "compassion" : [
+      "Die Macht des Mitgefühls: von der königlichen Familie geschütze und von Generation zu Generation weitergereicht."
+    ],
+    "wealth" : [
+      "Die Macht des Reichtums: Wird vom weltweit größten Finanzdienstleister The Guild LLC als Kapital gehalten."
+    ],
+    "truth" : [
+      "Die Macht de. #{glitch:true}....h..t: th. m..t p..#{reset}e.... o. #{glitch:true}... f... #{reset}..... t.e .llu....s .a.. .y #{glitch:true}t.. ..r.upt a.d ...ke#{reset}.."
+    ],
+    "realTruth" : [
+      "Die Macht der Wahrheit: Die mächtigste der vier Mächte hebt die Illusion der Korrupten und Bösen auf."
+    ],
+    "allfour" : [
+      "Die ersten Vier, die auf dieser Insel ankamen, brachten einzigartige Kräfte mit sich.",
+      "Nach deren Tod wurden ihre Fähigkeiten an die nächste Generation weitergegeben ...",
+      "Diese Fähigkeiten wurden als die vier Mächte bekannt."
+    ]
+  },
+
+  "lobbyLabSign" : [
+    "#{font:bold}ACHTUNG: GEFÄHRLICHE EXPERIMENTE!#{reset}",
+    "Zutritt #{font:bold}only#{reset} für authorisiertes Personal."
+  ],
+
+  "lobbyCafeteriaSign" : [
+    "< Cafeteria"
+  ],
+
+  "lobbyStudySign" : [
+    "Studierstube >"
+  ],
+
+  "blackboard" : [
+    "Ein Diagramm auf der Tafel zeigt das Layout von ROM-Speichern."
+  ],
+
+  "bookshelves" : [
+    "Ein Bücherregal mit einer langen Reihe von Büchern über Geologie.",
+    "Ein Bücherregal voller arkaner Bücher über die Entwicklung von Videospielen.",
+    "Hier stehen ein paar Bücher, die die Dungeons beschreiben, in denen du gewesen bist.",
+    "Die Bücher hier sind nicht echt, sie sind nur Holzschnitzereien."
+  ],
+
+  "studyPoster" : ["Ein geschmackloses Poster.","KEEP CALM\n   #{font:tiny}AND#{reset}\nQUAKE ON"],
+
+  "studyComputer" : "Der Bildschirm ist schwarz und staubig.",
+
+  "studyCoffee" : "Dieser Kaffee steht hier schon länger."
+
+}

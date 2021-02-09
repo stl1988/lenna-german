@@ -1,0 +1,20 @@
+{
+  "damageGoods" : [
+    "Hey! Hier wird nichts zerstört!",
+    "Bring mich nicht in Versuchung, dir eine zu knallen!",
+    "Nun, ich behalte sowieso nichts, was da drin ist..."
+  ],
+
+  "humanDialogue" : [
+    "Gib mir keine Schuld, wenn du dir nichts leisten kannst. Das ist die Inflation.",
+     "Beeil dich und entscheide dich, bevor ich wieder bankrott gehe.",
+     "Willst du etwas kaufen und meine Familie vor dem Hunger retten?"
+  ],
+  "bearDialogue" : [
+    "Willkommen im Warenhaus von Andres dem Bären."
+  ],
+
+  "impossible" : [
+    "Was für ein fauler Trick ist das? Woher hast du so viel Geld?"
+  ]
+}

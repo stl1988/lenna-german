@@ -1,0 +1,13 @@
+{
+  "intro" : [
+    "Hallo. Mit wem darf ich Sie heute verbinden?"
+  ],
+
+  "confirmConnection" : [
+    "Sie werden nun mit dem anderen Teilnehmer verbunden."
+  ],
+
+  "cancelConnection" : [
+    "Vielen Dank für ihren Anruf. Auf Wiedeerhören!"
+  ]
+}

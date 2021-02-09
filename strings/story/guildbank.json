@@ -1,0 +1,22 @@
+{
+  "intro" : {
+    "lenna_dungeon" : ["There's meant to be a dungeon around here.", "I should take a look around..."]
+  },
+  "office": {
+    "chairman_intro": "They call me the chairman, but I'm also the entire board of directors, the CEO and the majority shareholder of the bank you're standing in.",
+    "chairman_custSupport": "It's unusual for anyone to make it this far past customer support.",
+    "chairman_skeletonCrew": "Especially when we're running a #{wave:3,9,0.1}skeleton crew#{reset}.",
+    "chairman_coincidence": "I suppose it's no coincidence that you've come today...",
+    "chairman_prince": "You're here for the prince aren't you?"
+  },
+  "chairmanEscape": {
+    "chairman_wontCatch": "#{shake:2,2}You won't catch me!"
+  },
+  "princeCall": {
+    "prince_scared": "Lance! I'm scared!",
+    "prince_skeletons": "The chairman has replaced all the palace guards with skeletons.",
+    "prince_lookAfter": "In case I don't make it, there's something I need you to look after!",
+    "phone_attachment": "1 file attachment(s). Open attachment?",
+    "prince_rememberTheWay": "You remember the way, right? The bridge in the east?"
+  }
+}

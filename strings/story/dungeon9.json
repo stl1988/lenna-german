@@ -1,0 +1,31 @@
+{
+  "entrance" : {
+    "lenna_smells" : "This place smells familiar!",
+    "paige_whereYouLived" : "So this is where you lived?",
+    "lenna_corridors" : "I grew up in these corridors, preying on the smaller monsters that humans left behind.",
+    "lenna_hungry" : "I was hungry a lot of the time."
+  },
+  "skeletons" : {
+    "lenna_tellYou" : "Paige... I need to tell you something.",
+    "lenna_closet" : "There #{wave:3,9,0.1}are#{reset} a few skeletons in my closet.",
+    "paige_humerus" : "How humerus!",
+    "lenna_seriously" : "No, seriously."
+  },
+  "family" : {
+    "paige_family" : "Did you have family here?",
+    "paige_friends" : "Or friends?",
+    "lenna_no" : "Not for a long time... Until I stole the Power of Truth and created the archangels."
+  },
+  "school" : {
+    "paige_yourClassroom" : "Is this your classroom?",
+    "lenna_corruptedMemory" : "I thought this was just a corrupted memory...",
+    "lenna_humanSized" : "Something's wrong. This is all human-sized."
+  },
+  "fridge" : {
+    "paige_bedroom" : "Oh my gosh, is this #{wave:3,9,0.1}your b-bedroom#{reset}?",
+    "paige_books" : "#{font:bold}#{wave:3,9,0.1}ARE THESE YOUR BOOKS!?",
+    "paige_archangelsRead" : "What kinds of books do archangels read?",
+    "paige_horror" : "#{font:tiny}Maybe I should expand the library's horror section to attract more archangel patrons...",
+    "lenna_trapped" : "Trapped!"
+  }
+}

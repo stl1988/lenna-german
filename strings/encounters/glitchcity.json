@@ -1,0 +1,50 @@
+{
+  "wife" : {
+    "glitched" : [
+      "#{glitch:true}Ich kann dich nicht verstehen..."
+    ],
+    "request" : [
+      "Mein Mann und ich hängen hier seit der Katastrophe fest.",
+      "Alles war in Ordnung... relativ... bis mein Geliebter vor ein paar Tagen vom Glitch befallen wurde.",
+      "Ich mache mir solche Sorgen um ihn!",
+      "Kannst du nach ihm schauen? Ich kann seine verglitchte Sprache nicht verstehen."
+    ],
+    "thanks" : [
+      "Danke, dass du nach meinem Mann geschaut hast!",
+      "Wir hätten uns in Sicherheit bringen müssen, nachdem uns der junge Del gewarnt hat!",
+      "I do wonder what our boy's up to now..."
+    ]
+  },
+  "husband" : {
+    "glitched" : [
+      "#{glitch:true}Ich kann dich nicht verstehen..."
+    ],
+    "thanks" : [
+      "Kannst du meiner Frau sagen, dass es mir gut geht?",
+      "Seitdem mich der Glitch erwischt hat, konnte ich keine passende Nahrung finden.",
+      "Der Hunger macht mich krank... aber glücklicherweise kann man in Büschen Herzen finden, wodurch ich mein Überleben sichern kann.",
+      "Ich frage mich, wie sich der ständige Verbrauch von korrupter Nahrung auf mich auswirkt ...",
+      "Ich kann fühlen, wie ich mich verändere. Sehe ich aus wie ein Monster?"
+    ],
+    "hint" : [
+      "Hey, wenn du dich da draußen verirrst, halte dich Richtung < Westen.",
+      "Aus irgendeinem Grund ändert sich diese Richtung nie."
+    ]
+  },
+  
+  "randomDialogue" : [
+    "#{glitch:true}Object event.",
+    "#{glitch:true}No windows available for popping.",
+    "#{glitch:true}The window save area was exceeded.",
+    "#{glitch:true}Corrupted event!",
+    "#{glitch:true}BG event.",
+    "#{glitch:true}Coordinates event.",
+    "#{glitch:true}9 ERROR.",
+    "#{glitch:true}0@56 ERROR.",
+    ["#{glitch:true}DURCHSAGE: Gong!","#{glitch:true}Die Zeit ist um!"],
+    ["\n\n\n", ""],
+	["#{glitch:true}Seltsam!","#{glitch:true}Hinter diesem Poster ist ein Schalter! Mal sehen..."],
+	"#{glitch:true}Hehe! Diese ARENA ist voller Frauen...",
+	"#{glitch:true}Ein wildes MISSINGNO.!"
+  ]
+}

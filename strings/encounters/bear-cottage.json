@@ -1,0 +1,80 @@
+{
+  "father" : {
+    "notStarted" : [
+      "Jemand schleicht sich immer wieder in mein Haus..",
+      "Ich fühle mich in meiner Privatsphäre verletzt!"
+    ],
+    "complete" : [
+      "Du bist hier jederzeit willkommen, ${player.name}."
+    ]
+  },
+  "mother" : {
+    "notStarted" : [
+      "Ich hasse es, darüber nachzudenken, was sie macht, wenn wir nicht hier sind..."
+    ],
+    "complete" : [
+      "Danke, dass du meine Familie beschützt hast!"
+    ]
+  },
+  "baby" : {
+    "notStarted" : [
+      "Sie hat meinen Hocker kaputt gemacht!"
+    ],
+    "complete" : [
+      "Spielen wir Räuber und Gendarme, ${player.name}?"
+    ]
+  },
+  "guard" : {
+    "recruit" : [
+      "Die Familie hier wird von einer Frau belästigt, die hier unerlaubt eindringt, während die Familie außer Haus ist.",
+      "Sie ist etwa 1,65 m groß und hat goldene Locken.",
+      "Kannst du uns helfen, ihr eine Falle zu stellen?"
+    ],
+    "recruitConfirm" : "Fängst du für uns den Eindringling?",
+    "questStart" : [
+      "Großartig. Bleib hier, während wir draußen warten.",
+      "Sie darf dich nicht sehen... Du solltest dich hinter irgendwas verstecken.",
+      "Gib uns ein Signal, wenn sie sich hinlegt und schläft!"
+    ],
+    "goldilocksCaught1" : [
+      "Gute Arbeit, ${player.name}!"
+    ],
+    "goldilocksCaught2" : [
+      "W- was willst du von mir?"
+    ],
+    "goldilocksCaught3" : [
+      "Du bist wach--",
+      "Grundgütiger! Warum hast du denn so große #{wave:3,9,0.1}Ohren#{reset}?"
+    ],
+    "goldilocksCaught4" : [
+      "Damit ich dich besser hören kann."
+    ],
+    "goldilocksCaught5" : [
+      "Und warum hast du denn so große Augen?"
+    ],
+    "goldilocksCaught6" : [
+      "Damit ich dich besser sehen kann."
+    ],
+    "goldilocksCaught7" : [
+      "Ähh..."
+    ],
+    "goldilocksCaught8" : [
+      "Sag es ruhig."
+    ],
+    "goldilocksCaught9" : [
+      "...",
+      "Wa... Warum hast du so ein großes Maul...?"
+    ],
+    "goldilocksCaught10" : [
+      "Damit ich dich besser FRESSEN KANN!!!"
+    ],
+    "goldilocksCaught11" : [
+      "Pass auf, ein Werhase!"
+    ],
+    "bunDefeated" : [
+      "Also war Goldlöckchen am Ende ein Werhase?",
+      "Tja, so schnell wird sie wohl nicht wiederkommen.",
+      "Aber sei vorsichtig da draußen - sobald ein Werhasen-Rudel etwas wittert, werden sie so lange angreifen, bis das Ziel tot ist!"
+    ]
+  }
+}

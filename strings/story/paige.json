@@ -1,0 +1,273 @@
+{
+  "intro" : {
+    "lenna_um": "Um...",
+    "paige_newFace": "A new face!",
+    "paige_hardlyBelieveIt": "I can hardly believe it!",
+    "paige_allTheseYears": "After all these years on this this tiny island--someone I've never met before!",
+    "paige_nameIsIt": ["${player.name}, is it?", "I'm sure I've heard that name before... Did I read it in a book, or something?"],
+    "paige_whatDo": "#{wave:3,9,0.1}Sooo...#{reset}#{pause:60} What can I do for you?",
+    "paige_whoa": "Whoa, that sounds crazy!",
+    "paige_yourPhone": "Give me your phone, and I'll program the dungeons into it!",
+    "paige_hereYouGo": "Here you go!",
+    "paige_yourStudents": "Who knows, maybe you'll find one of your children there!",
+    "lenna_stuckInSchool": "No, I'm pretty sure my students are stuck in the school.",
+    "paige_addedMyNumber": "I added my number as well. Feel free to call me any time.",
+    "paige_books": "Oh, and keep your eyes peeled for overdue library books while you're out.",
+    "paige_goodBooks": "Find them all, and you'll get into my good books.",
+    "lenna_sure": "Sure thing."
+  },
+  
+  "bicycle" : [
+    "Hey! Feel free to borrow my bicycle!",
+    "It'll get you back to places you've already been in an instant!"
+  ],
+  
+  "nameNextDungeon" : {
+    "dungeon-west" : "It looks like your next dungeon is the ${0}, in the ${1}.",
+    "dungeon-east" : [
+      "It looks like you've visited all the dungeons in West ${world.name}.",
+      "Try looking around in East ${world.name}. There should be a bridge somewhere."
+    ]
+  },
+
+  "greetings" : {
+    "lostBooks" : "Hi ${player.name}, have you found my books?"
+  },
+  
+  "puns" : [
+    [
+      "Did you know my library is technically the tallest building in ${world.name}?",
+      "It has the most stories!"
+    ],
+    [
+      "I've been reading a textbook about anti-gravity lately.",
+      "It's hard to put down!"
+    ],
+    [
+      "I caught a young man damaging books in the library today. He couldn't even look me in the eye.",
+      "How spineless!"
+    ],
+    [
+      "We just got a new book in the library about hands.",
+      "I've heard it's a real page-turner!"
+    ],
+    [
+      "Did I tell you about the time a tortoise came into the library?",
+      "He was so disappointed when I informed him that we don't lend hardbacks!"
+    ],
+    [
+      "Sometimes, when I meet someone I like, I don't know how to tell them.",
+      "I feel so shelf-aware..."
+    ],
+    [
+      "A patron asked me on a date yesterday.",
+      "I told him I was fully-booked!"
+    ]
+  ],
+
+  "booksFound" : [
+    "Wow! You've found quite a few!"
+  ],
+  "booksFoundTelephone" : [
+    "Are you planning to visit the library any time soon?",
+    "Because ISBN thinking about you!"
+  ],
+  "booksFoundInPerson" : [
+    "But not quite all... I'm certain there are more to be found.",
+    "Why don't I come with you to look?",
+    "It'd be nice to go for a walk!"
+  ],
+
+  "searchStatus" : [
+    "You've found ${0} of my books?"
+  ],
+  "foundSomeBooks" : [
+    "Keep it up! I'm sure that someday we'll have them all back safe and sound."
+  ],
+  "foundNoBooks" : [
+    "Have you tried looking?"
+  ],
+  
+  "marshmallowQuest" : {
+    "start" : [
+      "We've found most of my books, ${player.name}!",
+      "We should celebrate! Hmm...",
+      "I have an idea! But first, I need you to kill 10 marshmallows.",
+      "Bring me the corpses of 10 soft pink slime creatures!",
+    ],
+    "inProgress" : [
+      "Marshmallows are the soft pink slime creatures.",
+      "We need ${0} more of them for our celebration!"
+    ],
+    "end" : [
+      "Are you ready for our celebration?",
+      "Are you ready for Paige's dubious celebration?",
+      "Talk to me again when you're ready!",
+      "Give me a moment, I'll set everything up!",
+      "A campfire?",
+      "Yes! I thought it would be nice to take a rest!",
+      "You do remember to take breaks from your adventuring, don't you?",
+      "Skewer one of those marshmallows on your sword, and put it in the fire.",
+      "It's burning...",
+      "Give it a moment...",
+      "OK, now eat it.",
+      "What!?",
+      "Just try it!",
+      "*Mmmf mmf mmf*",
+      "It's good right!?",
+      "Too sweet...",
+      
+      "There's something else, but...",
+      "I'm not very good at putting my feelings into words.",
+      "So I've put my feelings into this instead. #{shake:3,0}I want you to have it!",
+      "Now #{wave:3,9,0.1}you're#{reset} being too sweet!",
+      
+      "As ${player.name} and Paige sit by the campfire, Paige reads to ${player.name} a play she has been writing.",
+      "The play is terrible, but afterwards, for the first time in a long while, ${player.name} sleeps well."
+    ]
+  },
+
+  "telephoneSameRoom" : [
+    "Why don't we talk face-to-face?"
+  ],
+
+  "tressa" : [
+    "You're looking for Tressa? She was at the library a little while ago.",
+    "She seemed very interested in books about finance! Maybe you should try looking for her at the bank?"
+  ],
+  
+  "swimming" : [
+    ["smiling", "I read that swimming is very effective exercise!"],
+    ["smiling", "Don't worry, my waterproof bag is keeping my books dry!"],
+    ["concerned", "Keep your eyes peeled for sharks!"]
+  ],
+  
+  "locations" : {
+    "specific" : {
+      "library" : [
+        ["default", "Looking for a book? I can give recommendations!"]
+      ],
+      "libraryBackRoom" : [
+        ["blushing", "..."]
+      ],
+      "librarySecretRoom" : [
+        ["shocked", "This room was here the whole time!?"]
+      ],
+      "bridge" : [
+        ["smiling", "I've never been past this bridge before."]
+      ],
+      "elderCave" : [
+        ["sad", "How awful..."]
+      ],
+      "palaceSewer" : [
+        ["concerned", "It really smells in here."]
+      ],
+      "void" : [
+        ["concerned", "Is this real? I'm scared."]
+      ]
+    },
+    
+    "biome" : {
+      "bank" : [
+        ["sad", "I've heard they cook books here."],
+        ["laughing", "Do you know a banker's favorite part of a novel? Chapter eleven!"]
+      ],
+      "cave_glitch" : [
+        ["shocked", "What happened to this place?"]
+      ],
+      "cave_ice" : [
+        ["sad", "It sure is cold here!"]
+      ],
+      "cave_normal" : [
+        ["thinking", "The monsters here are different from usual."],
+        ["default", "How much deeper do you think this place goes?"],
+        ["default", "I've read about this cave. There's meant to be treasure down here."]
+      ],
+      "dungeon_built_level" : [
+        ["thinking", "Who built this place?"],
+        ["default", "What do you think this place was built for?"],
+        ["thinking", "I wonder what these archangels want."]
+      ],
+      "dungeon_cave_level" : [
+        ["thinking", "Who dug out this place?"],
+        ["default", "What do you think this place was dug for?"],
+        ["thinking", "I wonder what these archangels want."]
+      ],
+      "dungeon_dark_level" : [
+        ["concerned", "It's so dim! I can barely see anything in here."],
+        ["shocked", "Is that blood running down the walls!?"],
+        ["shocked", "It's like something out of a horror story!"]
+      ],
+      "dungeon_jungle_level" : [
+        ["laughing", "An unusual place for an archangel to hide. Perhaps it wants to turn over a new leaf!"],
+        ["thinking", "I wonder what these archangels want."],
+        ["concerned", "I hope there are no bugs in this grass. I hate bugs!"]
+      ],
+      "dungeon_misc_level" : [
+        ["thinking", "Who built this place?"],
+        ["default", "What do you think this place was built for?"],
+        ["thinking", "I wonder what these archangels want."]
+      ],
+      "house" : [
+        ["smiling", "It's nice to take a break from fighting and adventuring once in a while."]
+      ],
+      "laboratory" : [
+        ["smiling", "My old pal Maxwell lives here."],
+        ["default", "Think we could take a look at Maxwell's research before we leave?"]
+      ],
+      "overworld_autumn" : [
+        ["smiling", "I love the colors of the leaves in Autumn."],
+        ["default", "I could kill for a slice of pumpkin pie right now!"],
+        ["concerned", "This is farther than I've ever been from my library."]
+      ],
+      "overworld_winter" : [
+        ["smiling", "Your burning passion keeps me warm!"],
+        ["concerned", "It's cold here!"]
+      ],
+      "overworld_beach" : [
+        ["concerned", "So much sand! It's getting in my shoes."],
+        ["blushing", "Let's go for a swim!"]
+      ],
+      "overworld_glitch" : [
+        ["shocked", "Oh my gosh! What happened here?"],
+        ["concerned", "Was this the archangels' doing?"],
+        ["concerned", "The people who lived here..."]
+      ],
+      "overworld_graveyard" : [
+        ["laughing", "It's spooky here!"],
+        ["concerned", "Is this where skeletons come from?"],
+        ["concerned", "With all the monsters around, nobody has been maintaining the graves here."]
+      ],
+      "overworld_mountain" : [
+        ["smiling", "I can see the library from up here!"],
+        ["concerned", "Oof... Climbing mountains is hard work."]
+      ],
+      "overworld_plains" : [
+        ["smiling", "Ah, there's nothing like fresh air!"],
+        ["thinking", "Do you think slimes appreciate the beauty of nature the way people do?"],
+        ["default", "I come out here to read sometimes."]
+      ],
+      "overworld_water" : [
+        ["blushing", "Let's go for a swim!"]
+      ],
+      "palace" : [
+        ["concerned", "The chairman really likes skeletons..."],
+        ["default", "This place has really changed a lot."]
+      ]
+    },
+    
+    "anywhere" : [
+      ["default", "Where to now?"],
+      ["laughing", "We're on a real-life adventure!"],
+      ["default", "What do you like to read ${player.name}?"],
+      ["thinking", "Hmm... What would Lance do?"],
+      ["smiling", "Don't worry about me! I'm fine."]
+    ]
+  },
+  
+  "notFollowing": [
+    ["smiling", "How are things going, ${player.name}?"],
+    ["smiling", "Don't forget about me!"],
+    ["sad", "Come visit me sometime? I miss you."]
+  ]
+}

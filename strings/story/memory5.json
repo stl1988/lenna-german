@@ -1,0 +1,41 @@
+{
+  "maxwell_pizzasHere": "Delvin, your pizza's here!",
+  "pizzaguy_255pizzas": [
+    "*Pant*",
+    "Sorry I'm late. I tried to take a shortcut down the coast, but the monsters in the surf were #{font:bold}insane#{reset}.",
+    "Were you the guy who ordered 255 pizzas?"
+  ],
+  "delvin_onePizza": "W-what!? I ordered #{font:bold}one#{reset} pizza.",
+  "pizzaguy_iHave255": "Well, I have 255 for you here. What do you want me to do with them?",
+  "delvin_giveToMe": "*Sigh* Give them to me. I'll put them in the fridge for later.",
+  
+  "fridge_title": "Fridge",
+  "fridge_pizza": "Pizza \u008D#{glitch:true}5#{glitch:false}5",
+  "fridge_milk": "Smelly Milk",
+  "fridge_toss_menu": "Do what with ${0}?",
+  "fridge_use": "Use",
+  "fridge_sort": "Sort",
+  "fridge_toss": "Toss",
+  "fridge_junk": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "E#{glitch:true}rror",
+    "#{glitch:true}Corrupted save data!",
+    "",
+    "",
+    "",
+    "#{glitch:true}Starvation is affecting my health... but occasionally I find some hearts in the bushes outside, and so I survive.",
+    "",
+    "",
+    ""
+  ],
+  "delvin_uh": "Uh...",
+  "delvin_allThisJunk": "What is all this #{wave:3,9,0.1}junk#{reset} doing in the fridge!?",
+  
+  "maxwell_whatOnEarth": "What on earth..."
+}

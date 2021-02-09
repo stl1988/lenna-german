@@ -1,0 +1,54 @@
+{
+  "introducePotter" : [
+    "H-hallo. Ich bin Potter.",
+    "Ich b-braue für mein Leben gern Tränke zusammen."
+  ],
+  "introduceTunley" : [
+    "Und ich bin Tunley, Potters jüngerer Bruder.",
+    "Ich entwerfe modische Tuniken! Meine Arbeiten sind bei anspruchsvollen Abenteurern immer sehr gefragt!"
+  ],
+  "startQuest" : [
+    "Wir sind gerade an diesen Ort gezogen, um ein Geschäft zu eröffnen, nur...",
+     "Unsere Schwester Tressa ist für unseren Geschäftsplan von wesentlicher Bedeutung, aber sie ist einfach weggegangen!",
+     "Bitte hilf uns, sie wieder zu finden!"
+  ],
+  "firstHint" : [
+    "Zuletzt habe ich gehört, dass sie einem zwielichtigen Kerl geholfen hat, ein Halluzinationsspiel in einer Höhle zu erschaffen.",
+     "Kennst du so jemanden?"
+  ],
+  "thanksForFindingTressa" : [
+    "Danke, dass du unsere Schwester gefunden hast! Wir sind hoffnungslos ohne ihr Business-Wissen."
+  ],
+  "tressaThanks" : [
+    "Was möchtest du, ${player.name}?"
+  ],
+
+  "tressaDungeon": {
+    "intro": [
+      "Du bist derjenige, den meine Brüder geschickt haben, um mich zu finden, nicht wahr?",
+       "Nun, ich habe jetzt alles, was ich brauche, um den Laden zu eröffnen.",
+       "Willst du unser Geheimnis wissen?",
+       "Tränke und Tuniken funktionieren auf einer fundamentalen Ebene nach denselben Regeln.",
+       "So kann ich aus Tränken Tuniken herstellen.",
+       "Hier ist eine Kopie unseres Patents, falls du neugierig bist."
+    ],
+    "comeWith": [
+      "Ich gehe zum Laden zurück. Kommst du mit?"
+    ],
+    "comeWithConfirm": "Zum Statuseffekte-Laden zurück kehren?"
+  },
+
+  "buyPotions" : "Was kann ich f-für dich tun, ${player.name}?",
+  "buyTunics" : "Willst du dir unsere neuesten Werke anschauen?",
+
+  "crafting" : {
+    "intro" : [
+      "Ich kann dir aus einem Trank eine Tunika mit demselben Effekt machen.",
+      "Das kostet $100 und ich brauche einen Trank sowie eine Tunika, die du nicht mehr brauchst."
+    ],
+    "chooseTunic" : "Tunika, die du nicht mehr brauchst",
+    "choosePotion" : "Trank, dessen Effekt die Tunika bekommen soll",
+    "confirm" : "Daraus mach ich eine ${0}-Tunika. OK?",
+    "alreadyHave" : "Eine Tunika mit diesem Effekt hast du bereits."
+  }
+}

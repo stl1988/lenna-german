@@ -1,0 +1,22 @@
+{
+  "bookcase" : [
+    "Ein Regal voller staubiger, unverständlicher Bücher."
+  ],
+  "bedroomLetter" : [
+    "Ein Brief an Paige von einem Maxwell.",
+    "Sein neuer Laborassistent macht nur Ärger."
+  ],
+  "diary" : [
+    "Paiges Tagebuch. Sie hat es bestimmt nicht gern, wenn du da einfach reinschaust."
+  ],
+  "bedroomSign" : [
+    "Privat!"
+  ],
+  "backBook1" : [
+    "Ein Liebesroman über einen Bibliothekar, der sich in einen elenden Gräuel verliebt!",
+    "Eher unwahrscheinlich."
+  ],
+  "backBook2" : [
+    "Eine Geschichte von zwei Freunden, die sich auf eine Reise begeben, um das Böse zu besiegen."
+  ]
+}

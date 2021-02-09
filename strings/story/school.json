@@ -1,0 +1,86 @@
+{
+  "moveControls" : "Move with #{font:bold}${key.up} ${key.left} ${key.down} ${key.right}#{reset}.",
+  
+  "children" : {
+    "azraflail": {
+      "dialogue": true,
+      "text": "When I grow up I want to be a knight! *#{wave:3,9,0.1}Hyaaa#{reset}*"
+    },
+    "crabaddon": {
+      "dialogue": false,
+      "text": "Crabbe is busy blowing bubbles and spitting at the floor."
+    },
+    "headraniel": {
+      "dialogue": false,
+      "text": "Draniel is painstakingly sketching a man losing his limbs to a propeller blade."
+    },
+    "sandolphin": {
+      "dialogue": true,
+      "text": "Can we go swimming again today, miss?"
+    },
+    "tentaluchus": {
+      "dialogue": false,
+      "text": "Luchas, with his face covered in dirt, suddenly grabs your arm. It leaves an inky handprint."
+    },
+    "hatasiah": {
+      "dialogue": false,
+      "text": "Hattie is performing magic tricks at her desk."
+    },
+    "santaquiel" : {
+      "dialogue": false,
+      "text": "Klaus is playing with a snowball."
+    },
+    "catsiel" : {
+      "dialogue" : false,
+      "text" : "Catherine is trying to hide the fact that she's watching a pocket TV, not paying attention."
+    },
+    "???": {
+      "dialogue": false,
+      "text": "TODO"
+    }
+  },
+  
+  "names" : {
+    "azraflail": "Asrabel",
+    "crabaddon": "Crabbe",
+    "headraniel": "Draniel",
+    "sandolphin": "Sandy",
+    "tentaluchus": "Luchas",
+    "hatasiah": "Hattie",
+    "santaquiel": "Klaus",
+    "catsiel": "Catherine",
+    "???": "???"
+  },
+  
+  "desks" : [
+    "\"Current spying target: Miss ${player.name}. Her routine has her hunting exclusively between 12am and 4am. People seem wary of her. Isn't she lonely?\"",
+    "A spreadsheet details this student's investments in various stocks.",
+    {
+      "m": "${0}'s essay explains why he wants to become a police officer.",
+      "f": "${0}'s essay explains why she wants to become a police officer.",
+      "nb": "${0}'s essay explains why they want to become a police officer."
+    },
+    "Tarot cards cover the desk. The Death and Tower cards lie face up.",
+    {
+      "m": "This student is proudly displaying his collection of sporting medals on his desk.",
+      "f": "This student is proudly displaying her collection of sporting medals on her desk.",
+      "nb": "This student is proudly displaying their collection of sporting medals on their desk."
+    },
+    "This student has drawn up a design for a unique machine that can automatically sort the various items dropped by monsters.",
+    {
+      "m": "This student has a stack of borrowed library books on his desk. Some of them are long overdue.",
+      "f": "This student has a stack of borrowed library books on her desk. Some of them are long overdue.",
+      "nb": "This student has a stack of borrowed library books on their desk. Some of them are long overdue."
+    },
+    {
+      "m": "This desk is made out of a different type of wood from the others. ${0} made it himself.",
+      "f": "This desk is made out of a different type of wood from the others. ${0} made it herself.",
+      "nb": "This desk is made out of a different type of wood from the others. ${0} made it themself."
+    }
+  ],
+  
+  "exterior" : [
+    "Huh?",
+    "#{wave:3,12,0}No!#{wave:reset}#{pause:30} #{shake:3,3}My students!#{shake:reset}"
+  ]
+}

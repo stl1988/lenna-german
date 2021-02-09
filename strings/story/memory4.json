@@ -1,0 +1,16 @@
+{
+  "aalenna_shallIAssume": "Shall I assume you know who I am?",
+  "chairman_yes": "#{shake:2,2}Y-yes.",
+  "chairman_angelInvestor": "You're my bank's #{wave:3,9,0.1}angel investor#{reset}!",
+  "aalenna_goodImImpressed": "Good. I'm impressed you still came.",
+  "chairman_revenueStream": "#{shake:2,2}You mentioned a new revenue stream...?",
+  "aalenna_correct": "Correct.",
+  "aalenna_solelyPossess": "We monsters solely possess the ability to create new coins.",
+  "aalenna_iHaveHarnessed": "I have harnessed this power.",
+  "chairman_excl": "#{shake:1,3}!!!",
+  "aalenna_advancePayment": "Let's call this advance payment, with a promise of more if you achieve everything I set out.",
+  "chairman_oBounteousOne": "What will you have of me, O bounteous one?",
+  "aalenna_princesDebts": "Call on the prince's debts. Step into his place and lay off the guards.",
+  "aalenna_marchOnThePalace": "I will then march on the palace unimpeded...",
+  "aalenna_rightfulPlace": "#{shake:2,2}And take my rightful place as ruler of this pitiful land!"
+}

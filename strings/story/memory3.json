@@ -1,0 +1,11 @@
+{
+  "aalenna_seeWhatLearned": "Alright Crabaddon, let's see what you've learned.",
+  "crabaddon_weakSpots": "Weak spot's inna claws, an' inna mouth!",
+  "aalenna_good": "Good, so...",
+  "crabaddon_innaFight1": "So inna fight...",
+  "aalenna_notDo": "What should you #{wave:3,9,0.1}not#{reset} do when fighting the hero?",
+  "crabaddon_innaFight2": "Inna fight...",
+  "crabaddon_openClawsMouth": "#{shake:2,2}Inna fight I open claws an' mouth!",
+  "crabaddon_tasty": "#{shake:3,3}Arrows bad! I eat 'em! Tasty!",
+  "aalenna_sigh": "*Sigh*"
+}

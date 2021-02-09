@@ -1,0 +1,26 @@
+{
+  "headlineTitle": "Latest News Headline",
+  "slotMachineTitle": "Holdings",
+  "funds": "Funds: $${0}",
+  "totalValue": "Total Value: $${0}",
+
+  "headingStocks": "#{font:bold}Stock",
+  "headingQuantity": "#{font:bold}Qty",
+  "headingPrice": "#{font:bold}Price",
+  "headingValue": "#{font:bold}Value",
+
+  "leverButton": "PULL LEVER",
+
+  "tradeTitle": "Trade ${0}",
+  "tradeBuy": "Buy",
+  "tradeSell": "Sell",
+  "tradeCancel": "Cancel",
+
+  "notEnoughMoney": "You don't have enough funds to buy this stock.",
+  "notEnoughShares": "You don't have any shares of this to sell.",
+  "tooManyShares": "Financial regulations prevent you from buy any more of this stock.",
+  "buyHowMany": "Buy how many shares of ${0}?",
+  "sellHowMany": "Sell how many shares of ${0}?",
+  "confirmBuy": "Buy ${0} shares of ${1} for $${2}?",
+  "confirmSell": "Sell ${0} shares of ${1} for $${2}?"
+}

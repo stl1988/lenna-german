@@ -1,0 +1,51 @@
+{
+  "delvinEncounter" : {
+    "lenna" : [
+      "What... was that?"
+    ]
+  },
+  "wrappedParcel" : {
+    "dialogue": "Hmm... I wonder what's inside this...",
+    "question": "What's inside the parcel?",
+    "STEEL_SWORD": "Regular sword",
+    "LANCE_SWORD": "Pole arm",
+    "CLAYMORE_SWORD": "2-handed sword",
+    "STILETTO_SWORD": "Dagger"
+  },
+  "elderCorpse" : {
+    "lenna" : [
+      [
+        "Is this... the village elder?"
+      ],
+      [
+        "He's not breathing..."
+      ],
+      [
+        "You think this is funny?"
+      ],
+      [
+        "What a fowl sense of humor you have!"
+      ]
+    ]
+  },
+  "lanceEncounter" : {
+    "lance0" : "...?",
+    "lenna0" : [
+      "That outfit--you must be the hero kid!",
+      "I... I get the feeling the elder wanted you to have this."
+    ],
+    "lenna1" : "What are you doing!",
+    "lenna2" : "You could hurt yourself!",
+    "lance1" : "...",
+    "lenna3" : "*Sigh* Fine.",
+    "lenna3.1" : "I'll show you how to use that weapon, if you complete a quest for me.",
+    "lenna3.2" : "I need you to rescue my students.",
+    "lance2" : "...!",
+    "lenna4" : "Just let me deal with the monsters for now.",
+    
+    "lance3" : "...?",
+    "lenna5" : "Don't take any notice of her, she's just trying to ruffle my feathers.",
+    
+    "lenna6" : "Come on, I'll take you to the tutorial area."
+  }
+}

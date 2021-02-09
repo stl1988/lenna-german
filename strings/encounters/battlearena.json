@@ -1,0 +1,35 @@
+{
+  "startQuest": [
+    "Psst... Hey!",
+    "Willst du ein Spiel testen, das ich entwickle?",
+    "Es basiert auf einem Trick, den mir ein Fremder mit Tränken und Tuniken gezeigt hat ...",
+    "Das Spiel heißt #{wave:4,9,0.2}#{font:bold}Hallucinatory Battle Arena#{reset}!",
+    "Betritt die Höhle, um zu beginnen! Wenn du 9 Wellen überstehst, bekommst du eine spezielle Belohnung!"
+  ],
+  "duringQuest": [
+    "Betritt die Höhle, um das Spiel zu starten.",
+    "Besiege 9 Wellen an Gegnern für eine spezielle Belohnung!"
+  ],
+  "questComplete1": [
+    "Nice!",
+    "Lass mich dir das hier geben..."
+  ],
+  "questComplete2": [
+    "Und nimm das hier als Dank..."
+  ],
+  "questComplete3": [
+    "Mit dieser Tunika kannst du die Hallucinatory Battle Arena überall spielen.",
+    "Und zwar wirklich überall, auch wenn diese Höhle dafür natürlich am besten geeignet ist.",
+    "Und du hast nur den Anfang gespielt. Nach Runde 9 werden die Gegner härter!"
+  ],
+  "afterQuest": [
+    "Willst du nochmal spielen?",
+    "Zieh einfach die Hallucination-Tunika an, die ich dir gegeben habe!",
+    "Das funktioniert überall, auch wenn diese Höhle dafür natürlich am besten geeignet ist."
+  ],
+  "tressaNumber": [
+    "Oh! Du suchst jemanden, der mit Tränken und Tuniken arbeitet?",
+    "Vielleicht suchst du Tressa! Sie hat mir mit dem Aufbau der Hallucinatory Battle Arena geholfen.",
+    "Ruf sie doch mal an. Ihrew Telefonnummer ist 555-3956!"
+  ]
+}

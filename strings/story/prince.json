@@ -1,0 +1,36 @@
+{
+  "default" : [
+    "Help me, Lance... Please help me...",
+    "I am imprisoned in the palace dungeon.",
+    "The chairman of the Banker's Guild has foreclosed on my kingdom.",
+    "I fear for the safety of my subjects!",
+    "Please help me..."
+  ],
+
+  "telephoneSameRoom" : [
+    "Hey! What are you doing with Lance's phone?",
+    ["Huh? Your name is also Lance?", "That's just confusing!"]
+  ],
+
+  "element0" : {
+    "telephoneIntro" : [
+      "Lance!"
+    ],
+    "quest" : [
+      "The elder wants you to find #{color:p505}eight mystical elements#{color:reset}?",
+      "Hmm... I'm sure not how that would help!",
+      "Although, I have no better ideas right now.",
+      "I guess you had better do what he says then!"
+    ],
+    "signOff" : [
+      "Please hurry! This cell is... not what I'm used to!"
+    ]
+  },
+  
+  "compassionHint": [
+    "Lance... I hope you truly understand the #{font:bold}Power of Compassion#{reset}.",
+    "It is said that with it, #{font:bold}any#{reset} conflict can be resolved without bloodshed. Hearts don't have to be broken.",
+    "Though I suppose some people might be pretty hard to reason with.",
+    "Perhaps you could offer a personal gift to mend the bond when they're at a moment of weakness?"
+  ]
+}

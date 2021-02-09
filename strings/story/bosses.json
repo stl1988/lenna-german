@@ -1,0 +1,111 @@
+{
+  "intro" : {
+    "azraflail" : "Betrüger! Du sollst mir unterliegen, Unhold!",
+    "crabaddon" : "Woop woop woop, woop woop!",
+    "headraniel" : "Du bist nicht #{wave:3,9,0.1}sie#{reset}! Davon bin ich überhaupt kein Fan!",
+    "sandolphin" : "Wie lange kannst du die Luft anhalten? *#{wave:3,9,0.1}Eeee#{reset}!*",
+    "tentaluchus" : "Iiih! Du bist ein Mensch! Geh weg!!",
+    "hatasiah" : "Sieh gut zu, wie ich einen Menschen #{wave:3,9,0.1}verschwinden lasse#{reset}!",
+    "santaquiel" : "Ho ho ho!",
+    "catsiel" : "Ooh! Ein neues Spielzeug!"
+  },
+
+  "compassion" : {
+    "start" : "Wir müssen nicht kämpfen!",
+    "ignored" : "${0} hat dich ignoriert.",
+    "left" : "${0} verließ friedlich das Kampffeld.",
+
+    "BINOCULARS" : [
+      "Aber es gibt keine Alternative!",
+      "Versuche, etwas weiter zu schauen.",
+      "Haha, Menschen sind lustig!"
+    ],
+
+    "I_CHING" : [
+      "Aber die Zukunft ist vorher bestimmt!",
+      "Dann reißen wir das Ende heraus und schreiben es zusammen neu.",
+      "Das kannst du tun?"
+    ],
+
+    "IOU" : [
+      "Wie sonst können wir die Beute des Kriegs ernten?",
+      "Nimm das wertvollste, was ich habe. Ich brauche es nicht. Niemand muss hier sterben.",
+      "Echt jetzt? Menschen #{wave:3,9,0.1}geben einfach Dinge weg#{reset}?"
+    ],
+
+    "TROPHY" : [
+      "Aber andere müssen mich respektieren!",
+      "Ich denke, deine Kampfkunst verdient eine Trophäe.",
+      "#{wave:3,9,0.1}Danke#{reset}! Ich glaube, das reicht aus."
+    ],
+
+    "PATENT" : [
+      "Die menschliche Zivilisation stagniert! Nichts wird sich ändern oder verbessern, bis alle Menschen verschwunden sind!",
+      "Es werden ständig neue Technologien erfunden - Verbesserungen im Leben der Menschen.",
+      "Was zum...?"
+    ],
+
+    "ERROR_LOG" : [
+      "Aber es ist natürlich, und das kann nicht falsch sein!",
+      "Manchmal liegt die #{wave:3,9,0.1}Natur#{reset} daneben.",
+      "Dieses Item sieht kaputt aus."
+    ],
+
+    "LIBRARIAN" : [
+      "Aber Menschen sind so voller Hass!",
+      "Auch wir sind zur Liebe fähig!",
+      "Ohohoho! Ich kann es in deinen Augen sehen!"
+    ],
+
+    "CRIME_FILE" : [
+      "Ich kämpfe für Gerechtigkeit!",
+      "Ich bin nicht gegen Gerechtigkeit. Lass mich dir helfen.",
+      "Das würdest du tun?"
+    ]
+  },
+
+  "postBattle" : {
+    "initial" : {
+      "paige" : [["laughing", "Wie überaus #{wave:3,9,0.1}herzlos#{reset}!"]],
+      "shadow" : [["evilgrin", "Wow! Das ist #{wave:3,9,0.1}düster#{reset}, ${player.name}!"]]
+    },
+
+    "azraflail" : {
+      "paige" : [["laughing", "Dieses Gefühl des Triumphes, ${player.name} - #{wave:3,9,0.1}Säbel es!"]],
+      "shadow" : [["evilgrin", "Das war so einfach. Diesen Kampf hättest du nicht #{wave:3,9,0.1}verFLEGELn#{reset} können."]]
+    },
+    "crabaddon" : {
+      "paige" : [["laughing", "Dieser Crabaddon schien den Kerker für sich haben zu wollen. Wie #{wave:3,9,0.1}egoFISCHtisch#{reset} von ihm!"]],
+      "shadow" : [["evilgrin", "Ich #{wave:3,9,0.1}verbeuge#{reset} mich vor dir, ${player.name}."]]
+    },
+    "headraniel" : {
+      "paige" : [
+        ["laughing", "Was für ein unglaubliches #{wave:3,9,0.1}Duell#{reset}!"],
+        ["laughing", "And oh, how it all came to a #{wave:3,9,0.1}head#{reset} like that."]],
+      "shadow" : [["evilgrin", "You sure know how to #{wave:3,9,0.1}throw#{reset} a party, ${player.name}!"]]
+    },
+    "sandolphin" : {
+      "paige" : [["laughing", "My head is swimming! #{wave:3,9,0.1}Water#{reset} story this will make!"]],
+      "shadow" : [["evilgrin", "I think we found our true #{wave:3,9,0.1}porpoise#{reset}, ${player.name}!"]]
+    },
+    "tentaluchus" : {
+      "paige" : [
+        ["blushing", "It's true, I'm a #{wave:3,9,0.1}sucker#{reset} for tentacles."],
+        ["smiling", "Just #{wave:3,9,0.1}squidding#{reset}!"]],
+      "paige-lenna" : [["laughing", "Haha, you're #{wave:3,9,0.1}kraken#{reset} me up!"]],
+      "shadow" : [["evilgrin", "I can't believe it's over already. I was having a #{wave:3,9,0.1}blast!"]]
+    },
+    "hatasiah" : {
+      "paige" : [["laughing", "A vampire's best trick is always their #{wave:3,9,0.1}vein-ishing#{reset} act!"]],
+      "shadow" : [["concerned", "#{glitch:true}Why did the teacher wear sunglasses?\nBecause her students were so bright."]]
+    },
+    "santaquiel" : {
+      "paige" : [["laughing", "You're #{wave:3,9,0.1}on fire#{reset}, ${player.name}!"]],
+      "shadow" : [["evilgrin", "An icy reception gets a fiery response."]]
+    },
+    "catsiel" : {
+      "paige" : [["laughing", "That thing was huge. It really made me jump!"]],
+      "shadow" : [["evilgrin", "A truly fur-midable foe!"]]
+    }
+  }
+}

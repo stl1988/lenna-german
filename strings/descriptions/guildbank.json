@@ -1,0 +1,32 @@
+{
+  "queueSign": "< Bitte hier anstellen.",
+  "investmentCenterSign": "< Investment-Center",
+  "basementSign": "Kundendienst >\nTresor >",
+  "vaultSign": "< Tresor",
+  "customerSupportSign": "Kundendienst >",
+  "poolSign": "_ Flüssige Mittel",
+  "officeSign1": "BETRETEN VERBOTEN",
+  "officeSign2": "Büro des Vorsitzenden",
+  
+  "noService": "Niemand bedient momentan die Kunden. Vielleicht kommt später jemand.",
+  "bookcase1": "Eine endlose Reihe langweiliger Bücher zu Themen wie Buchhaltung mit drei Einträgen und mathematischen Tricks.",
+  "bookcase2": "Eine endlose Reihe langweiliger Bücher zu Themen wie Buchhaltung mit drei Einträgen und mathematischen Tricks.",
+  "bookcaseVault1": "Die Bücher in diesem Regal sind beschädigt.",
+  "bookcaseVault2": "Die Bücher in diesem Regal sind beschädigt.",
+  "ledger": [
+    "Ein altmodisches Hauptbuch aus Papier.",
+    "Du scheinst es nicht ganz zu verstehen, aber manche Zahlen scheinen aus dem Nichts zu kommen."
+  ],
+  "computer": [
+    "Es sieht so aus, als würde dieser Computer die Spielautomaten oben überwachen.",
+    "Er passt die Auszahlungsquoten live an, um sicherzustellen, dass die Bank Gewinn macht."
+  ],
+  "coffee": "Der Kaffee ist kalt...",
+  
+  "eviljar": "Der Inhalt des Glases scheint zu schwellen, wenn man einen dunklen Gedanken hat.",
+  
+  "officeComputer": ["Der Computer des Vorsitzenden.", "... Das ist aber nichts für den Arbeitsplatz."],
+  "officeBook": "Ein Hauptbuch ... geschrieben in einem nicht entschlüsselbaren Code.",
+  "officeBookcase": "Der Vorsitzende hat eine vielseitige Büchersammlung. Buchhaltung, Steuerhinterziehung, Erzengelbiologie ...",
+  "secretLedger": ["Das #{font:bold}richtige#{reset} Hauptbuch des Vorsitzenden.", "Es wurde viel mit roter Tinte geschrieben."]
+}

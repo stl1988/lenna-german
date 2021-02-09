@@ -1,0 +1,15 @@
+{
+  "stage2" : [
+    "Was geht? Sind--",
+    "Wobei, rufen Sie später zurück. Die Bibliothekarin wird wieder Sachen auf mich werfen, wenn sie mich am Telefon in der Bibliothek erwischt!"
+  ],
+  "stage2Hint": [
+    "Sie ist in der Bibliothek?"
+  ],
+
+  "guarantorCall" : {
+    "lenna1": "Hallo, ich rufe wegen Tressa-",
+    "person2": "Ist sie verletzt? Ich sage ihr immer, dass sie eines Tages verletzt wird. Dungeons erkunden ist gefährlich!",
+    "after": ["Dungeons? Hmmm...", "Ich sollte mal in einem nahegelegenen Dungeon umschauen."]
+  }
+}
